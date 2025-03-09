@@ -23048,3 +23048,4 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [SERVER_ABOUT_TO_START][SERVER][INFO] Registering ZenCommand portal_spread
 [SERVER_ABOUT_TO_START][SERVER][INFO] Registering ZenCommand acquire
 [SERVER_STARTING][SERVER][INFO] Added new pool diode to table minecraft:entities/elder_guardian
+[SERVER_STARTED][SERVER][INFO] Added new pool diode to table minecraft:entities/elder_guardian
