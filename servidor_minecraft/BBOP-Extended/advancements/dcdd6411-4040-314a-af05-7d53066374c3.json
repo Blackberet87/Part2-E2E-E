@@ -1915,6 +1915,12 @@
     },
     "done": true
   },
+  "immersiveengineering:main/craft_heater": {
+    "criteria": {
+      "craft_hammer": "2025-03-09 23:20:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2025-02-27 00:11:11 +0000"
