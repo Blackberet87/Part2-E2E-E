@@ -1,0 +1,82 @@
+{
+	title: "{q.industrialcraft.addon_industrial_.name}",
+	icon: {
+		tag: {
+			wireLength: 1024
+		},
+		id: "industrialwires:ic2_wire_coil"
+	},
+	x: 4.166666666666666d,
+	y: -0.5416666666666667d,
+	text: [
+		"{q.industrialcraft.addon_industrial_.desc}"
+	],
+	dependencies: [
+		"cae88f3f"
+	],
+	tasks: [{
+		uid: "72f01dd3",
+		type: "item",
+		items: [{
+			item: "industrialwires:ic2_connector"
+		},
+		{
+			item: "industrialwires:ic2_connector 1 2"
+		},
+		{
+			item: "industrialwires:ic2_connector 1 4"
+		},
+		{
+			item: "industrialwires:ic2_connector 1 6"
+		},
+		{
+			item: "industrialwires:ic2_connector 1 8"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0ce336f9",
+		type: "item",
+		items: [{
+			tag: {
+				wireLength: 1024
+			},
+			id: "industrialwires:ic2_wire_coil"
+		},
+		{
+			tag: {
+				wireLength: 1024
+			},
+			Damage: 1s,
+			id: "industrialwires:ic2_wire_coil"
+		},
+		{
+			tag: {
+				wireLength: 1024
+			},
+			Damage: 2s,
+			id: "industrialwires:ic2_wire_coil"
+		},
+		{
+			tag: {
+				wireLength: 2048
+			},
+			Damage: 3s,
+			id: "industrialwires:ic2_wire_coil"
+		},
+		{
+			tag: {
+				wireLength: 2048
+			},
+			Damage: 4s,
+			id: "industrialwires:ic2_wire_coil"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b9b92e9c",
+		type: "choice",
+		table: 109
+	}]
+}

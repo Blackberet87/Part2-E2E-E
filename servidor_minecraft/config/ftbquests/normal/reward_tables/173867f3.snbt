@@ -1,0 +1,22 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: {
+			tag: {
+				Potion: "potioncore:love"
+			},
+			id: "minecraft:splash_potion"
+		}
+	},
+	{
+		item: {
+			tag: {
+				Potion: "extrautils2:xu2.love"
+			},
+			id: "minecraft:splash_potion"
+		}
+	},
+	{
+		item: "minecraft:lead"
+	}]
+}

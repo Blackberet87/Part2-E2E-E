@@ -1,0 +1,41 @@
+{
+	icon: {
+		tag: {
+			charge: 2.0E7d
+		},
+		id: "ic2:mining_laser"
+	},
+	x: 7.5d,
+	y: 3.5d,
+	text: [
+		"{q.industrialcraft.mining_laser.desc}"
+	],
+	dependencies: [
+		"c26c77d4"
+	],
+	tasks: [{
+		uid: "86c50a57",
+		type: "item",
+		items: [{
+			tag: {},
+			Damage: 26s,
+			id: "ic2:mining_laser"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c78e8792",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

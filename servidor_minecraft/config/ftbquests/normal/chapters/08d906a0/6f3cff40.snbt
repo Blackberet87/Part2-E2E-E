@@ -1,0 +1,36 @@
+{
+	x: 18.0d,
+	y: -3.0d,
+	dependencies: [
+		"e5dfeafc"
+	],
+	optional: 1b,
+	tasks: [{
+		uid: "5d9067bd",
+		type: "item",
+		items: [{
+			tag: {
+				Amount: 1000,
+				FluidName: "witchwater"
+			},
+			id: "forge:bucketfilled"
+		},
+		{
+			tag: {
+				Fluid: {
+					Amount: 1000,
+					FluidName: "witchwater"
+				}
+			},
+			id: "ic2:fluid_cell"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "09a4958d",
+		type: "item",
+		item: "randomthings:pitcherplant",
+		count: 2
+	}]
+}

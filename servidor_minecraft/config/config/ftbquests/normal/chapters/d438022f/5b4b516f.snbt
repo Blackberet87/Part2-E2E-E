@@ -1,0 +1,23 @@
+{
+	x: -4.166666666666667d,
+	y: 10.666666666666666d,
+	text: [
+		"{q.utils.elevator.desc}"
+	],
+	dependencies: [
+		"9f41b8d8"
+	],
+	tasks: [{
+		uid: "867653d1",
+		type: "item",
+		items: [{
+			item: "openblocks:elevator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c96d2a12",
+		type: "choice",
+		table: 119
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	x: 2.8d,
+	y: 11.7d,
+	text: [
+		"{q.mekanism.quantum_entanglopo.desc}"
+	],
+	dependencies: [
+		"b77c7011"
+	],
+	tasks: [{
+		uid: "104c5f8b",
+		type: "item",
+		items: [{
+			tag: {
+				mekData: {}
+			},
+			id: "mekanism:machineblock3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "37a85bd9",
+		type: "custom",
+		title: "{e2ee.quest.rare}",
+		icon: {
+			tag: {
+				type: "rare"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

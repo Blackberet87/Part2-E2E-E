@@ -1,0 +1,94 @@
+{
+	title: "{q.advanced_rocketry.the_chapter_is_com.name}",
+	icon: {
+		tag: {
+			TrophyColorRed: 152,
+			TrophyColorBlue: 146,
+			TrophyVariant: "gold",
+			TrophyColorGreen: 222,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				Damage: 0s,
+				Count: 1b,
+				id: "libvulpes:elitemotor"
+			},
+			TrophyName: "§bRocketry Master Trophy§r"
+		},
+		id: "simple_trophies:trophy"
+	},
+	x: 0.44999999999999996d,
+	y: 7.949999999999999d,
+	text: [
+		"{q.advanced_rocketry.the_chapter_is_com.desc}"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"331bec9a",
+		"e7f8d37c",
+		"2a1a27df",
+		"dc1e6896",
+		"39e02dec",
+		"e9fa52b4",
+		"e898f997",
+		"1f580d88",
+		"bf9ba1c8",
+		"d25f75cc",
+		"e8c6a755",
+		"b045c5d0",
+		"5ea60ffb",
+		"35c2b89c",
+		"37b78ee9",
+		"234a1395",
+		"9e5d9302",
+		"c2c58124",
+		"c405cbe7",
+		"3db2611b",
+		"218dde60",
+		"bf2b9206",
+		"ec0657e8",
+		"502a1c5a",
+		"e41ecb2e",
+		"e5577c26",
+		"bfd49d26",
+		"8b514522",
+		"7df7e302",
+		"6e40dbf6",
+		"b8d658ac",
+		"0fa026dc",
+		"5ab2270f",
+		"424fce30",
+		"b302e7bd"
+	],
+	size: 1.5d,
+	rewards: [{
+		uid: "5aac5526",
+		type: "item",
+		team_reward: 1b,
+		auto: "enabled",
+		item: {
+			tag: {
+				TrophyColorRed: 152,
+				TrophyColorBlue: 146,
+				TrophyVariant: "gold",
+				TrophyColorGreen: 222,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					Damage: 0s,
+					Count: 1b,
+					id: "libvulpes:elitemotor"
+				},
+				TrophyName: "§bRocketry Master Trophy§r"
+			},
+			id: "simple_trophies:trophy"
+		}
+	},
+	{
+		uid: "4a3dc345",
+		type: "custom",
+		title: "Notify everyone",
+		tags: [
+			"chapcomplete"
+		],
+		auto: "invisible"
+	}]
+}

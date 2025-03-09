@@ -1,0 +1,26 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: "danknull:dank_null_4"
+	},
+	{
+		item: {
+			tag: {
+				type: "uncommon"
+			},
+			id: "ftbquests:lootcrate"
+		}
+	},
+	{
+		item: {
+			tag: {
+				Fluid: {
+					Amount: 4096000,
+					FluidName: "biofuel"
+				}
+			},
+			Damage: 2s,
+			id: "extrautils2:drum"
+		}
+	}]
+}

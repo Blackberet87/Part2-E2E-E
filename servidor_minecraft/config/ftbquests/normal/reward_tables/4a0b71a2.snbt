@@ -1,0 +1,93 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"plustic:musicofthespheres_cap": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:fruitsalad_cap": {
+					Items: [],
+					Size: 5
+				}
+			},
+			tag: {
+				TinkerData: {
+					Materials: [
+						"bronze",
+						"bronze",
+						"bronze"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Stats: {
+					FreeModifiers: 2,
+					MiningSpeed: 6.8f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 3,
+					Attack: 3.5f,
+					Durability: 631
+				},
+				Special: {
+					Categories: [
+						"tool",
+						"weapon",
+						"harvest",
+						"aoe"
+					]
+				},
+				Modifiers: [{
+					color: -1852056,
+					identifier: "dense",
+					level: 1
+				},
+				{
+					color: 16777215,
+					identifier: "toolleveling",
+					level: 1
+				}],
+				StatsOriginal: {
+					FreeModifiers: 3,
+					MiningSpeed: 6.8f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 3,
+					Attack: 3.5f,
+					Durability: 631
+				},
+				Traits: [
+					"dense",
+					"toolleveling"
+				]
+			},
+			id: "tcomplement:sledge_hammer"
+		}
+	},
+	{
+		icon: "mia:torch_gold 32",
+		item: "mia:torch_gold",
+		count: 32
+	},
+	{
+		icon: {
+			tag: {
+				Material: "xu_magical_wood"
+			},
+			Count: 16,
+			id: "tconstruct:shard"
+		},
+		item: {
+			tag: {
+				Material: "xu_magical_wood"
+			},
+			id: "tconstruct:shard"
+		},
+		count: 16
+	}]
+}

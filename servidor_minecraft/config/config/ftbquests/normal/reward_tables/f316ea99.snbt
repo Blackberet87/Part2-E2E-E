@@ -1,0 +1,23 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: {
+			tag: {
+				type: "manastar"
+			},
+			id: "botania:floatingspecialflower"
+		},
+		count: 10
+	},
+	{
+		item: "botania:storage"
+	},
+	{
+		item: {
+			tag: {
+				type: "uncommon"
+			},
+			id: "ftbquests:lootcrate"
+		}
+	}]
+}

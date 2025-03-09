@@ -1,0 +1,85 @@
+{
+	title: "{q.rftools.the_chapter_is_com.name}",
+	icon: {
+		tag: {
+			TrophyColorRed: 40,
+			TrophyColorBlue: 151,
+			TrophyVariant: "gold",
+			TrophyColorGreen: 118,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				Damage: 0s,
+				Count: 1b,
+				id: "rftools:infused_diamond"
+			},
+			TrophyName: "§8RFTools Master Trophy§r"
+		},
+		id: "simple_trophies:trophy"
+	},
+	x: 6.75d,
+	y: 4.5d,
+	text: [
+		"{q.rftools.the_chapter_is_com.desc}"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"e65af61a",
+		"c7f76475",
+		"71828a0a",
+		"7eb5ec7f",
+		"14f57bfe",
+		"50983d53",
+		"8d20176d",
+		"001a44cb",
+		"3ea508f7",
+		"ed0e0ed8",
+		"28a61878",
+		"501222cc",
+		"5b5040f2",
+		"c0adc78a",
+		"6f74901c",
+		"a6516179",
+		"7c3fd1d6",
+		"22434868",
+		"1af45b18",
+		"3c85e32b",
+		"1ffbfc54",
+		"287e3a0d",
+		"8eca55bc",
+		"f6e8e410",
+		"3227acdd",
+		"971d0e60"
+	],
+	size: 1.5d,
+	rewards: [{
+		uid: "10c4788a",
+		type: "item",
+		team_reward: 1b,
+		auto: "enabled",
+		item: {
+			tag: {
+				TrophyColorRed: 40,
+				TrophyColorBlue: 151,
+				TrophyVariant: "gold",
+				TrophyColorGreen: 118,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					Damage: 0s,
+					Count: 1b,
+					id: "rftools:infused_diamond"
+				},
+				TrophyName: "§8RFTools Master Trophy§r"
+			},
+			id: "simple_trophies:trophy"
+		}
+	},
+	{
+		uid: "bb2da07c",
+		type: "custom",
+		title: "Notify everyone",
+		tags: [
+			"chapcomplete"
+		],
+		auto: "invisible"
+	}]
+}

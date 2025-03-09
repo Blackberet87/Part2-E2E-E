@@ -1,0 +1,64 @@
+{
+  "defaults": {
+    "__comment": "You can disable defaults by setting these to false. Do *NOT* try to add additional entries here. You can add additional entries in the custom section.",
+    "excompressum:compressed_cobblestone": false,
+    "excompressum:compressed_gravel": false,
+    "excompressum:compressed_sand": false,
+    "excompressum:compressed_netherrack": false,
+    "excompressum:compressed_end_stone": true,
+    "ExtraUtils2:CompressedCobblestone": true,
+    "ExtraUtils2:CompressedGravel": true,
+    "ExtraUtils2:CompressedSand": true,
+    "ExtraUtils2:CompressedNetherrack": true
+  },
+  "custom": {
+    "__comment": "You can define additional blocks to be hammered by Compressed Hammers here. Use * as a wildcard for metadata. Use prefix ore: in name to query the Ore Dictionary.",
+    "entries": [
+       {"name": "contenttweaker:compressed_andesite","metadata": "0", "rewards": [{"name": "exnihilocreatio:block_andesite_crushed","count": 9,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "contenttweaker:compressed_diorite" ,"metadata": "0", "rewards": [{"name": "exnihilocreatio:block_diorite_crushed", "count": 9,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "contenttweaker:compressed_granite" ,"metadata": "0", "rewards": [{"name": "exnihilocreatio:block_granite_crushed", "count": 9,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "contenttweaker:compressed_skystone","metadata": "0", "rewards": [{"name": "exnihilocreatio:block_skystone_crushed","count": 9,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+
+      ,{"name": "contenttweaker:compressed_crushed_andesite","metadata": "0", "rewards": [{"name": "biomesoplenty:dried_sand","count": 9  ,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "contenttweaker:compressed_crushed_diorite" ,"metadata": "0", "rewards": [{"name": "biomesoplenty:white_sand","count": 9  ,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "additionalcompression:charcoal_compressed" ,"metadata": "1", "rewards": [{"name": "advancedrocketry:misc"   ,"count": 9  ,"metadata": "1","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "extrautils2:compressedcobblestone"         ,"metadata": "1", "rewards": [{"name": "minecraft:gravel"        ,"count": 81 ,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "extrautils2:compressedcobblestone"         ,"metadata": "2", "rewards": [{"name": "minecraft:gravel"        ,"count": 729,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+
+      ,{"name": "extrautils2:compressedsand"                ,"metadata": "1", "rewards": [{"name": "exnihilocreatio:block_dust"              ,"count": 81 ,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "extrautils2:compressedgravel"              ,"metadata": "1", "rewards": [{"name": "minecraft:sand"                          ,"count": 81 ,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "extrautils2:compressednetherrack"          ,"metadata": "1", "rewards": [{"name": "exnihilocreatio:block_netherrack_crushed","count": 81 ,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "extrautils2:compressednetherrack"          ,"metadata": "2", "rewards": [{"name": "exnihilocreatio:block_netherrack_crushed","count": 729,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+
+      ,{"name": "additionalcompression:meatporkchop_compressed", "metadata": "0", "rewards": [{"name": "harvestcraft:groundporkitem"   ,"count": 18  ,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "additionalcompression:meatporkchop_compressed", "metadata": "1", "rewards": [{"name": "harvestcraft:groundporkitem"   ,"count": 162 ,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "additionalcompression:meatporkchop_compressed", "metadata": "2", "rewards": [{"name": "harvestcraft:groundporkitem"   ,"count": 1458,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "additionalcompression:meatbeef_compressed"    , "metadata": "0", "rewards": [{"name": "harvestcraft:groundbeefitem"   ,"count": 18  ,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "additionalcompression:meatbeef_compressed"    , "metadata": "1", "rewards": [{"name": "harvestcraft:groundbeefitem"   ,"count": 162 ,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "additionalcompression:meatbeef_compressed"    , "metadata": "2", "rewards": [{"name": "harvestcraft:groundbeefitem"   ,"count": 1458,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "additionalcompression:meatchicken_compressed" , "metadata": "0", "rewards": [{"name": "harvestcraft:groundchickenitem","count": 18  ,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "additionalcompression:meatchicken_compressed" , "metadata": "1", "rewards": [{"name": "harvestcraft:groundchickenitem","count": 162 ,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "additionalcompression:meatchicken_compressed" , "metadata": "2", "rewards": [{"name": "harvestcraft:groundchickenitem","count": 1458,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "additionalcompression:meatfish_compressed"    , "metadata": "0", "rewards": [{"name": "harvestcraft:groundfishitem"   ,"count": 18  ,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "additionalcompression:meatfish_compressed"    , "metadata": "1", "rewards": [{"name": "harvestcraft:groundfishitem"   ,"count": 162 ,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+      ,{"name": "additionalcompression:meatfish_compressed"    , "metadata": "2", "rewards": [{"name": "harvestcraft:groundfishitem"   ,"count": 1458,"metadata": "0","chance": 1.0,"luck": 0.0}]}
+
+      ,{"name": "contenttweaker:compressed_coral", "metadata": "0", "rewards": [{"name": "randomthings:ingredient", "count": 9, "metadata": "5", "chance": 1.0, "luck": 0.0}]}
+    ],
+    "example": {
+      "__comment": "This example would allow Obsidian to be hammered into nine diamonds using a Compressed Hammer.",
+      "name": "minecraft:obsidian",
+      "metadata": "0",
+      "rewards": [
+        {
+          "__comment": "Chance is a floating point value (1.0 equals 100%). Luck is the multiplier that scales the hammers fortune level, applied to the base chance.",
+          "name": "minecraft:diamond",
+          "count": 9,
+          "metadata": 0,
+          "chance": 1.0,
+          "luck": 0.0
+        }
+      ]
+    }
+  }
+}

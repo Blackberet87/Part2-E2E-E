@@ -1,0 +1,1191 @@
+{
+  "options": {
+    "__comment": "These options will affect the auto-generation of sieve rewards for compressed blocks. You can turn the auto-generation off individually in the defaults section.",
+    "loss for default generated rewards (out of 9)": 3
+  },
+  "defaults": {
+    "__comment": "You can disable defaults by setting these to false. Do *NOT* try to add additional entries here. You can add additional entries in the custom section.",
+    "excompressum:compressed_gravel": true,
+    "excompressum:compressed_sand": true,
+    "excompressum:compressed_dirt": true,
+    "excompressum:compressed_soul_sand": true,
+    "excompressum:compressed_dust": true,
+    "excompressum:compressed_nether_gravel": true,
+    "excompressum:compressed_ender_gravel": true,
+    "ExtraUtils2:CompressedGravel": true,
+    "ExtraUtils2:CompressedSand": true,
+    "ExtraUtils2:CompressedDirt": true
+  },
+  "custom": {
+    "__comment": "You can define additional blocks to sift in the Heavy Sieve here. Use * as a wildcard for metadata. Ure ore: prefix in name to query the Ore Dictionary. Mesh Level is only used for Adscensio.",
+    "entries": [
+      {
+        "name": "",
+        "metadata": "*",
+        "type": "list",
+        "rewards": [
+          {
+            "name": "",
+            "metadata": 0,
+            "count": 1,
+            "chance": 1,
+            "luck": 0
+          }
+        ]
+      },
+      {
+        "name": "contenttweaker:compressed_crushed_skystone",
+        "metadata": 0,
+        "type": "list",
+        "rewards": [
+          {
+            "meshLevel": 2,
+            "name": "mysticalagriculture:starmetal_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.2,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "mysticalagriculture:rock_crystal_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "mysticalagriculture:black_quartz_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.5,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "mysticalagriculture:starmetal_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.3,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "mysticalagriculture:rock_crystal_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.15,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "mysticalagriculture:black_quartz_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.7,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "fluxnetworks:flux",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.7,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "mysticalagriculture:starmetal_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.4,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "mysticalagriculture:rock_crystal_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.2,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "mysticalagriculture:black_quartz_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.9,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "fluxnetworks:flux",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.9,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "mysticalagriculture:ruby_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.4,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "mysticalagriculture:peridot_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.3,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "mysticalagriculture:malachite_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.2,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "mysticalagriculture:sapphire_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.6,
+            "rolls": 1
+          }
+        ]
+      },
+      {
+        "name": "enderio:block_infinity",
+        "metadata": 1,
+        "type": "list",
+        "rewards": [
+          {
+            "meshLevel": 2,
+            "name": "mysticalagriculture:rock_crystal_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "mysticalagriculture:osmium_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.6,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "exnihilocreatio:item_ore_nickel",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.9,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "jaopca:item_pieceboron",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "jaopca:item_pieceboron",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.6,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "enderio:block_infinity_fog",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.5,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "mysticalagriculture:osmium_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.8,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "exnihilocreatio:item_ore_nickel",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "exnihilocreatio:item_ore_nickel",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.5,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "jaopca:item_pieceboron",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "jaopca:item_pieceboron",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.8,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "jaopca:item_piecethorium",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.2,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "jaopca:item_piecelithium",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.3,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "jaopca:item_piecemagnesium",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.5,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "enderio:block_infinity_fog",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "enderio:block_infinity_fog",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "enderio:block_infinity_fog",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "enderio:block_infinity_fog",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.5,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "mysticalagriculture:osmium_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "mysticalagriculture:osmium_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.2,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "jaopca:item_pieceboron",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "jaopca:item_pieceboron",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "jaopca:item_piecethorium",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.3,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "jaopca:item_piecelithium",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.4,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "jaopca:item_piecemagnesium",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.6,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "jaopca:item_piecedraconium",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.3,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "exnihilocreatio:item_ore_silver",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.3,
+            "rolls": 1
+          }
+        ]
+      },
+      {
+        "name": "contenttweaker:compressed_garbage_pile",
+        "metadata": 0,
+        "type": "list",
+        "rewards": [
+          {
+            "meshLevel": 1,
+            "name": "exnihilocreatio:item_ore_lead",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.2,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "enderio:item_material",
+            "metadata": 28,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "enderio:item_material",
+            "metadata": 28,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.5,
+            "rolls": 1
+          }
+        ]
+      },
+      {
+        "name": "contenttweaker:compressed_dried_sand",
+        "metadata": 0,
+        "type": "list",
+        "rewards": [
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:mudball",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.45,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "immersiveengineering:material",
+            "metadata": 7,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.2,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "biomesoplenty:mudball",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.45,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "immersiveengineering:material",
+            "metadata": 7,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.25,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "biomesoplenty:mudball",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.45,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "immersiveengineering:material",
+            "metadata": 7,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.3,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "thermalfoundation:material",
+            "metadata": 892,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "biomesoplenty:mudball",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.45,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "immersiveengineering:material",
+            "metadata": 7,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.35,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "thermalfoundation:material",
+            "metadata": 892,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.15,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "tconstruct:materials",
+            "metadata": 2,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "tconstruct:materials",
+            "metadata": 2,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "tconstruct:materials",
+            "metadata": 2,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.5,
+            "rolls": 1
+          }
+        ]
+      },
+      {
+        "name": "contenttweaker:compressed_gravisand",
+        "metadata": 0,
+        "type": "list",
+        "rewards": [
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:coral",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.6,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:coral",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:coral",
+            "metadata": 1,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.6,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:coral",
+            "metadata": 1,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:coral",
+            "metadata": 2,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.6,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:coral",
+            "metadata": 2,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:coral",
+            "metadata": 3,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.6,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:coral",
+            "metadata": 3,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:coral",
+            "metadata": 4,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.6,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:coral",
+            "metadata": 4,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:seaweed",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.6,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:seaweed",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "minecraft:waterlily",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.6,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "minecraft:waterlily",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:waterlily",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.6,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:waterlily",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:waterlily",
+            "metadata": 1,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.6,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:waterlily",
+            "metadata": 1,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:waterlily",
+            "metadata": 2,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.6,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:waterlily",
+            "metadata": 2,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:waterlily",
+            "metadata": 3,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.6,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "biomesoplenty:waterlily",
+            "metadata": 3,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          }
+        ]
+      },
+      {
+        "name": "contenttweaker:compressed_red_sand",
+        "metadata": 0,
+        "type": "list",
+        "rewards": [
+          {
+            "meshLevel": 1,
+            "name": "exnihilocreatio:item_ore_copper",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.3,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "extrautils2:redorchid",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.3,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "exnihilocreatio:item_ore_copper",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.4,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "extrautils2:redorchid",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.4,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "extrautils2:ingredients",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.15,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "exnihilocreatio:item_ore_copper",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.5,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "extrautils2:redorchid",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.5,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "extrautils2:ingredients",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.2,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "exnihilocreatio:item_ore_iron",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.2,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "exnihilocreatio:item_ore_copper",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.6,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "extrautils2:ingredients",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.25,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "exnihilocreatio:item_ore_iron",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.25,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "exnihilocreatio:item_ore_gold",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.25,
+            "rolls": 1
+          }
+        ]
+      },
+      {
+        "name": "contenttweaker:compressed_white_sand",
+        "metadata": 0,
+        "type": "list",
+        "rewards": [
+          {
+            "meshLevel": 1,
+            "name": "mysticalagriculture:apatite_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.15,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "appliedenergistics2:crystal_seed",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.15,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "appliedenergistics2:crystal_seed",
+            "metadata": 600,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.5,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "thaumicwonders:shimmerleaf_seed",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.8,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 1,
+            "name": "exnihilocreatio:item_ore_tin",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.05,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "mysticalagriculture:lapis_lazuli_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.5,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "mysticalagriculture:apatite_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.2,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "appliedenergistics2:crystal_seed",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.3,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "appliedenergistics2:crystal_seed",
+            "metadata": 600,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.8,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "thaumicwonders:shimmerleaf_seed",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "thaumicwonders:shimmerleaf_seed",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.5,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "exnihilocreatio:item_ore_tin",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.15,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 2,
+            "name": "exnihilocreatio:item_ore_aluminium",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "mysticalagriculture:lapis_lazuli_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.8,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "mysticalagriculture:apatite_essence",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.3,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "appliedenergistics2:crystal_seed",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.5,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "appliedenergistics2:crystal_seed",
+            "metadata": 600,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "thaumicwonders:shimmerleaf_seed",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "thaumicwonders:shimmerleaf_seed",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 1,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "thaumicwonders:shimmerleaf_seed",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.5,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "exnihilocreatio:item_ore_tin",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.2,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "exnihilocreatio:item_ore_aluminium",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.2,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 3,
+            "name": "thermalfoundation:material",
+            "metadata": 772,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.2,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "exnihilocreatio:item_ore_tin",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.25,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "exnihilocreatio:item_ore_aluminium",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.25,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "thermalfoundation:material",
+            "metadata": 772,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.25,
+            "rolls": 1
+          },
+          {
+            "meshLevel": 4,
+            "name": "exnihilocreatio:item_ore_silver",
+            "metadata": 0,
+            "count": 1,
+            "luck": 0,
+            "chance": 0.3,
+            "rolls": 1
+          }
+        ]
+      }
+    ],
+    "example_generate": {
+      "__comment": "This example would allow Double Compressed Gravel to be sifted in a Heavy Sieve into 64x the rewards of normal gravel.",
+      "name": "ExUtils2:CompressedGravel",
+      "metadata": "1",
+      "type": "generate",
+      "source": "minecraft:gravel",
+      "sourceMetadata": "*",
+      "sourceCount": 64
+    },
+    "example_list": {
+      "__comment": "This example would allow clay to be sifted in a Heavy Sieve into 6 diamonds.",
+      "name": "ExUtils2:CompressedGravel",
+      "metadata": "1",
+      "type": "list",
+      "rewards": [
+        {
+          "name": "minecraft:diamond",
+          "metadata": 0,
+          "count": 6,
+          "chance": 1,
+          "luck": 0
+        }
+      ]
+    }
+  }
+}

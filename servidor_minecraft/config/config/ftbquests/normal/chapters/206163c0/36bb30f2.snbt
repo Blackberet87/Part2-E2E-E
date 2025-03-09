@@ -1,0 +1,31 @@
+{
+	x: -2.1666666666666665d,
+	y: 4.833333333333333d,
+	text: [
+		"{q.forestry.blazing_electron_t.desc}"
+	],
+	dependencies: [
+		"d1b19bf0"
+	],
+	tasks: [{
+		uid: "4e008c01",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "a4678a12",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "{q.extra_utilities.frosty_generator.name}",
+	x: 16.0d,
+	y: -1.1666666666666667d,
+	text: [
+		"{q.extra_utilities.frosty_generator.desc}"
+	],
+	dependencies: [
+		"42b1f141"
+	],
+	tasks: [{
+		uid: "2641b921",
+		type: "item",
+		items: [{
+			tag: {
+				Type: "extrautils2:generator_ice"
+			},
+			id: "extrautils2:machine"
+		}]
+	}],
+	rewards: [{
+		uid: "4ef24009",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

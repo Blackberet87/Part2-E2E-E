@@ -1,0 +1,12 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: "twilightforest:ice_bow"
+	},
+	{
+		item: "twilightforest:triple_bow"
+	},
+	{
+		item: "twilightforest:seeker_bow"
+	}]
+}

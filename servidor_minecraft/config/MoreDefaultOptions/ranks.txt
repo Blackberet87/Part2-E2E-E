@@ -1,0 +1,51 @@
+// For more info visit https://faq.ftb.world/books/ftb-utilities/page/ranks
+
+[player]
+power: 1
+default_player_rank: true
+ftbutilities.chunkloader.load_offline: false
+ftbutilities.claims.max_chunks: 9
+ftbutilities.chunkloader.max_chunks: 1
+
+[conflux_i]
+power: 10
+parent: player
+ftbutilities.chat.name_format: <&l{name}&r>
+ftbutilities.claims.max_chunks: 80
+ftbutilities.chunkloader.max_chunks: 9
+
+[conflux_ii]
+power: 20
+parent: conflux_i
+ftbutilities.chat.name_format: <&e&l{name}&r>
+ftbutilities.claims.max_chunks: 150
+ftbutilities.chunkloader.max_chunks: 25
+
+[conflux_iii]
+power: 30
+parent: conflux_ii
+ftbutilities.chat.name_format: <&b&l{name}&r>
+ftbutilities.chunkloader.load_offline: true
+ftbutilities.claims.max_chunks: 300
+ftbutilities.chunkloader.max_chunks: 50
+
+[conflux_iv]
+power: 40
+parent: conflux_iii
+ftbutilities.chat.name_format: <&a&l{name}&r>
+ftbutilities.chunkloader.load_offline: true
+ftbutilities.claims.max_chunks: 400
+ftbutilities.chunkloader.max_chunks: 60
+
+[conflux_v]
+power: 50
+parent: conflux_iv
+ftbutilities.chat.name_format: <&d&l{name}&r>
+ftbutilities.claims.max_chunks: 500
+ftbutilities.chunkloader.max_chunks: 100
+
+[admin]
+power: 100
+parent: vip
+default_op_rank: true
+ftbutilities.chat.name_format: <&2{name}&r>

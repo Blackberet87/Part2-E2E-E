@@ -1,0 +1,25 @@
+{
+	x: 12.0d,
+	y: -2.0d,
+	text: [
+		"{q.thaumcraft.primordial_pearl.desc}"
+	],
+	dependencies: [
+		"593b08e5"
+	],
+	tasks: [{
+		uid: "19bbaf46",
+		type: "item",
+		items: [{
+			item: "thaumcraft:primordial_pearl"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "05d9aac4",
+		type: "item",
+		item: "thaumadditions:jar_eldritch",
+		count: 5
+	}]
+}

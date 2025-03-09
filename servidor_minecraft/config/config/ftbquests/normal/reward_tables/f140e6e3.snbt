@@ -1,0 +1,14 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: "appliedenergistics2:smooth_sky_stone_chest"
+	},
+	{
+		icon: "rustic:barrel 4",
+		item: "rustic:barrel",
+		count: 4
+	},
+	{
+		item: "mekanism:machineblock 1 13"
+	}]
+}

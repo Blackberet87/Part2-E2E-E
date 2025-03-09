@@ -1,0 +1,5 @@
+// For more info visit https://faq.ftb.world/books/ftb-utilities/page/ranks
+
+// Blackberet
+[dcdd64114040314aaf057d53066374c3]
+parent: conflux_i

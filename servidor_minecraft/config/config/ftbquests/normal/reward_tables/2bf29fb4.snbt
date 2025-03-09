@@ -1,0 +1,28 @@
+{
+	title: "Cast",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			tag: {
+				PartType: "tconstruct:pick_head"
+			},
+			id: "tconstruct:cast"
+		}
+	},
+	{
+		item: {
+			tag: {
+				PartType: "tconstruct:sharpening_kit"
+			},
+			id: "tconstruct:cast"
+		}
+	},
+	{
+		item: {
+			tag: {
+				PartType: "tcomplement:sledge_head"
+			},
+			id: "tconstruct:cast"
+		}
+	}]
+}

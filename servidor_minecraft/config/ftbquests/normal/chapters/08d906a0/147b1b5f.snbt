@@ -1,0 +1,125 @@
+{
+	x: 7.5d,
+	y: 1.5d,
+	dependencies: [
+		"e29955a0"
+	],
+	optional: 1b,
+	tasks: [{
+		uid: "019319dd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"plustic:musicofthespheres_cap": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:fruitsalad_cap": {
+					Items: [],
+					Size: 5
+				}
+			},
+			id: "exnihilocreatio:crook_tconstruct"
+		}],
+		consume_items: 1b,
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c74fa08a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"plustic:musicofthespheres_cap": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:fruitsalad_cap": {
+					Items: [],
+					Size: 5
+				}
+			},
+			tag: {
+				TinkerData: {
+					UsedModifiers: 1,
+					Materials: [
+						"wood",
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: [
+						"toolleveling",
+						"luck",
+						"creative"
+					]
+				},
+				Modifiers: [{
+					color: -7444965,
+					identifier: "ecological",
+					level: 1
+				},
+				{
+					color: 16777215,
+					identifier: "toolleveling",
+					level: 1
+				},
+				{
+					identifier: "luck",
+					max: 360,
+					current: 360,
+					color: 2970082,
+					modifierUsed: 1b,
+					extraInfo: "359 / 360",
+					level: 3
+				},
+				{
+					color: 0,
+					identifier: "creative",
+					level: 1
+				}],
+				ench: [{
+					id: 35s,
+					lvl: 3s
+				}],
+				Stats: {
+					FreeModifiers: 2,
+					MiningSpeed: 1.5f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 1.5f,
+					Durability: 56
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"harvest",
+						"tool"
+					]
+				},
+				Traits: [
+					"ecological",
+					"toolleveling",
+					"luck"
+				],
+				StatsOriginal: {
+					FreeModifiers: 3,
+					MiningSpeed: 1.5f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 1.5f,
+					Durability: 56
+				}
+			},
+			id: "exnihilocreatio:crook_tconstruct"
+		}
+	}]
+}

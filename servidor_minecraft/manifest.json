@@ -1,0 +1,2558 @@
+{
+  "minecraft": {
+    "version": "1.12.2",
+    "modLoaders": [
+      {
+        "id": "forge-14.23.5.2860",
+        "primary": true
+      }
+    ]
+  },
+  "projectID": 561105,
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Enigmatica2Expert-Extended",
+  "version": "v1.56.1",
+  "author": "krutoy242",
+  "overrides": "overrides",
+  "files": [
+    {
+      "projectID": 59751,
+      "fileID": 5875571,
+      "downloadUrl": "https://edge.forgecdn.net/files/5875/571/forestry_1.12.2-5.8.2.423.jar",
+      "required": true
+    },
+    {
+      "projectID": 59816,
+      "fileID": 2905241,
+      "downloadUrl": "https://edge.forgecdn.net/files/2905/241/RandomThings-MC1.12.2-4.2.7.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 64578,
+      "fileID": 4674244,
+      "downloadUrl": "https://edge.forgecdn.net/files/4674/244/EnderIO-1.12.2-5.3.72.jar",
+      "required": true
+    },
+    {
+      "projectID": 69162,
+      "fileID": 2920433,
+      "downloadUrl": "https://edge.forgecdn.net/files/2920/433/CoFHCore-1.12.2-4.6.6.1-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 69163,
+      "fileID": 2926431,
+      "downloadUrl": "https://edge.forgecdn.net/files/2926/431/ThermalExpansion-1.12.2-5.5.7.1-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 70492,
+      "fileID": 2516215,
+      "downloadUrl": "https://edge.forgecdn.net/files/2516/215/gendustry-1.6.5.8-mc1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 70496,
+      "fileID": 4675629,
+      "downloadUrl": "https://edge.forgecdn.net/files/4675/629/bdlib-1.14.4.1-mc1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 70631,
+      "fileID": 2939416,
+      "downloadUrl": "https://edge.forgecdn.net/files/2939/416/RedstoneArsenal-1.12.2-2.6.6.1-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 74072,
+      "fileID": 2902483,
+      "downloadUrl": "https://edge.forgecdn.net/files/2902/483/TConstruct-1.12.2-2.13.0.183.jar",
+      "required": true
+    },
+    {
+      "projectID": 74924,
+      "fileID": 2713386,
+      "downloadUrl": "https://edge.forgecdn.net/files/2713/386/Mantle-1.12-1.3.3.55.jar",
+      "required": true
+    },
+    {
+      "projectID": 220318,
+      "fileID": 3558882,
+      "downloadUrl": "https://edge.forgecdn.net/files/3558/882/BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 220811,
+      "fileID": 2571951,
+      "downloadUrl": "https://edge.forgecdn.net/files/2571/951/SpiceOfLife-mc1.12-1.3.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 220954,
+      "fileID": 3840577,
+      "downloadUrl": "https://edge.forgecdn.net/files/3840/577/modtweaker-4.0.20.11.jar",
+      "required": true
+    },
+    {
+      "projectID": 221857,
+      "fileID": 2904825,
+      "downloadUrl": "https://edge.forgecdn.net/files/2904/825/Pam%27s%20HarvestCraft%201.12.2zg.jar",
+      "required": true
+    },
+    {
+      "projectID": 222378,
+      "fileID": 2756790,
+      "downloadUrl": "https://edge.forgecdn.net/files/2756/790/MineMenu-1.12.2-1.6.11-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 222880,
+      "fileID": 2926428,
+      "downloadUrl": "https://edge.forgecdn.net/files/2926/428/ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 222967,
+      "fileID": 2676457,
+      "downloadUrl": "https://edge.forgecdn.net/files/2676/457/Ping-1.12.2-1.4.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 223008,
+      "fileID": 5741939,
+      "downloadUrl": "https://edge.forgecdn.net/files/5741/939/OpenComputers-MC1.12.2-1.8.6%2bcd8851e.jar",
+      "required": true
+    },
+    {
+      "projectID": 223150,
+      "fileID": 5615733,
+      "downloadUrl": "https://edge.forgecdn.net/files/5615/733/RecurrentComplex-1.4.8.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 223565,
+      "fileID": 3431261,
+      "downloadUrl": "https://edge.forgecdn.net/files/3431/261/Draconic-Evolution-1.12.2-2.3.28.354-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 223622,
+      "fileID": 2516219,
+      "downloadUrl": "https://edge.forgecdn.net/files/2516/219/generators-0.9.20.12-mc1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 223628,
+      "fileID": 2629023,
+      "downloadUrl": "https://edge.forgecdn.net/files/2629/23/Thaumcraft-1.12.2-6.1.BETA26.jar",
+      "required": true
+    },
+    {
+      "projectID": 223852,
+      "fileID": 5981297,
+      "downloadUrl": "https://edge.forgecdn.net/files/5981/297/StorageDrawers-1.12.2-5.5.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 224218,
+      "fileID": 2707509,
+      "downloadUrl": "https://edge.forgecdn.net/files/2707/509/compactmachines3-1.12.2-3.0.18-b278.jar",
+      "required": true
+    },
+    {
+      "projectID": 224472,
+      "fileID": 2969118,
+      "downloadUrl": "https://edge.forgecdn.net/files/2969/118/AppleCore-mc1.12.2-3.4.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 224476,
+      "fileID": 2565122,
+      "downloadUrl": "https://edge.forgecdn.net/files/2565/122/HungerOverhaul-1.12.2-1.3.3.jenkins148.jar",
+      "required": true
+    },
+    {
+      "projectID": 224535,
+      "fileID": 2443253,
+      "downloadUrl": "https://edge.forgecdn.net/files/2443/253/IvToolkit-1.3.3-1.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 224641,
+      "fileID": 2861573,
+      "downloadUrl": "https://edge.forgecdn.net/files/2861/573/rftools-1.12-7.73.jar",
+      "required": true
+    },
+    {
+      "projectID": 224791,
+      "fileID": 2822288,
+      "downloadUrl": "https://edge.forgecdn.net/files/2822/288/BloodMagic-1.12.2-2.4.3-105.jar",
+      "required": true
+    },
+    {
+      "projectID": 225194,
+      "fileID": 2491032,
+      "downloadUrl": "https://edge.forgecdn.net/files/2491/32/ae2stuff-0.7.0.4-mc1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 225561,
+      "fileID": 2678374,
+      "downloadUrl": "https://edge.forgecdn.net/files/2678/374/extrautils2-1.12-1.9.9.jar",
+      "required": true
+    },
+    {
+      "projectID": 225603,
+      "fileID": 2554100,
+      "downloadUrl": "https://edge.forgecdn.net/files/2554/100/Schematica-1.12.2-1.8.0.169-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 225605,
+      "fileID": 2489549,
+      "downloadUrl": "https://edge.forgecdn.net/files/2489/549/LunatriusCore-1.12.2-1.2.0.42-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 225643,
+      "fileID": 3330934,
+      "downloadUrl": "https://edge.forgecdn.net/files/3330/934/Botania%20r1.10-364.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 225738,
+      "fileID": 2503041,
+      "downloadUrl": "https://edge.forgecdn.net/files/2503/41/MmmMmmMmmMmm-1.12-1.14.jar",
+      "required": true
+    },
+    {
+      "projectID": 225928,
+      "fileID": 2445809,
+      "downloadUrl": "https://edge.forgecdn.net/files/2445/809/CustomBackgrounds-MC1.12-1.1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 226406,
+      "fileID": 2857869,
+      "downloadUrl": "https://edge.forgecdn.net/files/2857/869/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 226447,
+      "fileID": 2477566,
+      "downloadUrl": "https://edge.forgecdn.net/files/2477/566/ResourceLoader-MC1.12.1-1.5.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 227083,
+      "fileID": 2518667,
+      "downloadUrl": "https://edge.forgecdn.net/files/2518/667/Baubles-1.12-1.5.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 227443,
+      "fileID": 2920505,
+      "downloadUrl": "https://edge.forgecdn.net/files/2920/505/ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 228027,
+      "fileID": 3647708,
+      "downloadUrl": "https://edge.forgecdn.net/files/3647/708/BiblioCraft%5bv2.4.6%5d%5bMC1.12.2%5d.jar",
+      "required": true
+    },
+    {
+      "projectID": 228404,
+      "fileID": 3117927,
+      "downloadUrl": "https://edge.forgecdn.net/files/3117/927/ActuallyAdditions-1.12.2-r152.jar",
+      "required": true
+    },
+    {
+      "projectID": 228525,
+      "fileID": 2836960,
+      "downloadUrl": "https://edge.forgecdn.net/files/2836/960/Bookshelf-1.12.2-2.3.590.jar",
+      "required": true
+    },
+    {
+      "projectID": 228756,
+      "fileID": 2747935,
+      "downloadUrl": "https://edge.forgecdn.net/files/2747/935/ironchest-1.12.2-7.0.72.847.jar",
+      "required": true
+    },
+    {
+      "projectID": 228759,
+      "fileID": 2633646,
+      "downloadUrl": "https://edge.forgecdn.net/files/2633/646/CompactSolars-1.12.2-5.0.18.341-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 228815,
+      "fileID": 2699055,
+      "downloadUrl": "https://edge.forgecdn.net/files/2699/55/OpenModsLib-1.12.2-0.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 228816,
+      "fileID": 2699056,
+      "downloadUrl": "https://edge.forgecdn.net/files/2699/56/OpenBlocks-1.12.2-1.8.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 228832,
+      "fileID": 2645992,
+      "downloadUrl": "https://edge.forgecdn.net/files/2645/992/Guide-API-1.12-2.1.8-63.jar",
+      "required": true
+    },
+    {
+      "projectID": 228895,
+      "fileID": 3112142,
+      "downloadUrl": "https://edge.forgecdn.net/files/3112/142/BiomeTweaker-1.12.2-3.2.369.jar",
+      "required": true
+    },
+    {
+      "projectID": 229587,
+      "fileID": 2698688,
+      "downloadUrl": "https://edge.forgecdn.net/files/2698/688/BNBGamingLib-1.12.2-2.17.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 229664,
+      "fileID": 3496560,
+      "downloadUrl": "https://edge.forgecdn.net/files/3496/560/Animus-1.12-2.1.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 229876,
+      "fileID": 2483393,
+      "downloadUrl": "https://edge.forgecdn.net/files/2483/393/BetterFps-1.4.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 230497,
+      "fileID": 2450900,
+      "downloadUrl": "https://edge.forgecdn.net/files/2450/900/Chameleon-1.12-4.1.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 231382,
+      "fileID": 3408276,
+      "downloadUrl": "https://edge.forgecdn.net/files/3408/276/BrandonsCore-1.12.2-2.4.20.162-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 231453,
+      "fileID": 2436360,
+      "downloadUrl": "https://edge.forgecdn.net/files/2436/360/ChatFlow-1.4-7.jar",
+      "required": true
+    },
+    {
+      "projectID": 231484,
+      "fileID": 2862651,
+      "downloadUrl": "https://edge.forgecdn.net/files/2862/651/CookingForBlockheads_1.12.2-6.5.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 231868,
+      "fileID": 4671384,
+      "downloadUrl": "https://edge.forgecdn.net/files/4671/384/EnderCore-1.12.2-0.5.78.jar",
+      "required": true
+    },
+    {
+      "projectID": 231951,
+      "fileID": 2974106,
+      "downloadUrl": "https://edge.forgecdn.net/files/2974/106/ImmersiveEngineering-0.12-98.jar",
+      "required": true
+    },
+    {
+      "projectID": 232564,
+      "fileID": 5394706,
+      "downloadUrl": "https://edge.forgecdn.net/files/5394/706/ThaumicAdditions-1.12.2-12.7.9.jar",
+      "required": true
+    },
+    {
+      "projectID": 232758,
+      "fileID": 3159497,
+      "downloadUrl": "https://edge.forgecdn.net/files/3159/497/CyclopsCore-1.12.2-1.6.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 233105,
+      "fileID": 2745846,
+      "downloadUrl": "https://edge.forgecdn.net/files/2745/846/mcjtylib-1.12-3.5.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 235279,
+      "fileID": 2915375,
+      "downloadUrl": "https://edge.forgecdn.net/files/2915/375/Chisel-MC1.12.2-1.0.2.45.jar",
+      "required": true
+    },
+    {
+      "projectID": 235492,
+      "fileID": 2825547,
+      "downloadUrl": "https://edge.forgecdn.net/files/2825/547/Triumph-1.12.2-3.19.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 236307,
+      "fileID": 3159505,
+      "downloadUrl": "https://edge.forgecdn.net/files/3159/505/IntegratedDynamics-1.12.2-1.1.11.jar",
+      "required": true
+    },
+    {
+      "projectID": 236484,
+      "fileID": 3850023,
+      "downloadUrl": "https://edge.forgecdn.net/files/3850/23/ChunkAnimator-1.12.2-1.2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 236609,
+      "fileID": 2549406,
+      "downloadUrl": "https://edge.forgecdn.net/files/2549/406/IC2CropBreeding%20Plugin%20V1.12-1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 237065,
+      "fileID": 3331364,
+      "downloadUrl": "https://edge.forgecdn.net/files/3331/364/ContentTweaker-1.12.2-4.10.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 237102,
+      "fileID": 3157548,
+      "downloadUrl": "https://edge.forgecdn.net/files/3157/548/FTBUtilities-5.4.1.131.jar",
+      "required": true
+    },
+    {
+      "projectID": 237167,
+      "fileID": 2985811,
+      "downloadUrl": "https://edge.forgecdn.net/files/2985/811/FTBLib-5.4.7.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 237307,
+      "fileID": 2937869,
+      "downloadUrl": "https://edge.forgecdn.net/files/2937/869/CosmeticArmorReworked-1.12.2-v5a.jar",
+      "required": true
+    },
+    {
+      "projectID": 237701,
+      "fileID": 4408001,
+      "downloadUrl": "https://edge.forgecdn.net/files/4408/1/ReAuth-1.12-Forge-4.0.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 237875,
+      "fileID": 2718588,
+      "downloadUrl": "https://edge.forgecdn.net/files/2718/588/ColossalChests-1.12.2-1.7.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 238003,
+      "fileID": 2559089,
+      "downloadUrl": "https://edge.forgecdn.net/files/2559/89/ThaumicInventoryScanning_1.12.2-2.0.10.jar",
+      "required": true
+    },
+    {
+      "projectID": 238372,
+      "fileID": 2595310,
+      "downloadUrl": "https://edge.forgecdn.net/files/2595/310/Neat%201.4-17.jar",
+      "required": true
+    },
+    {
+      "projectID": 238403,
+      "fileID": 2691084,
+      "downloadUrl": "https://edge.forgecdn.net/files/2691/84/BetterBuildersWands-1.12.2-0.13.2.271%2b5997513.jar",
+      "required": true
+    },
+    {
+      "projectID": 238747,
+      "fileID": 2739582,
+      "downloadUrl": "https://edge.forgecdn.net/files/2739/582/modnametooltip_1.12.2-1.10.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 239197,
+      "fileID": 6061762,
+      "downloadUrl": "https://edge.forgecdn.net/files/6061/762/CraftTweaker2-1.12-4.1.20.702.jar",
+      "required": true
+    },
+    {
+      "projectID": 239286,
+      "fileID": 4075832,
+      "downloadUrl": "https://edge.forgecdn.net/files/4075/832/Cyclic-1.12.2-1.20.14.jar",
+      "required": true
+    },
+    {
+      "projectID": 239418,
+      "fileID": 2645156,
+      "downloadUrl": "https://edge.forgecdn.net/files/2645/156/sonarcore-1.12.2-5.0.19-20.jar",
+      "required": true
+    },
+    {
+      "projectID": 240630,
+      "fileID": 2728585,
+      "downloadUrl": "https://edge.forgecdn.net/files/2728/585/JustEnoughResources-1.12.2-0.9.2.60.jar",
+      "required": true
+    },
+    {
+      "projectID": 240950,
+      "fileID": 2707390,
+      "downloadUrl": "https://edge.forgecdn.net/files/2707/390/rftoolsdim-1.12-5.71.jar",
+      "required": true
+    },
+    {
+      "projectID": 241160,
+      "fileID": 2612052,
+      "downloadUrl": "https://edge.forgecdn.net/files/2612/52/NetherPortalFix_1.12.1-5.3.17.jar",
+      "required": true
+    },
+    {
+      "projectID": 241665,
+      "fileID": 3085917,
+      "downloadUrl": "https://edge.forgecdn.net/files/3085/917/Psi-r1.1-78.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 241721,
+      "fileID": 3044416,
+      "downloadUrl": "https://edge.forgecdn.net/files/3044/416/astralsorcery-1.12.2-1.10.27.jar",
+      "required": true
+    },
+    {
+      "projectID": 241895,
+      "fileID": 2733525,
+      "downloadUrl": "https://edge.forgecdn.net/files/2733/525/KleeSlabs_1.12.2-5.4.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 241967,
+      "fileID": 2966941,
+      "downloadUrl": "https://edge.forgecdn.net/files/2966/941/ExCompressum_1.12.2-3.0.32.jar",
+      "required": true
+    },
+    {
+      "projectID": 242195,
+      "fileID": 2813586,
+      "downloadUrl": "https://edge.forgecdn.net/files/2813/586/DarkUtils-1.12.2-1.8.230.jar",
+      "required": true
+    },
+    {
+      "projectID": 242223,
+      "fileID": 3524685,
+      "downloadUrl": "https://edge.forgecdn.net/files/3524/685/JustEnoughCalculation-1.12.2-3.2.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 242568,
+      "fileID": 2463480,
+      "downloadUrl": "https://edge.forgecdn.net/files/2463/480/ClayBucket-1.12-1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 242638,
+      "fileID": 3838713,
+      "downloadUrl": "https://edge.forgecdn.net/files/3838/713/industrialcraft-2-2.8.222-ex112.jar",
+      "required": true
+    },
+    {
+      "projectID": 242818,
+      "fileID": 2779848,
+      "downloadUrl": "https://edge.forgecdn.net/files/2779/848/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 242872,
+      "fileID": 2905184,
+      "downloadUrl": "https://edge.forgecdn.net/files/2905/184/PotionCore-1.9_for_1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 242998,
+      "fileID": 2851111,
+      "downloadUrl": "https://edge.forgecdn.net/files/2851/111/SilentLib-1.12.2-3.0.14%2b168.jar",
+      "required": true
+    },
+    {
+      "projectID": 243298,
+      "fileID": 3116493,
+      "downloadUrl": "https://edge.forgecdn.net/files/3116/493/llibrary-1.7.20-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 243478,
+      "fileID": 2745657,
+      "downloadUrl": "https://edge.forgecdn.net/files/2745/657/moreoverlays-1.15.1-mc1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 244258,
+      "fileID": 3553627,
+      "downloadUrl": "https://edge.forgecdn.net/files/3553/627/UniDict-1.12.2-3.0.10.jar",
+      "required": true
+    },
+    {
+      "projectID": 245174,
+      "fileID": 2755787,
+      "downloadUrl": "https://edge.forgecdn.net/files/2755/787/EnderStorage-1.12.2-2.4.6.137-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 245453,
+      "fileID": 2691536,
+      "downloadUrl": "https://edge.forgecdn.net/files/2691/536/environmentaltech-1.12.2-2.0.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 245480,
+      "fileID": 2691542,
+      "downloadUrl": "https://edge.forgecdn.net/files/2691/542/valkyrielib-1.12.2-2.0.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 245733,
+      "fileID": 2483817,
+      "downloadUrl": "https://edge.forgecdn.net/files/2483/817/torohealth-1.12.2-11.jar",
+      "required": true
+    },
+    {
+      "projectID": 246640,
+      "fileID": 2704562,
+      "downloadUrl": "https://edge.forgecdn.net/files/2704/562/MysticalAgriculture-1.12.2-1.7.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 246996,
+      "fileID": 3440963,
+      "downloadUrl": "https://edge.forgecdn.net/files/3440/963/base-1.12.2-3.14.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 247007,
+      "fileID": 3053017,
+      "downloadUrl": "https://edge.forgecdn.net/files/3053/17/CommonCapabilities-1.12.2-2.4.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 247111,
+      "fileID": 2887479,
+      "downloadUrl": "https://edge.forgecdn.net/files/2887/479/topaddons-1.12.2-1.13.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 247401,
+      "fileID": 5655181,
+      "downloadUrl": "https://edge.forgecdn.net/files/5655/181/HammerLib-1.12.2-12.2.56.jar",
+      "required": true
+    },
+    {
+      "projectID": 248020,
+      "fileID": 3178199,
+      "downloadUrl": "https://edge.forgecdn.net/files/3178/199/FluxNetworks-1.12.2-4.1.1.34.jar",
+      "required": true
+    },
+    {
+      "projectID": 248027,
+      "fileID": 2816920,
+      "downloadUrl": "https://edge.forgecdn.net/files/2816/920/ScalingHealth-1.12.2-1.3.42%2b147.jar",
+      "required": true
+    },
+    {
+      "projectID": 248370,
+      "fileID": 2490058,
+      "downloadUrl": "https://edge.forgecdn.net/files/2490/58/jeibees-0.9.0.5-mc1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 248425,
+      "fileID": 2858569,
+      "downloadUrl": "https://edge.forgecdn.net/files/2858/569/plethora-1.12.2-1.2.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 248453,
+      "fileID": 2785465,
+      "downloadUrl": "https://edge.forgecdn.net/files/2785/465/Forgelin-1.8.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 248787,
+      "fileID": 2987247,
+      "downloadUrl": "https://edge.forgecdn.net/files/2987/247/AppleSkin-mc1.12-1.0.14.jar",
+      "required": true
+    },
+    {
+      "projectID": 250363,
+      "fileID": 2746011,
+      "downloadUrl": "https://edge.forgecdn.net/files/2746/11/AutoRegLib-1.3-32.jar",
+      "required": true
+    },
+    {
+      "projectID": 250398,
+      "fileID": 5408385,
+      "downloadUrl": "https://edge.forgecdn.net/files/5408/385/Controlling-3.0.12.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 250419,
+      "fileID": 2898966,
+      "downloadUrl": "https://edge.forgecdn.net/files/2898/966/EnchantmentDescriptions-1.12.2-1.1.20.jar",
+      "required": true
+    },
+    {
+      "projectID": 250577,
+      "fileID": 2648656,
+      "downloadUrl": "https://edge.forgecdn.net/files/2648/656/AkashicTome-1.2-12.jar",
+      "required": true
+    },
+    {
+      "projectID": 250763,
+      "fileID": 2705813,
+      "downloadUrl": "https://edge.forgecdn.net/files/2705/813/rftoolsctrl-1.12-2.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 250898,
+      "fileID": 2897369,
+      "downloadUrl": "https://edge.forgecdn.net/files/2897/369/OreExcavation-1.4.150.jar",
+      "required": true
+    },
+    {
+      "projectID": 250957,
+      "fileID": 2630860,
+      "downloadUrl": "https://edge.forgecdn.net/files/2630/860/TinkerToolLeveling-1.12.2-1.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 251301,
+      "fileID": 2659489,
+      "downloadUrl": "https://edge.forgecdn.net/files/2659/489/TS2K16-1.2.10.jar",
+      "required": true
+    },
+    {
+      "projectID": 251389,
+      "fileID": 3159511,
+      "downloadUrl": "https://edge.forgecdn.net/files/3159/511/IntegratedTunnels-1.12.2-1.6.14.jar",
+      "required": true
+    },
+    {
+      "projectID": 251985,
+      "fileID": 2540604,
+      "downloadUrl": "https://edge.forgecdn.net/files/2540/604/ConsoleFilter-1.12.2-1.1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 252848,
+      "fileID": 2893527,
+      "downloadUrl": "https://edge.forgecdn.net/files/2893/527/NaturesCompass-1.12.2-1.8.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 253043,
+      "fileID": 4623135,
+      "downloadUrl": "https://edge.forgecdn.net/files/4623/135/WanionLib-1.12.2-2.91.jar",
+      "required": true
+    },
+    {
+      "projectID": 253211,
+      "fileID": 3308160,
+      "downloadUrl": "https://edge.forgecdn.net/files/3308/160/MTLib-3.0.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 253770,
+      "fileID": 2463898,
+      "downloadUrl": "https://edge.forgecdn.net/files/2463/898/moredefaultoptions-1.12-0.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 254317,
+      "fileID": 3840727,
+      "downloadUrl": "https://edge.forgecdn.net/files/3840/727/justenoughdimensions-1.12.2-1.6.0-dev.20211009.214847.jar",
+      "required": true
+    },
+    {
+      "projectID": 254602,
+      "fileID": 3438487,
+      "downloadUrl": "https://edge.forgecdn.net/files/3438/487/tesla-core-lib-1.12.2-1.0.18.jar",
+      "required": true
+    },
+    {
+      "projectID": 255221,
+      "fileID": 2915872,
+      "downloadUrl": "https://edge.forgecdn.net/files/2915/872/Additional-Compression-1.12.2-3.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 255232,
+      "fileID": 2830265,
+      "downloadUrl": "https://edge.forgecdn.net/files/2830/265/p455w0rdslib-1.12.2-2.3.161.jar",
+      "required": true
+    },
+    {
+      "projectID": 255257,
+      "fileID": 3507866,
+      "downloadUrl": "https://edge.forgecdn.net/files/3507/866/LootTweaker-0.3.1%2bMC1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 256141,
+      "fileID": 3107974,
+      "downloadUrl": "https://edge.forgecdn.net/files/3107/974/rustic-1.1.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 256247,
+      "fileID": 2704832,
+      "downloadUrl": "https://edge.forgecdn.net/files/2704/832/MysticalAgradditions-1.12.2-1.3.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 257356,
+      "fileID": 3101719,
+      "downloadUrl": "https://edge.forgecdn.net/files/3101/719/incontrol-1.12-3.9.18.jar",
+      "required": true
+    },
+    {
+      "projectID": 257573,
+      "fileID": 3248033,
+      "downloadUrl": "https://edge.forgecdn.net/files/3248/33/Xtones-1.2.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 257655,
+      "fileID": 2666967,
+      "downloadUrl": "https://edge.forgecdn.net/files/2666/967/voidislandcontrol-1.5.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 257814,
+      "fileID": 4722163,
+      "downloadUrl": "https://edge.forgecdn.net/files/4722/163/CreativeCore_v1.10.71_mc1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 257818,
+      "fileID": 5180387,
+      "downloadUrl": "https://edge.forgecdn.net/files/5180/387/LittleTiles_v1.5.87_mc1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 258205,
+      "fileID": 3204340,
+      "downloadUrl": "https://edge.forgecdn.net/files/3204/340/randomtweaks-1.12.2-2.8.3.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 260912,
+      "fileID": 2745852,
+      "downloadUrl": "https://edge.forgecdn.net/files/2745/852/xnet-1.12-1.8.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 261339,
+      "fileID": 2644030,
+      "downloadUrl": "https://edge.forgecdn.net/files/2644/30/LootTableTweaker-1.12.2-1.1.17.jar",
+      "required": true
+    },
+    {
+      "projectID": 261348,
+      "fileID": 3143349,
+      "downloadUrl": "https://edge.forgecdn.net/files/3143/349/Avaritia-1.12.2-3.3.0.37-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 261924,
+      "fileID": 2733508,
+      "downloadUrl": "https://edge.forgecdn.net/files/2733/508/FarmingForBlockheads_1.12.2-3.1.28.jar",
+      "required": true
+    },
+    {
+      "projectID": 262366,
+      "fileID": 2841927,
+      "downloadUrl": "https://edge.forgecdn.net/files/2841/927/keywizard-1.12.2-1.7.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 262823,
+      "fileID": 2619249,
+      "downloadUrl": "https://edge.forgecdn.net/files/2619/249/TombManyGraves-1.12-4.2.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 263420,
+      "fileID": 6184417,
+      "downloadUrl": "https://edge.forgecdn.net/files/6184/417/Xaeros_Minimap_25.1.0_Forge_1.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 263590,
+      "fileID": 2455920,
+      "downloadUrl": "https://edge.forgecdn.net/files/2455/920/jepb-1.12-1.2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 264231,
+      "fileID": 2939529,
+      "downloadUrl": "https://edge.forgecdn.net/files/2939/529/iceandfire-1.9.1-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 265461,
+      "fileID": 3591441,
+      "downloadUrl": "https://edge.forgecdn.net/files/3591/441/rockytweaks-1.12.2-0.6.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 265894,
+      "fileID": 5286210,
+      "downloadUrl": "https://edge.forgecdn.net/files/5286/210/OpenTerrainGenerator-1.12.2-v9.5-R2.jar",
+      "required": true
+    },
+    {
+      "projectID": 266515,
+      "fileID": 2745321,
+      "downloadUrl": "https://edge.forgecdn.net/files/2745/321/industrialforegoing-1.12.2-1.12.13-237.jar",
+      "required": true
+    },
+    {
+      "projectID": 266550,
+      "fileID": 3270468,
+      "downloadUrl": "https://edge.forgecdn.net/files/3270/468/toolprogression-1.12.2-1.6.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 266784,
+      "fileID": 3146549,
+      "downloadUrl": "https://edge.forgecdn.net/files/3146/549/Scannable-MC1.12.2-1.6.3.26.jar",
+      "required": true
+    },
+    {
+      "projectID": 266936,
+      "fileID": 3487112,
+      "downloadUrl": "https://edge.forgecdn.net/files/3487/112/JAOPCA-1.12.2-2.2.8.106.jar",
+      "required": true
+    },
+    {
+      "projectID": 267602,
+      "fileID": 2915363,
+      "downloadUrl": "https://edge.forgecdn.net/files/2915/363/CTM-MC1.12.2-1.0.2.31.jar",
+      "required": true
+    },
+    {
+      "projectID": 267939,
+      "fileID": 2997129,
+      "downloadUrl": "https://edge.forgecdn.net/files/2997/129/just-enough-harvestcraft-1.12.2-1.7.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 268250,
+      "fileID": 3382321,
+      "downloadUrl": "https://edge.forgecdn.net/files/3382/321/immersivepetroleum-1.12.2-1.1.10.jar",
+      "required": true
+    },
+    {
+      "projectID": 268643,
+      "fileID": 2573789,
+      "downloadUrl": "https://edge.forgecdn.net/files/2573/789/materialchanger1.0.3-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 268655,
+      "fileID": 2951840,
+      "downloadUrl": "https://edge.forgecdn.net/files/2951/840/GameStages-1.12.2-2.0.123.jar",
+      "required": true
+    },
+    {
+      "projectID": 269054,
+      "fileID": 2525195,
+      "downloadUrl": "https://edge.forgecdn.net/files/2525/195/ocsensors-1.0.4-b23.jar",
+      "required": true
+    },
+    {
+      "projectID": 270305,
+      "fileID": 2617198,
+      "downloadUrl": "https://edge.forgecdn.net/files/2617/198/oeintegration-2.3.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 270789,
+      "fileID": 2920436,
+      "downloadUrl": "https://edge.forgecdn.net/files/2920/436/RedstoneFlux-1.12-2.1.1.1-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 271384,
+      "fileID": 2920434,
+      "downloadUrl": "https://edge.forgecdn.net/files/2920/434/CoFHWorld-1.12.2-1.4.0.1-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 272335,
+      "fileID": 2645867,
+      "downloadUrl": "https://edge.forgecdn.net/files/2645/867/Cucumber-1.12.2-1.1.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 272514,
+      "fileID": 2962052,
+      "downloadUrl": "https://edge.forgecdn.net/files/2962/52/DankNull-1.12.2-1.7.101.jar",
+      "required": true
+    },
+    {
+      "projectID": 272515,
+      "fileID": 2685984,
+      "downloadUrl": "https://edge.forgecdn.net/files/2685/984/BetterAdvancements-1.12.2-0.1.0.77.jar",
+      "required": true
+    },
+    {
+      "projectID": 272671,
+      "fileID": 2843439,
+      "downloadUrl": "https://edge.forgecdn.net/files/2843/439/TinkersComplement-1.12.2-0.4.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 273430,
+      "fileID": 2459131,
+      "downloadUrl": "https://edge.forgecdn.net/files/2459/131/ActuallyBaubles-1.12-1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 273711,
+      "fileID": 2632466,
+      "downloadUrl": "https://edge.forgecdn.net/files/2632/466/EmberRootZoo-1.12.2-1.3.10.jar",
+      "required": true
+    },
+    {
+      "projectID": 273744,
+      "fileID": 6050157,
+      "downloadUrl": "https://edge.forgecdn.net/files/6050/157/u_team_core-forge-1.12.2-2.2.5.339.jar",
+      "required": true
+    },
+    {
+      "projectID": 274259,
+      "fileID": 4507139,
+      "downloadUrl": "https://edge.forgecdn.net/files/4507/139/carryon-1.12.2-1.12.7.23.jar",
+      "required": true
+    },
+    {
+      "projectID": 274341,
+      "fileID": 2991671,
+      "downloadUrl": "https://edge.forgecdn.net/files/2991/671/BNBGamingCore-1.12.2-0.12.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 274440,
+      "fileID": 2497317,
+      "downloadUrl": "https://edge.forgecdn.net/files/2497/317/JAOPCACustom-1.12-2.2.2.14.jar",
+      "required": true
+    },
+    {
+      "projectID": 274456,
+      "fileID": 2817545,
+      "downloadUrl": "https://edge.forgecdn.net/files/2817/545/exnihilocreatio-1.12.2-0.4.7.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 274807,
+      "fileID": 3048077,
+      "downloadUrl": "https://edge.forgecdn.net/files/3048/77/Netherending-Ores-1.12.2-1.4.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 275083,
+      "fileID": 2602707,
+      "downloadUrl": "https://edge.forgecdn.net/files/2602/707/Bedrock%20Ores-MC1.12-1.2.7.42.jar",
+      "required": true
+    },
+    {
+      "projectID": 275153,
+      "fileID": 2486198,
+      "downloadUrl": "https://edge.forgecdn.net/files/2486/198/WrapUp-1.12-1.1.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 277616,
+      "fileID": 2959847,
+      "downloadUrl": "https://edge.forgecdn.net/files/2959/847/solcarrot-1.12.2-1.8.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 277631,
+      "fileID": 4344128,
+      "downloadUrl": "https://edge.forgecdn.net/files/4344/128/architecturecraft-1.12-3.108.jar",
+      "required": true
+    },
+    {
+      "projectID": 277938,
+      "fileID": 3200529,
+      "downloadUrl": "https://edge.forgecdn.net/files/3200/529/IntegrationForegoing-1.12.2-1.11.jar",
+      "required": true
+    },
+    {
+      "projectID": 278825,
+      "fileID": 2691535,
+      "downloadUrl": "https://edge.forgecdn.net/files/2691/535/environmentalmaterials-1.12.2-1.0.20.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 280294,
+      "fileID": 3362160,
+      "downloadUrl": "https://edge.forgecdn.net/files/3362/160/FpsReducer-mc1.12.2-1.20.jar",
+      "required": true
+    },
+    {
+      "projectID": 281316,
+      "fileID": 2696448,
+      "downloadUrl": "https://edge.forgecdn.net/files/2696/448/armoreablemobs-1.12.2-1.1.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 281657,
+      "fileID": 3474317,
+      "downloadUrl": "https://edge.forgecdn.net/files/3474/317/capabilityadapter-1.1.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 282001,
+      "fileID": 2992872,
+      "downloadUrl": "https://edge.forgecdn.net/files/2992/872/cc-tweaked-1.12.2-1.89.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 282623,
+      "fileID": 3280750,
+      "downloadUrl": "https://edge.forgecdn.net/files/3280/750/tweakersconstruct-1.12.2-1.6.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 283525,
+      "fileID": 4493884,
+      "downloadUrl": "https://edge.forgecdn.net/files/4493/884/LagGoggles-1.12.2-5.9-140.jar",
+      "required": true
+    },
+    {
+      "projectID": 283589,
+      "fileID": 2708030,
+      "downloadUrl": "https://edge.forgecdn.net/files/2708/30/YNot-0.2.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 283644,
+      "fileID": 4629597,
+      "downloadUrl": "https://edge.forgecdn.net/files/4629/597/Placebo-1.12.2-1.6.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 283992,
+      "fileID": 2595013,
+      "downloadUrl": "https://edge.forgecdn.net/files/2595/13/ImmersiveCables-1.12.2-1.3.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 284350,
+      "fileID": 4633750,
+      "downloadUrl": "https://edge.forgecdn.net/files/4633/750/athenaeum-1.12.2-1.19.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 284973,
+      "fileID": 5405050,
+      "downloadUrl": "https://edge.forgecdn.net/files/5405/50/dropt-1.12.2-1.19.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 285238,
+      "fileID": 4833503,
+      "downloadUrl": "https://edge.forgecdn.net/files/4833/503/TinkersExtras-1.12.2-1.1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 285492,
+      "fileID": 5646810,
+      "downloadUrl": "https://edge.forgecdn.net/files/5646/810/ThaumicJEI-1.12.2-1.7.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 285612,
+      "fileID": 3133651,
+      "downloadUrl": "https://edge.forgecdn.net/files/3133/651/randompatches-1.12.2-1.22.1.10.jar",
+      "required": true
+    },
+    {
+      "projectID": 285742,
+      "fileID": 3944565,
+      "downloadUrl": "https://edge.forgecdn.net/files/3944/565/SmoothFont-mc1.12.2-2.1.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 286231,
+      "fileID": 3006659,
+      "downloadUrl": "https://edge.forgecdn.net/files/3006/659/EndReborn%20%5b0.3.9%5d.jar",
+      "required": true
+    },
+    {
+      "projectID": 286417,
+      "fileID": 2539136,
+      "downloadUrl": "https://edge.forgecdn.net/files/2539/136/terracartreloaded-1.12.2-1.2.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 287267,
+      "fileID": 2645185,
+      "downloadUrl": "https://edge.forgecdn.net/files/2645/185/tinkersoc-0.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 287357,
+      "fileID": 3010631,
+      "downloadUrl": "https://edge.forgecdn.net/files/3010/631/IntegratedCrafting-1.12.2-1.0.10.jar",
+      "required": true
+    },
+    {
+      "projectID": 287683,
+      "fileID": 3174535,
+      "downloadUrl": "https://edge.forgecdn.net/files/3174/535/conarm-1.12.2-1.2.5.10.jar",
+      "required": true
+    },
+    {
+      "projectID": 289412,
+      "fileID": 3156637,
+      "downloadUrl": "https://edge.forgecdn.net/files/3156/637/FTBQuests-1202.9.0.15.jar",
+      "required": true
+    },
+    {
+      "projectID": 289989,
+      "fileID": 2541144,
+      "downloadUrl": "https://edge.forgecdn.net/files/2541/144/Alfinivia-0.4hotfix.jar",
+      "required": true
+    },
+    {
+      "projectID": 290404,
+      "fileID": 2689287,
+      "downloadUrl": "https://edge.forgecdn.net/files/2689/287/Flopper-1.12.2-1.0.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 290659,
+      "fileID": 3067807,
+      "downloadUrl": "https://edge.forgecdn.net/files/3067/807/PrettyBeaches_1.12.2-1.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 291126,
+      "fileID": 3023901,
+      "downloadUrl": "https://edge.forgecdn.net/files/3023/901/engineers_doors-1.12.2-0.9.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 291218,
+      "fileID": 2696995,
+      "downloadUrl": "https://edge.forgecdn.net/files/2696/995/HorseTweaks_1.12.2-1.0.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 291461,
+      "fileID": 2552878,
+      "downloadUrl": "https://edge.forgecdn.net/files/2552/878/BitHop-1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 291727,
+      "fileID": 2549332,
+      "downloadUrl": "https://edge.forgecdn.net/files/2549/332/JustEnoughPetroleum-0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 291737,
+      "fileID": 2920441,
+      "downloadUrl": "https://edge.forgecdn.net/files/2920/441/ThermalInnovation-1.12.2-0.3.6.1-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 291786,
+      "fileID": 2701203,
+      "downloadUrl": "https://edge.forgecdn.net/files/2701/203/tinkersjei-1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 291788,
+      "fileID": 2798112,
+      "downloadUrl": "https://edge.forgecdn.net/files/2798/112/ServerTabInfo-1.12.2-1.2.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 293110,
+      "fileID": 2781748,
+      "downloadUrl": "https://edge.forgecdn.net/files/2781/748/mekatweaker-1.12-1.2.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 293496,
+      "fileID": 2867050,
+      "downloadUrl": "https://edge.forgecdn.net/files/2867/50/OldJavaWarning-1.12.2-1.1.11.jar",
+      "required": true
+    },
+    {
+      "projectID": 293602,
+      "fileID": 2925155,
+      "downloadUrl": "https://edge.forgecdn.net/files/2925/155/armoryexpansion-2.0.0-alpha.jar",
+      "required": true
+    },
+    {
+      "projectID": 293704,
+      "fileID": 3247511,
+      "downloadUrl": "https://edge.forgecdn.net/files/3247/511/brokenwings-3.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 293768,
+      "fileID": 2777074,
+      "downloadUrl": "https://edge.forgecdn.net/files/2777/74/ThaumicComputers-MC1.12.2-0.5.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 295114,
+      "fileID": 3092102,
+      "downloadUrl": "https://edge.forgecdn.net/files/3092/102/botaniatweaks-1.9.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 295736,
+      "fileID": 2683370,
+      "downloadUrl": "https://edge.forgecdn.net/files/2683/370/MemoryTester-0.4.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 295910,
+      "fileID": 3010622,
+      "downloadUrl": "https://edge.forgecdn.net/files/3010/622/IntegratedTerminals-1.12.2-1.0.14.jar",
+      "required": true
+    },
+    {
+      "projectID": 297038,
+      "fileID": 6088811,
+      "downloadUrl": "https://edge.forgecdn.net/files/6088/811/CraftPresence-2.5.3%2b1.12.2-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 297363,
+      "fileID": 2672239,
+      "downloadUrl": "https://edge.forgecdn.net/files/2672/239/Biome%20Border%20Viewer-1.3.0.0-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 298187,
+      "fileID": 3005950,
+      "downloadUrl": "https://edge.forgecdn.net/files/3005/950/BuildingGadgets-2.8.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 298747,
+      "fileID": 2677608,
+      "downloadUrl": "https://edge.forgecdn.net/files/2677/608/treetweaker-1.6.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 298859,
+      "fileID": 2856890,
+      "downloadUrl": "https://edge.forgecdn.net/files/2856/890/Floralchemy-1.12.2-1.1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 299045,
+      "fileID": 2650681,
+      "downloadUrl": "https://edge.forgecdn.net/files/2650/681/matc-1.0.1-hotfix.jar",
+      "required": true
+    },
+    {
+      "projectID": 299080,
+      "fileID": 2632834,
+      "downloadUrl": "https://edge.forgecdn.net/files/2632/834/ProportionalDestructionParticles-1.12.2-1.2.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 300750,
+      "fileID": 3483422,
+      "downloadUrl": "https://edge.forgecdn.net/files/3483/422/RedstoneRepository-1.12.2-2.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 301051,
+      "fileID": 2604798,
+      "downloadUrl": "https://edge.forgecdn.net/files/2604/798/QuarkOddities-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 301310,
+      "fileID": 2863053,
+      "downloadUrl": "https://edge.forgecdn.net/files/2863/53/simpletrophies-1.2.2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 301356,
+      "fileID": 3091010,
+      "downloadUrl": "https://edge.forgecdn.net/files/3091/10/demagnetize-1.12.2-1.1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 301364,
+      "fileID": 2609434,
+      "downloadUrl": "https://edge.forgecdn.net/files/2609/434/gendustryjei-1.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 302514,
+      "fileID": 2915940,
+      "downloadUrl": "https://edge.forgecdn.net/files/2915/940/Cathedral-1.12.2-1.9.9.jar",
+      "required": true
+    },
+    {
+      "projectID": 303122,
+      "fileID": 2919936,
+      "downloadUrl": "https://edge.forgecdn.net/files/2919/936/jetif-1.12.2-1.5.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 303213,
+      "fileID": 3084399,
+      "downloadUrl": "https://edge.forgecdn.net/files/3084/399/crafttweakerutils-0.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 303657,
+      "fileID": 2704824,
+      "downloadUrl": "https://edge.forgecdn.net/files/2704/824/Kiwi-1.12.2-0.5.3.32.jar",
+      "required": true
+    },
+    {
+      "projectID": 304346,
+      "fileID": 4674241,
+      "downloadUrl": "https://edge.forgecdn.net/files/4674/241/EnderIO-endergy-1.12.2-5.3.72.jar",
+      "required": true
+    },
+    {
+      "projectID": 305211,
+      "fileID": 2688529,
+      "downloadUrl": "https://edge.forgecdn.net/files/2688/529/angermanagement-1.12.2-1.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 306028,
+      "fileID": 2833640,
+      "downloadUrl": "https://edge.forgecdn.net/files/2833/640/ProjectIntelligence-1.12.2-1.0.9.28-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 306475,
+      "fileID": 3032206,
+      "downloadUrl": "https://edge.forgecdn.net/files/3032/206/useful_railroads-1.12.2-1.1.3.24.jar",
+      "required": true
+    },
+    {
+      "projectID": 306549,
+      "fileID": 2906537,
+      "downloadUrl": "https://edge.forgecdn.net/files/2906/537/Tips-1.12.2-1.0.9.jar",
+      "required": true
+    },
+    {
+      "projectID": 308240,
+      "fileID": 2837800,
+      "downloadUrl": "https://edge.forgecdn.net/files/2837/800/cherishedworlds-1.12.2-1.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 308380,
+      "fileID": 6028154,
+      "downloadUrl": "https://edge.forgecdn.net/files/6028/154/PackagedAuto-1.12.2-1.0.15.58.jar",
+      "required": true
+    },
+    {
+      "projectID": 308663,
+      "fileID": 5925008,
+      "downloadUrl": "https://edge.forgecdn.net/files/5925/8/SnowRealMagic-1.12.2-0.7.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 308851,
+      "fileID": 2742442,
+      "downloadUrl": "https://edge.forgecdn.net/files/2742/442/tmel-1.12.2-1.4.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 309674,
+      "fileID": 3003364,
+      "downloadUrl": "https://edge.forgecdn.net/files/3003/364/ItemFilters-1.0.4.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 309756,
+      "fileID": 4674242,
+      "downloadUrl": "https://edge.forgecdn.net/files/4674/242/EnderIO-conduits-mekanism-1.12.2-5.3.72.jar",
+      "required": true
+    },
+    {
+      "projectID": 309878,
+      "fileID": 2653339,
+      "downloadUrl": "https://edge.forgecdn.net/files/2653/339/BringMeTheRings-0.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 310560,
+      "fileID": 2704377,
+      "downloadUrl": "https://edge.forgecdn.net/files/2704/377/grid-1.12-forge14.21.1.2387-1.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 311846,
+      "fileID": 4136686,
+      "downloadUrl": "https://edge.forgecdn.net/files/4136/686/ic2-tweaker-0.2.1%2bbuild.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 311927,
+      "fileID": 2664662,
+      "downloadUrl": "https://edge.forgecdn.net/files/2664/662/Nimble-0.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 311938,
+      "fileID": 2683267,
+      "downloadUrl": "https://edge.forgecdn.net/files/2683/267/inworldcrafting-1.12.2-1.2.0-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 312149,
+      "fileID": 2800346,
+      "downloadUrl": "https://edge.forgecdn.net/files/2800/346/avaritiaio-1.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 312195,
+      "fileID": 3474382,
+      "downloadUrl": "https://edge.forgecdn.net/files/3474/382/EnderTweaker-1.12.2-1.2.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 313298,
+      "fileID": 3379693,
+      "downloadUrl": "https://edge.forgecdn.net/files/3379/693/thermallogistics-0.3-43.jar",
+      "required": true
+    },
+    {
+      "projectID": 313590,
+      "fileID": 2741812,
+      "downloadUrl": "https://edge.forgecdn.net/files/2741/812/ArtemisLib-1.12.2-v1.0.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 313816,
+      "fileID": 2851670,
+      "downloadUrl": "https://edge.forgecdn.net/files/2851/670/toughnessbar-2.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 313866,
+      "fileID": 3783239,
+      "downloadUrl": "https://edge.forgecdn.net/files/3783/239/engineersdecor-1.12.2-1.1.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 314002,
+      "fileID": 2719400,
+      "downloadUrl": "https://edge.forgecdn.net/files/2719/400/overloadedarmorbar-1.0.4g.jar",
+      "required": true
+    },
+    {
+      "projectID": 314904,
+      "fileID": 2819669,
+      "downloadUrl": "https://edge.forgecdn.net/files/2819/669/FTBBackups-1.1.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 316304,
+      "fileID": 2687139,
+      "downloadUrl": "https://edge.forgecdn.net/files/2687/139/lootcapacitortooltips-1.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 316704,
+      "fileID": 5364955,
+      "downloadUrl": "https://edge.forgecdn.net/files/5364/955/thaumicwonders-1.8.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 317190,
+      "fileID": 4713830,
+      "downloadUrl": "https://edge.forgecdn.net/files/4713/830/Sonomagy%20TC6%20v1.6.zip",
+      "required": true
+    },
+    {
+      "projectID": 317780,
+      "fileID": 5987126,
+      "downloadUrl": "https://edge.forgecdn.net/files/5987/126/XaerosWorldMap_1.39.2_Forge_1.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 318453,
+      "fileID": 2693506,
+      "downloadUrl": "https://edge.forgecdn.net/files/2693/506/SqueezerPatch-1.12.2-1.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 319075,
+      "fileID": 2697130,
+      "downloadUrl": "https://edge.forgecdn.net/files/2697/130/zentoolforge-1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 319175,
+      "fileID": 5264329,
+      "downloadUrl": "https://edge.forgecdn.net/files/5264/329/Sledgehammer-1.12.2-2.0.26.jar",
+      "required": true
+    },
+    {
+      "projectID": 319188,
+      "fileID": 2697628,
+      "downloadUrl": "https://edge.forgecdn.net/files/2697/628/BetterWaterSplash-1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 319441,
+      "fileID": 6047659,
+      "downloadUrl": "https://edge.forgecdn.net/files/6047/659/ThaumicAugmentation-1.12.2-2.1.14.jar",
+      "required": true
+    },
+    {
+      "projectID": 319656,
+      "fileID": 5150678,
+      "downloadUrl": "https://edge.forgecdn.net/files/5150/678/scalingguis-1.12.2-1.0.3.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 319740,
+      "fileID": 2702148,
+      "downloadUrl": "https://edge.forgecdn.net/files/2702/148/rttweaker-1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 320254,
+      "fileID": 2703755,
+      "downloadUrl": "https://edge.forgecdn.net/files/2703/755/PlaneFix-1.12.2-1.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 321092,
+      "fileID": 3736251,
+      "downloadUrl": "https://edge.forgecdn.net/files/3736/251/GamblingStyle-v1.1.3-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 321117,
+      "fileID": 3150850,
+      "downloadUrl": "https://edge.forgecdn.net/files/3150/850/TravelersBackpack-1.12.2-1.0.35.jar",
+      "required": true
+    },
+    {
+      "projectID": 321720,
+      "fileID": 2711427,
+      "downloadUrl": "https://edge.forgecdn.net/files/2711/427/AE-Net-Vis-Tool-1.12.2-1.0.3.0-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 321792,
+      "fileID": 5225456,
+      "downloadUrl": "https://edge.forgecdn.net/files/5225/456/AquaAcrobatics-1.15.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 322344,
+      "fileID": 3509087,
+      "downloadUrl": "https://edge.forgecdn.net/files/3509/87/libnine-1.12.2-1.2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 322347,
+      "fileID": 3254160,
+      "downloadUrl": "https://edge.forgecdn.net/files/3254/160/lazy-ae2-1.12.2-1.1.26.jar",
+      "required": true
+    },
+    {
+      "projectID": 322730,
+      "fileID": 2858289,
+      "downloadUrl": "https://edge.forgecdn.net/files/2858/289/vaultopic-2.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 322764,
+      "fileID": 3491956,
+      "downloadUrl": "https://edge.forgecdn.net/files/3491/956/LetMeSleep-v1.2.3-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 322861,
+      "fileID": 6039017,
+      "downloadUrl": "https://edge.forgecdn.net/files/6039/17/PackagedExCrafting-1.12.2-1.0.2.26.jar",
+      "required": true
+    },
+    {
+      "projectID": 323533,
+      "fileID": 2937303,
+      "downloadUrl": "https://edge.forgecdn.net/files/2937/303/mechanics-1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 325357,
+      "fileID": 2754959,
+      "downloadUrl": "https://edge.forgecdn.net/files/2754/959/openscreens-1.12.2-1.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 326155,
+      "fileID": 3151006,
+      "downloadUrl": "https://edge.forgecdn.net/files/3151/6/MCTSmelteryIO-1.12.2-1.2.63.jar",
+      "required": true
+    },
+    {
+      "projectID": 330472,
+      "fileID": 2779313,
+      "downloadUrl": "https://edge.forgecdn.net/files/2779/313/tconmodmod-1.12.2-1.0.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 334692,
+      "fileID": 2758262,
+      "downloadUrl": "https://edge.forgecdn.net/files/2758/262/findme-1.12.2-1.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 336748,
+      "fileID": 3218640,
+      "downloadUrl": "https://edge.forgecdn.net/files/3218/640/Requious%20Frakto-0.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 336895,
+      "fileID": 6221719,
+      "downloadUrl": "https://edge.forgecdn.net/files/6221/719/nuclearcraft-1.12.2-2o.8.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 339394,
+      "fileID": 3077697,
+      "downloadUrl": "https://edge.forgecdn.net/files/3077/697/psio-1.12.2-1.0.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 340583,
+      "fileID": 3003242,
+      "downloadUrl": "https://edge.forgecdn.net/files/3003/242/bettercaves-1.12.2-2.0.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 352230,
+      "fileID": 4856373,
+      "downloadUrl": "https://edge.forgecdn.net/files/4856/373/conditionoverload-1.2.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 354949,
+      "fileID": 5883913,
+      "downloadUrl": "https://edge.forgecdn.net/files/5883/913/Trinity-1.12.2-1.5.g.jar",
+      "required": true
+    },
+    {
+      "projectID": 356646,
+      "fileID": 3168863,
+      "downloadUrl": "https://edge.forgecdn.net/files/3168/863/GunpowderLib-1.12.2-1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 357179,
+      "fileID": 3021138,
+      "downloadUrl": "https://edge.forgecdn.net/files/3021/138/cloche-profit-peripheral-1.12.2-1.0.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 358711,
+      "fileID": 3221155,
+      "downloadUrl": "https://edge.forgecdn.net/files/3221/155/MysticalCreations-1.12.2-1.6.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 358821,
+      "fileID": 3798288,
+      "downloadUrl": "https://edge.forgecdn.net/files/3798/288/mia-1.12.2-0.2.2a.jar",
+      "required": true
+    },
+    {
+      "projectID": 359407,
+      "fileID": 5108047,
+      "downloadUrl": "https://edge.forgecdn.net/files/5108/47/MCTImmersiveTechnology-1.12.2-1.9.102.jar",
+      "required": true
+    },
+    {
+      "projectID": 361276,
+      "fileID": 4756301,
+      "downloadUrl": "https://edge.forgecdn.net/files/4756/301/lootr-1.12.2-0.6.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 361427,
+      "fileID": 5630006,
+      "downloadUrl": "https://edge.forgecdn.net/files/5630/6/HarderBranchMining-1.12.2-2.0.0.17.jar",
+      "required": true
+    },
+    {
+      "projectID": 361579,
+      "fileID": 3245793,
+      "downloadUrl": "https://edge.forgecdn.net/files/3245/793/spark-forge1122.jar",
+      "required": true
+    },
+    {
+      "projectID": 362056,
+      "fileID": 6098453,
+      "downloadUrl": "https://edge.forgecdn.net/files/6098/453/QMD-1.4.2-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 363856,
+      "fileID": 2886150,
+      "downloadUrl": "https://edge.forgecdn.net/files/2886/150/supersoundmuffler-revived_1.12.2_1.0.2.10.jar",
+      "required": true
+    },
+    {
+      "projectID": 366140,
+      "fileID": 2898681,
+      "downloadUrl": "https://edge.forgecdn.net/files/2898/681/dynviewdist-1.12-1.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 367831,
+      "fileID": 3543884,
+      "downloadUrl": "https://edge.forgecdn.net/files/3543/884/AIReducer-1.12.2-0.3.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 368699,
+      "fileID": 2926181,
+      "downloadUrl": "https://edge.forgecdn.net/files/2926/181/IndustrialWires-1.7-39.jar",
+      "required": true
+    },
+    {
+      "projectID": 376351,
+      "fileID": 3015136,
+      "downloadUrl": "https://edge.forgecdn.net/files/3015/136/framedcompactdrawers-1.2.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 376903,
+      "fileID": 4703532,
+      "downloadUrl": "https://edge.forgecdn.net/files/4703/532/plustic-8.0.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 377201,
+      "fileID": 3140670,
+      "downloadUrl": "https://edge.forgecdn.net/files/3140/670/TickCentral-3.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 380998,
+      "fileID": 3132891,
+      "downloadUrl": "https://edge.forgecdn.net/files/3132/891/integratednbt-1.2.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 381138,
+      "fileID": 2950415,
+      "downloadUrl": "https://edge.forgecdn.net/files/2950/415/YouDroppedThis-1.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 384589,
+      "fileID": 4941753,
+      "downloadUrl": "https://edge.forgecdn.net/files/4941/753/tconevo-1.12.2-1.0.49.jar",
+      "required": true
+    },
+    {
+      "projectID": 387108,
+      "fileID": 2974483,
+      "downloadUrl": "https://edge.forgecdn.net/files/2974/483/NE-1.12.2-Forge-1.1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 389665,
+      "fileID": 3247154,
+      "downloadUrl": "https://edge.forgecdn.net/files/3247/154/BetterMineshaftsForge-1.12.2-2.2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 394079,
+      "fileID": 3850537,
+      "downloadUrl": "https://edge.forgecdn.net/files/3850/537/RFTDimTweak-1.12.2-1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 398267,
+      "fileID": 5778512,
+      "downloadUrl": "https://edge.forgecdn.net/files/5778/512/extendedcrafting-nomifactory-edition-1.7.0.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 399904,
+      "fileID": 5351260,
+      "downloadUrl": "https://edge.forgecdn.net/files/5351/260/Mekanism-Community-Edition-1.12.2-9.12.10-Core.jar",
+      "required": true
+    },
+    {
+      "projectID": 401178,
+      "fileID": 6091806,
+      "downloadUrl": "https://edge.forgecdn.net/files/6091/806/zenutils-1.21.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 402338,
+      "fileID": 3373954,
+      "downloadUrl": "https://edge.forgecdn.net/files/3373/954/fluiddrawers-1.12.2-1.0.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 403303,
+      "fileID": 3191544,
+      "downloadUrl": "https://edge.forgecdn.net/files/3191/544/potiondescriptions-1.12.2-1.2.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 403676,
+      "fileID": 5095243,
+      "downloadUrl": "https://edge.forgecdn.net/files/5095/243/thaumtweaks-0.3.5.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 405327,
+      "fileID": 4641243,
+      "downloadUrl": "https://edge.forgecdn.net/files/4641/243/%5b___MixinCompat-1.1-1.12.2___%5d.jar",
+      "required": true
+    },
+    {
+      "projectID": 408853,
+      "fileID": 5337217,
+      "downloadUrl": "https://edge.forgecdn.net/files/5337/217/particleculling-1.12.2-v1.4.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 409965,
+      "fileID": 3166334,
+      "downloadUrl": "https://edge.forgecdn.net/files/3166/334/portabledrill-1.2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 415684,
+      "fileID": 3093664,
+      "downloadUrl": "https://edge.forgecdn.net/files/3093/664/Better Gendustry v1.0.zip",
+      "required": true
+    },
+    {
+      "projectID": 417392,
+      "fileID": 5594720,
+      "downloadUrl": "https://edge.forgecdn.net/files/5594/720/QuarkRotN-r1.6-189.jar",
+      "required": true
+    },
+    {
+      "projectID": 417557,
+      "fileID": 5797200,
+      "downloadUrl": "https://edge.forgecdn.net/files/5797/200/bilingualname-2.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 419286,
+      "fileID": 6156863,
+      "downloadUrl": "https://edge.forgecdn.net/files/6156/863/!mixinbooter-10.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 423743,
+      "fileID": 4483283,
+      "downloadUrl": "https://edge.forgecdn.net/files/4483/283/NC-ReactorBuilder-1.12.2-1.0.4b.jar",
+      "required": true
+    },
+    {
+      "projectID": 433035,
+      "fileID": 3294090,
+      "downloadUrl": "https://edge.forgecdn.net/files/3294/90/Tinkers%27%20Addons-1.12.2-1.0.10.jar",
+      "required": true
+    },
+    {
+      "projectID": 433672,
+      "fileID": 3158657,
+      "downloadUrl": "https://edge.forgecdn.net/files/3158/657/eyeofdragons-0.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 434344,
+      "fileID": 3626352,
+      "downloadUrl": "https://edge.forgecdn.net/files/3626/352/_bansoukou-4.3.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 435119,
+      "fileID": 3204251,
+      "downloadUrl": "https://edge.forgecdn.net/files/3204/251/psicaster-1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 435298,
+      "fileID": 3311656,
+      "downloadUrl": "https://edge.forgecdn.net/files/3311/656/ctintegration-1.8.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 436513,
+      "fileID": 3378132,
+      "downloadUrl": "https://edge.forgecdn.net/files/3378/132/ThaumcraftResearchPatcher-1.12.2-1.1.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 438451,
+      "fileID": 5437156,
+      "downloadUrl": "https://edge.forgecdn.net/files/5437/156/PrecisionMining-1.12.2-5.2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 439001,
+      "fileID": 3711122,
+      "downloadUrl": "https://edge.forgecdn.net/files/3711/122/rats-3.2.21-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 440585,
+      "fileID": 3411667,
+      "downloadUrl": "https://edge.forgecdn.net/files/3411/667/hole_filler_mod-1.2.4.1-mc_1.12.2-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 446253,
+      "fileID": 3554486,
+      "downloadUrl": "https://edge.forgecdn.net/files/3554/486/betterbiomeblend-1.12.2-1.1.7-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 448433,
+      "fileID": 3209181,
+      "downloadUrl": "https://edge.forgecdn.net/files/3209/181/maleksinfinitygauntlet.jar",
+      "required": true
+    },
+    {
+      "projectID": 454215,
+      "fileID": 3549266,
+      "downloadUrl": "https://edge.forgecdn.net/files/3549/266/justenoughdrags-1.4-beta.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 456402,
+      "fileID": 5778935,
+      "downloadUrl": "https://edge.forgecdn.net/files/5778/935/ic2patcher-2.0.9.jar",
+      "required": true
+    },
+    {
+      "projectID": 460609,
+      "fileID": 6211820,
+      "downloadUrl": "https://edge.forgecdn.net/files/6211/820/censoredasm5.24.jar",
+      "required": true
+    },
+    {
+      "projectID": 461660,
+      "fileID": 5876158,
+      "downloadUrl": "https://edge.forgecdn.net/files/5876/158/mousetweaks-1.12.2-3.1.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 463826,
+      "fileID": 5877784,
+      "downloadUrl": "https://edge.forgecdn.net/files/5877/784/Atlas-Lib-1.12.2-1.1.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 473325,
+      "fileID": 3407210,
+      "downloadUrl": "https://edge.forgecdn.net/files/3407/210/uberconduitprobe-1.0.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 476863,
+      "fileID": 3461109,
+      "downloadUrl": "https://edge.forgecdn.net/files/3461/109/Blood-Smeltery-1.12.2-1.1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 488116,
+      "fileID": 5598843,
+      "downloadUrl": "https://edge.forgecdn.net/files/5598/843/CoTRO-1.12.2-1.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 493962,
+      "fileID": 3814371,
+      "downloadUrl": "https://edge.forgecdn.net/files/3814/371/AEAdditions-1.12.2-1.3.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 513769,
+      "fileID": 4590380,
+      "downloadUrl": "https://edge.forgecdn.net/files/4590/380/ItemBorders-1.12.2-forge-1.2.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 514170,
+      "fileID": 6159498,
+      "downloadUrl": "https://edge.forgecdn.net/files/6159/498/RandomTweaker-1.4.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 523198,
+      "fileID": 3447883,
+      "downloadUrl": "https://edge.forgecdn.net/files/3447/883/thaumic-one-probe-1.12.2-1.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 541068,
+      "fileID": 3749881,
+      "downloadUrl": "https://edge.forgecdn.net/files/3749/881/betteranimalsplusplus-4-13-2022b.jar",
+      "required": true
+    },
+    {
+      "projectID": 554387,
+      "fileID": 3556105,
+      "downloadUrl": "https://edge.forgecdn.net/files/3556/105/persistency-1.2.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 554861,
+      "fileID": 3556724,
+      "downloadUrl": "https://edge.forgecdn.net/files/3556/724/VillagerTrades-1.12.2-0.6.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 557549,
+      "fileID": 6187146,
+      "downloadUrl": "https://edge.forgecdn.net/files/6187/146/HadEnoughItems_1.12.2-4.27.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 570458,
+      "fileID": 5378163,
+      "downloadUrl": "https://edge.forgecdn.net/files/5378/163/ae2-uel-v0.56.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 594562,
+      "fileID": 3735912,
+      "downloadUrl": "https://edge.forgecdn.net/files/3735/912/villager-market-nbt-fix-1.12.2-1.0.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 616190,
+      "fileID": 4630499,
+      "downloadUrl": "https://edge.forgecdn.net/files/4630/499/JEI-Utilities-1.12.2-0.2.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 623955,
+      "fileID": 5751930,
+      "downloadUrl": "https://edge.forgecdn.net/files/5751/930/Fluid%20Craft%20for%20AE2-2.6.6-r.jar",
+      "required": true
+    },
+    {
+      "projectID": 624243,
+      "fileID": 5153413,
+      "downloadUrl": "https://edge.forgecdn.net/files/5153/413/modularui-2.4.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 629017,
+      "fileID": 5502915,
+      "downloadUrl": "https://edge.forgecdn.net/files/5502/915/RoughlyEnoughIDs-2.2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 632327,
+      "fileID": 5650806,
+      "downloadUrl": "https://edge.forgecdn.net/files/5650/806/bogosorter-1.4.9.jar",
+      "required": true
+    },
+    {
+      "projectID": 633720,
+      "fileID": 3852709,
+      "downloadUrl": "https://edge.forgecdn.net/files/3852/709/CraftingTweaks_1.12.2-9.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 633806,
+      "fileID": 6197064,
+      "downloadUrl": "https://edge.forgecdn.net/files/6197/64/Fixeroo-2.3.5-hotfix.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 644875,
+      "fileID": 4307985,
+      "downloadUrl": "https://edge.forgecdn.net/files/4307/985/pointer-2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 650242,
+      "fileID": 5272359,
+      "downloadUrl": "https://edge.forgecdn.net/files/5272/359/!mod-director-launchwrapper-1.8.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 653506,
+      "fileID": 5409500,
+      "downloadUrl": "https://edge.forgecdn.net/files/5409/500/tweakedpetroleum-2.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 658616,
+      "fileID": 4399994,
+      "downloadUrl": "https://edge.forgecdn.net/files/4399/994/Baubley-Elytra-v1.3.3-mc1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 667524,
+      "fileID": 5275434,
+      "downloadUrl": "https://edge.forgecdn.net/files/5275/434/tweakedpetroleumgas-2.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 687630,
+      "fileID": 5276772,
+      "downloadUrl": "https://edge.forgecdn.net/files/5276/772/tweakedexcavation-2.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 687632,
+      "fileID": 5814153,
+      "downloadUrl": "https://edge.forgecdn.net/files/5814/153/tweakedlib-2.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 687633,
+      "fileID": 4810992,
+      "downloadUrl": "https://edge.forgecdn.net/files/4810/992/forkedproxy-2.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 687827,
+      "fileID": 4028115,
+      "downloadUrl": "https://edge.forgecdn.net/files/4028/115/Seared-Ladder-v1.1.2-mc1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 705000,
+      "fileID": 6123916,
+      "downloadUrl": "https://edge.forgecdn.net/files/6123/916/UniversalTweaks-1.12.2-1.14.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 711730,
+      "fileID": 6112317,
+      "downloadUrl": "https://edge.forgecdn.net/files/6112/317/RLMixins-1.3.18.jar",
+      "required": true
+    },
+    {
+      "projectID": 725764,
+      "fileID": 4174562,
+      "downloadUrl": "https://edge.forgecdn.net/files/4174/562/thaumcraftaspectcreator-1.12.2-1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 734347,
+      "fileID": 4486442,
+      "downloadUrl": "https://edge.forgecdn.net/files/4486/442/RLTweaker-1.12.2-0.5.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 737252,
+      "fileID": 5043404,
+      "downloadUrl": "https://edge.forgecdn.net/files/5043/404/DeepMobEvolution-1.12.2-1.2.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 776425,
+      "fileID": 4808578,
+      "downloadUrl": "https://edge.forgecdn.net/files/4808/578/AdvancedTweakery-1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 782070,
+      "fileID": 5001902,
+      "downloadUrl": "https://edge.forgecdn.net/files/5001/902/startuptimer-1.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 811828,
+      "fileID": 6124559,
+      "downloadUrl": "https://edge.forgecdn.net/files/6124/559/PackagedAstral-1.12.2-1.0.2.17.jar",
+      "required": true
+    },
+    {
+      "projectID": 813408,
+      "fileID": 5351261,
+      "downloadUrl": "https://edge.forgecdn.net/files/5351/261/Mekanism-Community-Edition-1.12.2-9.12.10-Generators.jar",
+      "required": true
+    },
+    {
+      "projectID": 817000,
+      "fileID": 6184214,
+      "downloadUrl": "https://edge.forgecdn.net/files/6184/214/WarpTheory1.12.2-0.0.3.9.jar",
+      "required": true
+    },
+    {
+      "projectID": 833931,
+      "fileID": 6034816,
+      "downloadUrl": "https://edge.forgecdn.net/files/6034/816/PackagedDraconic-1.12.2-1.0.2.19.jar",
+      "required": true
+    },
+    {
+      "projectID": 836009,
+      "fileID": 4690550,
+      "downloadUrl": "https://edge.forgecdn.net/files/4690/550/DeepBloodEvolution-1.1.6-e.jar",
+      "required": true
+    },
+    {
+      "projectID": 849094,
+      "fileID": 5512421,
+      "downloadUrl": "https://edge.forgecdn.net/files/5512/421/thaumic-energistics-extended-life-1.12.2-2.3.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 870276,
+      "fileID": 5212709,
+      "downloadUrl": "https://edge.forgecdn.net/files/5212/709/!configanytime-3.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 871198,
+      "fileID": 5536276,
+      "downloadUrl": "https://edge.forgecdn.net/files/5536/276/vintagefix-0.5.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 873867,
+      "fileID": 6147102,
+      "downloadUrl": "https://edge.forgecdn.net/files/6147/102/!Red-Core-MC-1.8-1.12-0.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 876339,
+      "fileID": 4815198,
+      "downloadUrl": "https://edge.forgecdn.net/files/4815/198/betterp2p-1.12.2-1.2.3-extended_life.jar",
+      "required": true
+    },
+    {
+      "projectID": 884359,
+      "fileID": 5380800,
+      "downloadUrl": "https://edge.forgecdn.net/files/5380/800/nae2-1.6.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 895539,
+      "fileID": 5828524,
+      "downloadUrl": "https://edge.forgecdn.net/files/5828/524/visualores-0.2.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 896591,
+      "fileID": 5187152,
+      "downloadUrl": "https://edge.forgecdn.net/files/5187/152/serializationisbad-1.5.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 905159,
+      "fileID": 6178311,
+      "downloadUrl": "https://edge.forgecdn.net/files/6178/311/Patchouli-1.0-28.jar",
+      "required": true
+    },
+    {
+      "projectID": 910715,
+      "fileID": 6182667,
+      "downloadUrl": "https://edge.forgecdn.net/files/6182/667/Alfheim-1.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 923677,
+      "fileID": 4805869,
+      "downloadUrl": "https://edge.forgecdn.net/files/4805/869/omniwand-1.12.2-1.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 934603,
+      "fileID": 4849268,
+      "downloadUrl": "https://edge.forgecdn.net/files/4849/268/Finite%20Gas-1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 940521,
+      "fileID": 5796192,
+      "downloadUrl": "https://edge.forgecdn.net/files/5796/192/justenoughmagiculture-1.12.2-1.2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 951159,
+      "fileID": 6178433,
+      "downloadUrl": "https://edge.forgecdn.net/files/6178/433/soundphysics-1.1.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 960604,
+      "fileID": 6115039,
+      "downloadUrl": "https://edge.forgecdn.net/files/6115/39/Advanced%20Essentia%20Smelter-1.2.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 965811,
+      "fileID": 6203112,
+      "downloadUrl": "https://edge.forgecdn.net/files/6203/112/thaumictinkerer-1.12.2-5.9.3-Unofficial.jar",
+      "required": true
+    },
+    {
+      "projectID": 968474,
+      "fileID": 5672830,
+      "downloadUrl": "https://edge.forgecdn.net/files/5672/830/%60FermiumBooter-1.1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 977883,
+      "fileID": 6033917,
+      "downloadUrl": "https://edge.forgecdn.net/files/6033/917/theonesmeagle-1.12-1.0.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 994251,
+      "fileID": 5481496,
+      "downloadUrl": "https://edge.forgecdn.net/files/5481/496/villagercontracts-1.12.2-1.2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 1005815,
+      "fileID": 5858710,
+      "downloadUrl": "https://edge.forgecdn.net/files/5858/710/%2bFugue-1.12.2-0.16.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 1012168,
+      "fileID": 6130572,
+      "downloadUrl": "https://edge.forgecdn.net/files/6130/572/scalar-1.12.2-2.11.1-3.jar",
+      "required": true
+    },
+    {
+      "projectID": 1016395,
+      "fileID": 5332230,
+      "downloadUrl": "https://edge.forgecdn.net/files/5332/230/XU2-Patcher-1.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 1024225,
+      "fileID": 6130152,
+      "downloadUrl": "https://edge.forgecdn.net/files/6130/152/AdvancedRocketry-1.12.2-2.1.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 1032769,
+      "fileID": 5414463,
+      "downloadUrl": "https://edge.forgecdn.net/files/5414/463/NCOLegacyLib-1.12.2-1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 1038780,
+      "fileID": 5732205,
+      "downloadUrl": "https://edge.forgecdn.net/files/5732/205/ARLib-17-09-2024.jar",
+      "required": true
+    },
+    {
+      "projectID": 1056812,
+      "fileID": 6088140,
+      "downloadUrl": "https://edge.forgecdn.net/files/6088/140/UniLib-1.0.5%2b1.12.2-forge.jar",
+      "required": true
+    },
+    {
+      "projectID": 1063334,
+      "fileID": 5951510,
+      "downloadUrl": "https://edge.forgecdn.net/files/5951/510/twilightforest-1.12.2-3.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 1064321,
+      "fileID": 5952608,
+      "downloadUrl": "https://edge.forgecdn.net/files/5952/608/StellarCore-1.5.21.jar",
+      "required": true
+    },
+    {
+      "projectID": 1064613,
+      "fileID": 5807502,
+      "downloadUrl": "https://edge.forgecdn.net/files/5807/502/magicultureintegrations-1.12.2-2.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 1067548,
+      "fileID": 5994116,
+      "downloadUrl": "https://edge.forgecdn.net/files/5994/116/integratedderivative-1.1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 1073925,
+      "fileID": 5579062,
+      "downloadUrl": "https://edge.forgecdn.net/files/5579/62/reim-0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 1081085,
+      "fileID": 6143104,
+      "downloadUrl": "https://edge.forgecdn.net/files/6143/104/minieffects-2.3.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 1085598,
+      "fileID": 5833515,
+      "downloadUrl": "https://edge.forgecdn.net/files/5833/515/jei_area_fixer-2.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 1094214,
+      "fileID": 6136015,
+      "downloadUrl": "https://edge.forgecdn.net/files/6136/15/fluidintetweaker-1.5.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 1121489,
+      "fileID": 5814089,
+      "downloadUrl": "https://edge.forgecdn.net/files/5814/89/AE2CT-Legacy-0.1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 1132293,
+      "fileID": 6101853,
+      "downloadUrl": "https://edge.forgecdn.net/files/6101/853/backpackdisplay-1.6.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 1133738,
+      "fileID": 6136828,
+      "downloadUrl": "https://edge.forgecdn.net/files/6136/828/patchoulibooks-0.2.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 1147522,
+      "fileID": 5955712,
+      "downloadUrl": "https://edge.forgecdn.net/files/5955/712/bpopener-1.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 1153744,
+      "fileID": 5964549,
+      "downloadUrl": "https://edge.forgecdn.net/files/5964/549/NoiseThreader-1.0.0.jar",
+      "required": true
+    }
+  ]
+}

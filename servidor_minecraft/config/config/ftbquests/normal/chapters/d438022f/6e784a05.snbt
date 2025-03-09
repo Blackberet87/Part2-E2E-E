@@ -1,0 +1,35 @@
+{
+	x: -7.833333333333334d,
+	y: 24.166666666666668d,
+	text: [
+		"{q.utils.null_charm.desc}"
+	],
+	dependencies: [
+		"50ecf6a3"
+	],
+	tasks: [{
+		uid: "43e76d0d",
+		type: "item",
+		items: [{
+			tag: {
+				ItemInventory: []
+			},
+			id: "darkutils:charm_null"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b272dfe3",
+		type: "custom",
+		title: "{e2ee.quest.decor}",
+		icon: {
+			tag: {
+				type: "decor"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

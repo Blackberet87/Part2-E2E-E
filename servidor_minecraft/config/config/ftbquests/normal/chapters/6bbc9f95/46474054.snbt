@@ -1,0 +1,50 @@
+{
+	title: "{q.thaumcraft.scribing_tools.name}",
+	icon: {
+		tag: {
+			tc.charge: 50
+		},
+		id: "thaumadditions:vis_scribing_tools"
+	},
+	x: 1.0d,
+	y: 4.3d,
+	shape: "pentagon",
+	text: [
+		"{q.thaumcraft.scribing_tools.desc}"
+	],
+	dependencies: [
+		"adef62af"
+	],
+	size: 0.75d,
+	or_tasks: 1b,
+	tasks: [{
+		uid: "8b5fb3c7",
+		type: "item",
+		items: [{
+			tag: {
+				tc.charge: 0
+			},
+			Damage: 150s,
+			id: "thaumadditions:vis_scribing_tools"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "29b0628c",
+		type: "item",
+		items: [{
+			tag: {},
+			Damage: 150s,
+			id: "botania:manainkwell"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bccf3f4c",
+		type: "item",
+		item: "minecraft:paper",
+		count: 32
+	}]
+}

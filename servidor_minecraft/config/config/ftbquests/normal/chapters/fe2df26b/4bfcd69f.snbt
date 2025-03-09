@@ -1,0 +1,28 @@
+{
+	x: 4.0d,
+	y: 1.0d,
+	text: [
+		"{q.applied_energetics.me_controller.desc}"
+	],
+	dependencies: [
+		"2e632fad"
+	],
+	tasks: [{
+		uid: "811353fe",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "808054db",
+		type: "item",
+		item: {
+			tag: {
+				type: "rare"
+			},
+			id: "ftbquests:lootcrate"
+		}
+	}]
+}

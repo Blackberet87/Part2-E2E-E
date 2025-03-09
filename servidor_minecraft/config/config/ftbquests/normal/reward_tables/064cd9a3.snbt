@@ -1,0 +1,41 @@
+{
+	title: "Nether Reward",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			tag: {
+				enchantmentColor: 3887386,
+				ench: [{
+					id: 34,
+					lvl: 3s
+				}]
+			},
+			id: "minecraft:flint_and_steel"
+		}
+	},
+	{
+		item: {
+			tag: {
+				Fluid: {
+					Amount: 2000,
+					FluidName: "potion",
+					Tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+			},
+			id: "thermalinnovation:quiver"
+		}
+	},
+	{
+		item: "cyclicmagic:fire_killer"
+	},
+	{
+		item: {
+			tag: {
+				Potion: "minecraft:long_fire_resistance"
+			},
+			id: "minecraft:splash_potion"
+		}
+	}]
+}

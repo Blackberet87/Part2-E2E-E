@@ -1,0 +1,35 @@
+{
+	x: -5.5d,
+	y: 7.333333333333333d,
+	text: [
+		"{q.actually_additions.double_battery.desc}"
+	],
+	dependencies: [
+		"96718e63"
+	],
+	tasks: [{
+		uid: "00cfe112",
+		type: "item",
+		items: [{
+			tag: {
+				Energy: 350000
+			},
+			id: "actuallyadditions:item_battery_double"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0e6be357",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

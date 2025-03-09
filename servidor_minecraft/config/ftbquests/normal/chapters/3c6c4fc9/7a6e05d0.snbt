@@ -1,0 +1,83 @@
+{
+	title: "{q.nuclearcraft.molten_salt_reactor.name}",
+	icon: "nuclearcraft:salt_fission_controller",
+	x: 16.4d,
+	y: 4.8d,
+	text: [
+		"{q.nuclearcraft_overh.molten_salt_reactor.desc}"
+	],
+	dependencies: [
+		"8eed8d90"
+	],
+	tasks: [{
+		uid: "845cc931",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:salt_fission_controller"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e9c590d",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:salt_fission_vessel"
+		}]
+	},
+	{
+		uid: "df96a730",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_source"
+		}]
+	},
+	{
+		uid: "629b4383",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_cell_port"
+		}],
+		count: 2L
+	},
+	{
+		uid: "fbe47634",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_vent"
+		}],
+		count: 2L
+	},
+	{
+		uid: "43438174",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "wallReactor"
+				}
+			},
+			tag: {
+				display: {
+					Name: "Any wallReactor"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 92L
+	}],
+	rewards: [{
+		uid: "18a0846b",
+		type: "custom",
+		title: "{e2ee.quest.uncommon}",
+		icon: {
+			tag: {
+				type: "uncommon"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

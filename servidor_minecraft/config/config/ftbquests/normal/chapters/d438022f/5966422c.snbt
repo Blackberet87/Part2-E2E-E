@@ -1,0 +1,33 @@
+{
+	x: -9.5d,
+	y: 15.5d,
+	text: [
+		"{q.utils.hydrator.desc}"
+	],
+	dependencies: [
+		"d8284260",
+		"c2e489aa"
+	],
+	tasks: [{
+		uid: "4f1b59ff",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_hydrator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45e9e45b",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

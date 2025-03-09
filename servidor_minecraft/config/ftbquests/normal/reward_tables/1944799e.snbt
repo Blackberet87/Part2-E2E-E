@@ -1,0 +1,29 @@
+{
+	loot_size: 1,
+	rewards: [{
+		icon: "mekanism:atomicalloy 8",
+		item: "mekanism:atomicalloy",
+		count: 8
+	},
+	{
+		icon: "twilightforest:steeleaf_ingot 8",
+		item: "twilightforest:steeleaf_ingot",
+		count: 8
+	},
+	{
+		icon: {
+			tag: {
+				type: "common"
+			},
+			Count: 6,
+			id: "ftbquests:lootcrate"
+		},
+		item: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		count: 6
+	}]
+}

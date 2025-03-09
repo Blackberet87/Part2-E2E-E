@@ -1,0 +1,46 @@
+{
+	title: "Focus tier 1",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			tag: {
+				package: {
+					complexity: 7,
+					nodes: [{
+						type: "MEDIUM",
+						key: "ROOT"
+					},
+					{
+						type: "MEDIUM",
+						setting.method: 1,
+						key: "thaumcraft.PLAN"
+					},
+					{
+						setting.silk: 1,
+						setting.fortune: 0,
+						key: "thaumcraft.EXCHANGE",
+						type: "EFFECT"
+					}],
+					index: 0,
+					power: 1.0f
+				},
+				display: {
+					Name: "Block Exchange"
+				},
+				color: -11041961
+			},
+			id: "thaumcraft:focus_1"
+		}
+	},
+	{
+		item: "thaumcraft:focus_1"
+	},
+	{
+		item: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		}
+	}]
+}

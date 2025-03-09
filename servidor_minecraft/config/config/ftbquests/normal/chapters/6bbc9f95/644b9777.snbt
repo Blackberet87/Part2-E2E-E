@@ -1,0 +1,33 @@
+{
+	title: "{q.thaumcraft.thaumium.name}",
+	x: 9.0d,
+	y: 3.0d,
+	text: [
+		"{q.thaumcraft.thaumium.desc}"
+	],
+	dependencies: [
+		"69992959"
+	],
+	tasks: [{
+		uid: "270b9be2",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f7e54de9",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

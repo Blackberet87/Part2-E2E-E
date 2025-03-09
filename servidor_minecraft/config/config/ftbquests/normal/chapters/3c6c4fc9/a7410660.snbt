@@ -1,0 +1,28 @@
+{
+	x: 7.9d,
+	y: 7.5d,
+	text: [
+		"{q.nuclearcraft.nuclearcraft.desc}"
+	],
+	dependencies: [
+		"0bf36970"
+	],
+	tasks: [{
+		uid: "4b6d6e52",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:part"
+		}]
+	}],
+	rewards: [{
+		uid: "dc34d6c6",
+		type: "command",
+		auto: "invisible",
+		command: "/say @p has begun the NuclearCraft questline!"
+	},
+	{
+		uid: "7b8b1c5c",
+		type: "item",
+		item: "nuclearcraft:portable_ender_chest"
+	}]
+}

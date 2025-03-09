@@ -1,0 +1,31 @@
+{
+	x: 9.166666666666666d,
+	y: 2.166666666666667d,
+	text: [
+		"{q.industrialcraft.induction_furnace.desc}"
+	],
+	dependencies: [
+		"4d36c8e9"
+	],
+	tasks: [{
+		uid: "eda3ec16",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 54"
+		}]
+	}],
+	rewards: [{
+		uid: "18041182",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

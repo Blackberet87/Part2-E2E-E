@@ -1,0 +1,22 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: "rftools:powercell_simple"
+	},
+	{
+		item: {
+			tag: {},
+			Damage: 75s,
+			id: "ic2:te"
+		}
+	},
+	{
+		item: {
+			tag: {
+				mekData: {},
+				tier: 1
+			},
+			id: "mekanism:energycube"
+		}
+	}]
+}

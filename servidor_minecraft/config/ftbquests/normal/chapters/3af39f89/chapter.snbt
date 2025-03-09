@@ -1,0 +1,27 @@
+{
+	title: "{q.thermal_expansion.name}",
+	icon: {
+		tag: {
+			Energy: 0,
+			Facing: 3b,
+			RSControl: 0b,
+			Level: 0b,
+			SideCache: [B;
+				3b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			]
+		},
+		Damage: 3s,
+		id: "thermalexpansion:machine"
+	},
+	description: [
+		"{q.thermal_expansion.desc}"
+	],
+	always_invisible: 0b,
+	group: 0,
+	default_quest_shape: ""
+}

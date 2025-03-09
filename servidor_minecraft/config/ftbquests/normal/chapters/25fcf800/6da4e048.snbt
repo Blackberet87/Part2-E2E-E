@@ -1,0 +1,32 @@
+{
+	x: 6.75d,
+	y: 9.5d,
+	text: [
+		"{q.environmental_tech.structure_frame_ti_3.desc}"
+	],
+	dependencies: [
+		"8a7a171e",
+		"79f2ded4"
+	],
+	tasks: [{
+		uid: "1016bed5",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_6"
+		}]
+	}],
+	rewards: [{
+		uid: "16e71d04",
+		type: "custom",
+		title: "{e2ee.quest.rare}",
+		icon: {
+			tag: {
+				type: "rare"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

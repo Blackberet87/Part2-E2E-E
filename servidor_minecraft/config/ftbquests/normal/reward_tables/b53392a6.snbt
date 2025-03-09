@@ -1,0 +1,27 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: {
+			tag: {
+				Material: "alumite"
+			},
+			id: "tconstruct:shovel_head"
+		}
+	},
+	{
+		item: {
+			tag: {
+				Material: "electrum"
+			},
+			id: "tconstruct:shovel_head"
+		}
+	},
+	{
+		item: {
+			tag: {
+				Material: "knightslime"
+			},
+			id: "tconstruct:shovel_head"
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "{q.animals.myrmex_egg.name}",
+	icon: "iceandfire:myrmex_desert_egg 1 4",
+	x: 8.55d,
+	y: -0.8d,
+	text: [
+		"{q.animals.myrmex_egg.desc}"
+	],
+	dependencies: [
+		"dabb9837"
+	],
+	tasks: [{
+		uid: "dc1dda9a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "myrmexEgg"
+				}
+			},
+			tag: {
+				display: {
+					Name: "Any myrmexEgg"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b79b294f",
+		type: "choice",
+		table: 77
+	}]
+}

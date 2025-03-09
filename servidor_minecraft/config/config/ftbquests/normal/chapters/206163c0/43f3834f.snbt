@@ -1,0 +1,31 @@
+{
+	x: -3.5d,
+	y: 3.5d,
+	text: [
+		"{q.forestry.flexible_casing.desc}"
+	],
+	dependencies: [
+		"8806b7fe"
+	],
+	tasks: [{
+		uid: "6679b55f",
+		type: "item",
+		items: [{
+			item: "forestry:flexible_casing"
+		}]
+	}],
+	rewards: [{
+		uid: "fa6991a9",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

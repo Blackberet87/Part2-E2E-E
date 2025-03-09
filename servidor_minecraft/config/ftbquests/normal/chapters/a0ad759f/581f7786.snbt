@@ -1,0 +1,33 @@
+{
+	x: 11.5d,
+	y: 2.4d,
+	shape: "diamond",
+	text: [
+		"{q.computers.tank_upgrade.desc}"
+	],
+	dependencies: [
+		"afe0abb6"
+	],
+	tasks: [{
+		uid: "8cf4d948",
+		type: "item",
+		items: [{
+			item: "opencomputers:upgrade 1 23"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3f820a67",
+		type: "item",
+		item: {
+			tag: {
+				"oc:data": {
+					Amount: 20000000,
+					FluidName: "stone"
+				}
+			},
+			Damage: 23s,
+			id: "opencomputers:upgrade"
+		}
+	}]
+}

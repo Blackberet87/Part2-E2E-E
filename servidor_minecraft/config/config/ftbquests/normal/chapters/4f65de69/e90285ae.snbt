@@ -1,0 +1,43 @@
+{
+	title: "{q.getting_started.harvest_level_5.name}",
+	icon: {
+		tag: {
+			Material: "osmium"
+		},
+		Count: 5,
+		id: "tconstruct:sharpening_kit"
+	},
+	x: 5.125d,
+	y: 3.5d,
+	text: [
+		"{q.getting_started.harvest_level_5.desc}"
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"dabc815c",
+		"755b80fb",
+		"39579596",
+		"a7c0ef7d",
+		"4bc2899f",
+		"a1fb3576"
+	],
+	or_tasks: 1b,
+	tasks: [{
+		uid: "565035ed",
+		type: "item",
+		items: [{
+			item: "mekanism:oreblock"
+		},
+		{
+			tag: {
+				Material: "pigiron"
+			},
+			id: "tconstruct:sharpening_kit"
+		}]
+	}],
+	rewards: [{
+		uid: "172e062a",
+		type: "choice",
+		table: 24
+	}]
+}

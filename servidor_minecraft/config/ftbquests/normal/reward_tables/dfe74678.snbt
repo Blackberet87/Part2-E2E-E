@@ -1,0 +1,17 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: "deepmoblearning:glitch_infused_sword"
+	},
+	{
+		item: "deepmoblearning:infused_ingot_block"
+	},
+	{
+		item: {
+			tag: {
+				type: "rare"
+			},
+			id: "ftbquests:lootcrate"
+		}
+	}]
+}

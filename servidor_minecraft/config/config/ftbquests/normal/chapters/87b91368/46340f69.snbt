@@ -1,0 +1,36 @@
+{
+	title: "{q.animals.cheese.name}",
+	icon: "rats:cheese",
+	x: -1.7d,
+	y: -3.1d,
+	text: [
+		"{q.animals.cheese.desc}"
+	],
+	dependencies: [
+		"dcb947b4"
+	],
+	tasks: [{
+		uid: "4071cfeb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "foodCheese"
+				}
+			},
+			tag: {
+				display: {
+					Name: "Any foodCheese"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "970d8554",
+		type: "choice",
+		table: 118
+	}]
+}

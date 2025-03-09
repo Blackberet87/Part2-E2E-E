@@ -1,0 +1,22 @@
+{
+	loot_size: 1,
+	rewards: [{
+		icon: "industrialwires:ic2_connector 10 1",
+		item: "industrialwires:ic2_connector 1 1",
+		count: 10
+	},
+	{
+		item: {
+			tag: {
+				wireLength: 128
+			},
+			Damage: 5s,
+			id: "industrialwires:ic2_wire_coil"
+		}
+	},
+	{
+		icon: "industrialwires:ic2_connector 4",
+		item: "industrialwires:ic2_connector",
+		count: 4
+	}]
+}

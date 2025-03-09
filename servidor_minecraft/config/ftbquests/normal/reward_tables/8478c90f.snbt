@@ -1,0 +1,21 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: {
+			tag: {
+				tier: 3
+			},
+			Damage: 4s,
+			id: "mekanism:basicblock2"
+		}
+	},
+	{
+		item: {
+			tag: {
+				tier: 2
+			},
+			Damage: 3s,
+			id: "mekanism:basicblock2"
+		}
+	}]
+}

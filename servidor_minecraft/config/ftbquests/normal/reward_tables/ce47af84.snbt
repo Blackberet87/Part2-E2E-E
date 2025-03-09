@@ -1,0 +1,27 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: {
+			tag: {
+				Material: "flint"
+			},
+			id: "conarm:chest_core"
+		}
+	},
+	{
+		item: {
+			tag: {
+				Material: "bone"
+			},
+			id: "conarm:armor_plate"
+		}
+	},
+	{
+		item: {
+			tag: {
+				Material: "palis_crystal"
+			},
+			id: "conarm:armor_trim"
+		}
+	}]
+}

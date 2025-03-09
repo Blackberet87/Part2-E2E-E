@@ -1,0 +1,45 @@
+{
+	icon: "ic2:te 1 64",
+	x: 12.1d,
+	y: 3.5d,
+	text: [
+		"{q.industrialcraft.scanner.desc}"
+	],
+	dependencies: [
+		"0d64a022"
+	],
+	tasks: [{
+		uid: "99300e6d",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 64"
+		}]
+	},
+	{
+		uid: "45658e93",
+		type: "item",
+		items: [{
+			tag: {
+				Pattern: {
+					Count: 1
+				}
+			},
+			id: "ic2:crystal_memory"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5f68728f",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

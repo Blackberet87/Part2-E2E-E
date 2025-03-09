@@ -1,0 +1,76 @@
+{
+	title: "{q.industrialcraft.nano_armor.name}",
+	icon: {
+		tag: {
+			charge: 1000000.0d
+		},
+		id: "ic2:nano_chestplate"
+	},
+	x: 5.833333333333333d,
+	y: 4.833333333333333d,
+	text: [
+		"{q.industrialcraft.nano_armor.desc}"
+	],
+	dependencies: [
+		"d1c08d01"
+	],
+	tasks: [{
+		uid: "3055fbb0",
+		type: "item",
+		items: [{
+			tag: {
+				charge: 1000000.0d
+			},
+			id: "ic2:nano_helmet"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "72e331b1",
+		type: "item",
+		items: [{
+			tag: {
+				charge: 1000000.0d
+			},
+			id: "ic2:nano_chestplate"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "aa8cfea1",
+		type: "item",
+		items: [{
+			tag: {
+				charge: 1000000.0d
+			},
+			id: "ic2:nano_leggings"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cb1b2993",
+		type: "item",
+		items: [{
+			tag: {
+				charge: 1000000.0d
+			},
+			id: "ic2:nano_boots"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0cb012bf",
+		type: "choice",
+		table: 89
+	},
+	{
+		uid: "c8675d76",
+		type: "command",
+		auto: "invisible",
+		command: "gamestage silentadd @p armor_nano"
+	}]
+}

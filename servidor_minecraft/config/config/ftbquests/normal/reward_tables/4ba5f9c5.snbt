@@ -1,0 +1,24 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: {
+			tag: {
+				charge: 160000.0d
+			},
+			id: "ic2:nano_saber"
+		}
+	},
+	{
+		icon: "ic2:crafting 8 15",
+		item: "ic2:crafting 1 15",
+		count: 8
+	},
+	{
+		item: {
+			tag: {
+				type: "uncommon"
+			},
+			id: "ftbquests:lootcrate"
+		}
+	}]
+}

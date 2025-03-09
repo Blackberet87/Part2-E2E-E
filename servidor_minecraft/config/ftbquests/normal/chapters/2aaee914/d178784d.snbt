@@ -1,0 +1,33 @@
+{
+	title: "{q.mekanism.osgloglas.name}",
+	x: 6.2d,
+	y: 1.4d,
+	text: [
+		"{q.mekanism.osgloglas.desc}"
+	],
+	dependencies: [
+		"b44cd2ec",
+		"f79e06c9"
+	],
+	tasks: [{
+		uid: "311d15ee",
+		type: "item",
+		items: [{
+			item: "plustic:osgloglasingot"
+		}]
+	}],
+	rewards: [{
+		uid: "b992ac42",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

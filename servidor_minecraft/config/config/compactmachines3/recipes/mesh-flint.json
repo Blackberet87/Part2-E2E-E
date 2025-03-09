@@ -1,0 +1,60 @@
+{
+    "name": "exnihilocreatio:item_mesh_2",
+  
+    "target-item": "exnihilocreatio:item_mesh",
+    "target-meta": 2,
+    "target-count": 3,
+  
+    "duration": 400,
+    "symmetrical": true,
+  
+    "catalyst": "extendedcrafting:material",
+    "catalyst-meta": 8,
+  
+    "input-types": {
+      "a": {
+        "id": "excompressum:compressed_block",
+        "meta": 5
+      }
+    },
+    "shape": [
+      [
+        [
+          "_",
+          "a",
+          "_",
+          "a",
+          "_"
+        ],
+        [
+          "a",
+          "a",
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "_",
+          "a",
+          "_",
+          "a",
+          "_"
+        ],
+        [
+          "a",
+          "a",
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "_",
+          "a",
+          "_",
+          "a",
+          "_"
+        ]
+      ]
+    ]
+  
+}

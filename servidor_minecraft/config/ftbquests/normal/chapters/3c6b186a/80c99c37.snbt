@@ -1,0 +1,31 @@
+{
+	x: 4.166666666666666d,
+	y: 6.166666666666667d,
+	text: [
+		"{q.industrialcraft.metal_former.desc}"
+	],
+	dependencies: [
+		"ebffced2"
+	],
+	tasks: [{
+		uid: "6e564ed1",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 55"
+		}]
+	}],
+	rewards: [{
+		uid: "11fab098",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

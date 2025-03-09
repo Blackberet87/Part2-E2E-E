@@ -1,0 +1,12 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: "twilightforest:moonworm_queen"
+	},
+	{
+		item: "iceandfire:deathworm_gauntlet_yellow"
+	},
+	{
+		item: "rats:little_black_worm"
+	}]
+}

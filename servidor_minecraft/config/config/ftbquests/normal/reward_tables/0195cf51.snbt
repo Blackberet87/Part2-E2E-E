@@ -1,0 +1,19 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		}
+	},
+	{
+		item: "randomthings:blockdestabilizer"
+	},
+	{
+		icon: "randomthings:grassseeds 64 6",
+		item: "randomthings:grassseeds 1 6",
+		count: 64
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: "enderio:item_dark_steel_sword"
+	},
+	{
+		item: "enderio:block_alloy 1 6"
+	},
+	{
+		item: {
+			tag: {
+				type: "uncommon"
+			},
+			id: "ftbquests:lootcrate"
+		}
+	}]
+}

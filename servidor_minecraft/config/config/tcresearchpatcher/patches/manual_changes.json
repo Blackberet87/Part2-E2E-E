@@ -1,0 +1,948 @@
+[
+   {"key": "FOCUSBREAK","ops": [
+    {"op": "replace",
+    "path": "stages/0/required_item",
+    "value": ["minecraft:enchanted_book"]}
+  ]}
+
+  ,{"key": "HUNGRYCHEST","ops": [
+    {"op": "replace",
+    "path": "stages/0/required_item",
+    "value": ["oredict:chest"]}
+  ]}
+
+  ,{"key": "ESSENTIASMELTER","ops": [
+     {"op": "replace",
+     "path": "stages/0/required_item",
+     "value": ["thaumcraft:crystal_essence;1;0;{Aspects:[{amount:1,key:'aqua'}]}","thaumcraft:crystal_essence;1;0;{Aspects:[{amount:1,key:'perditio'}]}"]}
+    ,{"op": "replace",
+    "path": "stages/1/required_item",
+    "value": ["thaumcraft:crystal_essence;1;0;{Aspects:[{amount:1,key:'mortuus'}]}","thaumcraft:crystal_essence;1;0;{Aspects:[{amount:1,key:'permutatio'}]}"]}
+    ,{"op": "replace",
+    "path": "location",
+    "value": [4,2]}
+  ]}
+
+  ,{"key": "HEDGEALCHEMY","ops": [
+     {"op": "replace",
+     "path": "stages/1/required_craft",
+     "value": ["minecraft:gunpowder", "minecraft:dye", "minecraft:glowstone_dust"]}
+    ,{"op": "replace",
+    "path": "stages/2/required_craft",
+    "value": ["minecraft:clay_ball", "minecraft:lava_bucket"]}
+    ,{"op": "add",
+    "path": "stages/2/recipes/-",
+    "value": ["thaumcraft:ash_block"]}
+  ]}
+
+  ,{"key": "TT_ENCHANTER","ops": [
+    {"op": "replace",
+    "path": "stages/1/recipes/0",
+    "value": "thaumcraft:osmotic_enchanter"}
+  ]}
+
+  ,{"key": "TWOND_FLUX_CAPACITOR","ops": [
+    {"op": "replace",
+    "path": "stages/1/recipes/0",
+    "value": "thaumcraft:flux_capacitor"}
+  ]}
+
+  ,{"key": "TWOND_FLUX_DISTILLER","ops": [
+    {"op": "replace",
+    "path": "stages/1/recipes/0",
+    "value": "thaumcraft:flux_distiller"}
+  ]}
+
+  ,{"key": "TWOND_MYSTIC_GARDENING","ops": [
+    {"op": "replace",
+    "path": "stages/1/recipes",
+    "value": ["thaumcraft:shimmerleaf_seed","thaumcraft:cinderpearl_seed","thaumcraft:vishroom_spore"]}
+  ]}
+
+  ,{"key": "TWOND_CATALYZATION_CHAMBER","ops": [
+    {"op": "replace",
+    "path": "stages/2/recipes/2",
+    "value": "thaumcraft:alchemist_stone"}
+  ]}
+
+  ,{"key": "TWOND_TRANSMUTER_STONE","ops": [
+    {"op": "replace",
+    "path": "stages/1/recipes/0",
+    "value": "thaumcraft:transmuter_stone"}
+  ]}
+
+  ,{"key": "TWOND_ALIENIST_STONE","ops": [
+    {"op": "replace",
+    "path": "stages/1/recipes/0",
+    "value": "thaumcraft:alienist_stone"}
+  ]}
+
+  ,{"key": "IMPETUS_GENERATOR","ops": [
+    {"op": "replace",
+    "path": "stages/1/recipes/0",
+    "value": "thaumcraft:impetus_generator"}
+  ]}
+
+  ,{"key": "INFUSIONPROVIDER","ops": [
+    {"op": "replace",
+    "path": "stages/1/recipes/0",
+    "value": "thaumcraft:infusion_provider"}
+  ]}
+  
+  ,{"key": "GLASS_TUBE","ops": [
+    {"op": "replace",
+    "path": "stages/1/recipes/0",
+    "value": "thaumcraft:glass_tube"}
+  ]}
+  
+  ,{"key": "BATHSALTS", "ops":[
+    {"op": "replace",
+    "path": "location",
+    "value": [-4,-4]},
+    {"op": "replace",
+    "path": "parents",
+    "value": ["TAR_ESSENCE_SALT"]},
+    {"op": "replace",
+    "path": "stages/1/recipes/0",
+    "value": ["thaumcraft:bathsalts"]}
+  ]}
+
+  ,{"key": "ARCANESPA", "ops":[
+    {"op": "replace",
+    "path": "location",
+    "value": [-5,-5]}
+  ]}
+
+  ,{"key": "SANESOAP", "ops":[
+    {"op": "replace",
+    "path": "location",
+    "value": [-3,-5]},
+    {"op":"remove",
+    "path":"stages/0"}
+  ]}
+
+  ,{"key": "LEVITATOR", "ops":[
+    {"op": "add",
+    "path": "stages/1/recipes/-",
+    "value": "thaumcraft:flightdevice"}
+  ]}
+
+ ,{"key":"VOIDROBEARMOR", "ops":[
+  {"op":"replace",
+   "path":"location",
+   "value": [2,-2]} 
+ ]}
+
+ ,{"key":"VOIDSEERPEARL", "ops":[
+   {"op":"replace",
+    "path":"location",
+    "value": [-3,-1]} 
+ ]}
+ 
+ ,{"key":"TT_SHARE_TOME", "ops":[
+   {"op":"replace",
+    "path":"name",
+    "value": "research_name.thaumadditions:knowledge_tome"},
+  {"op":"replace",
+    "path":"icons",
+    "value": ["thaumadditions:knowledge_tome"]}
+  ,{"op":"replace",
+   "path":"stages/0/text",
+   "value": "research_stage.thaumadditions:knowledge_tome.2"}
+  ,{"op":"replace",
+   "path":"stages/0/recipes",
+   "value": ["thaumcraft:knowledge_tome"]} 
+ ]}
+ 
+ ,{"key": "BASEALCHEMY","ops": [
+   {"op": "add",
+   "path": "stages/0/recipes/-",
+   "value": ["thaumcraft:blue_bone"]}
+ ]}
+ 
+ ,{"key": "PURE_TEAR","ops": [
+   {"op": "replace",
+   "path": "stages/1/recipes/0",
+   "value": ["thaumcraft:pure_tear"]}
+ ]}
+ 
+ ,{"key": "CLEANSING_AMULET","ops": [
+   {"op": "replace",
+   "path": "stages/1/recipes/0",
+   "value": ["thaumcraft:cleansing_amulet"]}
+ ]}
+ 
+ ,{"key": "TWOND_ALKAHEST","ops": [
+   {"op": "replace",
+   "path": "stages/1/recipes/0",
+   "value": ["thaumcraft:alkahest_vat"]}
+   ,{"op": "add",
+   "path": "parents/-",
+   "value": "AURACHARGER"}
+ ]}
+ 
+ ,{"key": "IMPURE_TEAR","ops": [
+   {"op": "remove",
+   "path": "key"}
+ ]}
+
+ ,{"key":"ESSENTIASMELTERTHAUMIUM", "ops":[
+   {"op":"replace",
+    "path":"location",
+    "value": [6,2]},
+  {"op":"replace",
+  "path":"parents/1",
+  "value":"ESSENTIASMELTER"} 
+ ]}
+ 
+ ,{"key":"ESSENTIASMELTERVOID", "ops":[
+   {"op":"replace",
+    "path":"location",
+    "value": [8,2]} 
+ ]}
+ 
+ ,{"key":"THAUMATORIUM", "ops":[
+   {"op":"replace",
+    "path":"location",
+    "value": [8,-1]} 
+ ]}
+ 
+ ,{"key":"ESSENTIATRANSPORT", "ops":[
+   {"op":"replace",
+    "path":"location",
+    "value": [10,-1]} 
+  ]}
+ 
+ ,{"key":"FIRSTSTEPS","ops":[
+   {"op":"add",
+   "path": "stages/2/recipes/-",
+   "value":["crafttweaker:[thaumonomicon lectern] from [lectern][+2]"]}
+ ]}
+
+ ,{"key":"TWOND_VOID_FORTRESS_ARMOR","ops":[
+   {"op":"replace",
+   "path":"stages/1/recipes",
+   "value":["thaumcraft:void_fortress_helm", "thaumcraft:void_fortress_chest", "thaumcraft:void_fortress_legs"]}
+ ]}
+
+ ,{"key":"TCONEVO_PRIMALMETAL","ops":[
+   {"op":"replace",
+   "path":"stages/1/recipes",
+   "value":["thaumcraft:primal_metal"]}
+ ]}
+
+ ,{"key":"TT_ENERGETIC_NITOR","ops":[
+  {"op":"replace",
+  "path":"stages/1/recipes",
+  "value":["thaumcraft:energetic_nitor"]}
+]}
+
+,{"key":"IMPETUS_GENERATOR","ops":[
+  {"op":"replace",
+  "path":"stages/1/text",
+  "value": "thaumicaugmentation.research.impetus_generatorfix.1"}
+]}
+
+,{"key":"CELESTIAL_OBSERVER","ops":[
+  {"op":"replace",
+  "path":"stages/1/recipes",
+  "value": ["thaumcraft:celestial_observer_placer"]}
+]}
+
+,{"key":"METALPURIFICATION","ops":[
+  {"op":"replace",
+  "path":"stages/0/recipes",
+  "value": [
+    "thaumcraft:metal_purification_iron",
+    "thaumcraft:metal_purification_gold",
+    "thaumcraft:metal_purification_cinnabar",
+    "thaumcraft:metal_purification_copper",
+    "thaumcraft:metal_purification_tin",
+    "thaumcraft:metal_purification_silver",
+    "thaumcraft:metal_purification_lead",
+    "thaumcraft:metal_purification_aluminium", 
+    "thaumcraft:metal_purification_nickel",
+    "thaumcraft:metal_purification_iridium" ,
+    "thaumcraft:metal_purification_platinum",
+    "thaumcraft:metal_purification_uranium",
+    "thaumcraft:metal_purification_osmium",
+    "thaumcraft:metal_purification_ardite",
+    "thaumcraft:metal_purification_cobalt",
+    "thaumcraft:metal_purification_tungsten",
+    "thaumcraft:metal_purification_starmetal",
+    "thaumcraft:metal_purification_boron",
+    "thaumcraft:metal_purification_lithium",
+    "thaumcraft:metal_purification_magnesium",
+    "thaumcraft:metal_purification_thorium",
+    "thaumcraft:metal_purification_manainfusedingot",
+    "thaumcraft:metal_purification_blackquartz",
+    "thaumcraft:metal_purification_draconium",
+    "thaumcraft:metal_purification_titanium"
+]}
+]}
+
+,{"key":"PURE_TEAR","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"CLEANSING_AMULET","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"TWOND_CLEANSING_CHARM","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"TWOND_MYSTIC_GARDENING","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"TWOND_DIMENSIONAL_RIPPER","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["SPIKY"]}
+]}
+
+,{"key":"TWOND_PRIMAL_DESTROYER","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"TWOND_MADNESS_ENGINE","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["SPIKY"]}
+]}
+
+,{"key":"TWOND_ALIENIST_STONE","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"TWOND_MEATY_ORB","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"TWOND_PRIMORDIAL_ACCRETION_CHAMBER","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"BASEALCHEMY","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"BATHSALTS","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"KNOWLEDGETYPES","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"THEORYRESEARCH","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"WARP","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"WARP","ops":[
+  {"op":"replace",
+  "path":"location",
+  "value": [3,-3]}
+]}
+
+,{"key":"WARP","ops":[
+  {"op":"add",
+  "path":"",
+  "value": "parents"}
+]}
+
+,{"key":"WARP","ops":[
+  {"op":"add",
+  "path":"parents",
+  "value": ["KNOWLEDGETYPES"]}
+]}
+
+,{"key":"CRYSTALFARMER","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"UNLOCKELDRITCH","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND","SPIKY"]}
+]}
+
+,{"key":"FLUXRIFT","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"CrimsonRites","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"TCONEVO_BASE","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"PRIMPEARL","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"PRIMPEARL","ops":[
+  {"op":"add",
+  "path":"",
+  "value": "parents"}
+]}
+
+,{"key":"PRIMPEARL","ops":[
+  {"op":"add",
+  "path":"parents",
+  "value": ["UNLOCKELDRITCH"]}
+]}
+
+,{"key":"PRIMPEARL","ops":[
+  {"op":"replace",
+  "path":"location",
+  "value": [-4,8]}
+]}
+
+,{"key":"PURE_TEAR","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"STARFIELD_GLASS_RIFT","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"STARFIELD_GLASS_MIRROR","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"STARFIELD_GLASS_FRACTURE","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"RIFT_STUDIES","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"!VOIDSTONE","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"!VOIDSTONE","ops":[
+  {"op":"replace",
+  "path":"stages",
+  "value": [{"text": "thaumicaugmentation.research.void_stone.0"
+            ,"required_item":["thaumicaugmentation:stone"]}
+            ,{"text":"thaumicaugmentation.research.void_stone.0"}]}
+]}
+
+,{"key":"VOID_STONE_USAGE","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"RIFT_POWER","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"ELDRITCH_SPIRE","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["SPIKY"]}
+]}
+
+,{"key":"ELDRITCH_EPIPHANY","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND", "SPIKY"]}
+]}
+
+,{"key":"RIFT_MANAGEMENT","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"THAUMIC_AUGMENTATION_BASE","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"IMPETUS","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"BOOTS_VOID","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"MORPHIC_TOOL","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"PRIMAL_CUTTER","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"AUTOCASTER","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"GAUNTLET_VOID","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"EMPTINESS_MODIFIER","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"ELYTRA_HARNESS","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"FOCUSCURSE","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["REVERSE"]},
+  {"op":"replace",
+  "path":"stages/1/warp",
+  "value": 1}
+]}
+
+,{"key":"FOCUSRIFT","ops":[
+  {"op":"remove",
+  "path":"meta"},
+  {"op":"replace",
+  "path":"stages/0/warp",
+  "value": 1}
+]}
+
+,{"key":"FOCUSSCATTER","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["REVERSE"]}
+]}
+
+,{"key":"FOCUSCLOUD","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"FOCUSSPELLBAT","ops":[
+  {"op":"replace",
+  "path":"stages/1/warp",
+  "value": 1}
+]}
+
+,{"key":"MATSTUDWOOD","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["REVERSE","ROUND"]}
+]}
+
+,{"key":"MATSTUDBRASS","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["REVERSE","ROUND"]}
+]}
+
+,{"key":"MATSTUDTHAUMIUM","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"MATSTUDVOID","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"CONTROLSEALS","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"MINDBIOTHAUMIC","ops":[
+  {"op":"remove",
+  "path":"meta"}
+]}
+
+,{"key":"INFUSIONSTABLE","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["REVERSE"]}
+]}
+
+,{"key":"INFUSIONANCIENT","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["REVERSE"]}
+]}
+
+,{"key":"CHARMUNDYING","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["REVERSE"]}
+]}
+
+,{"key":"INFUSIONELDRITCH","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["REVERSE"]}
+]}
+
+,{"key":"ORE","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"ORE","ops":[
+  {"op":"add",
+  "path":"",
+  "value": "parents"}
+]}
+
+,{"key":"ORE","ops":[
+  {"op":"add",
+  "path":"parents",
+  "value": ["PLANTS"]}
+]}
+
+,{"key":"PLANTS","ops":[
+  {"op":"add",
+  "path":"",
+  "value": "parents"}
+]}
+
+,{"key":"PLANTS","ops":[
+  {"op":"add",
+  "path":"parents",
+  "value": ["FIRSTSTEPS"]}
+]}
+
+,{"key":"PLANTS","ops":[
+  {"op":"replace",
+  "path":"meta",
+  "value": ["ROUND"]}
+]}
+
+,{"key":"PLANTS","ops":[
+  {"op":"replace",
+  "path":"location",
+  "value": [-2,0]}
+]}
+
+,{"key":"TT_PRISMARINE","ops":[
+  {"op":"add",
+  "path":"stages/-",
+  "value": {
+    "text": "thaumictinkerer.research.prismarine.1", 
+    "recipes": ["thaumictinkerer:prismarine"]
+}}
+]}
+
+,{"key":"TWOND_MYSTIC_GARDENING","ops":[
+  {"op":"remove",
+  "path":"stages/0/required_item"
+  },
+  {"op":"replace",
+  "path":"parents",
+  "value": ["TWOND_BASE", "~INFUSION"]
+  }
+]}
+
+,{"key":"TT_ICHOR_POUCH","ops":[
+  {"op":"remove",
+  "path":"stages/0/required_item"
+  },
+  {"op":"add",
+  "path":"stages/0/required_craft",
+  "value": ["thaumcraft:focus_pouch"]
+  }
+]}
+
+,{"key":"TT_GAS","ops":[
+  {"op":"replace",
+  "path":"stages/1/recipes",
+  "value":["thaumcraft:gas_light_item", "thaumcraft:gas_shadow_item"]}
+]}
+
+,{"key":"TT_ICHOR","ops":[
+  {"op":"replace",
+  "path":"stages/1/recipes",
+  "value":["thaumcraft:ichor"]}
+  ,{"op":"replace",
+  "path":"stages/2/recipes",
+  "value":["thaumcraft:ichor"]}
+]}
+
+,{"key":"TT_ICHORARMOR","ops":[
+  {"op":"replace",
+  "path":"stages/1/recipes",
+  "value":["thaumcraft:ichor_cloth","thaumictinkerer:ichor_helm","thaumictinkerer:ichor_chest","thaumictinkerer:ichor_legs","thaumictinkerer:ichor_boots"]}
+]}
+
+,{"key":"TT_CAT_AMULET","ops":[
+  {"op":"replace",
+  "path":"stages/1/recipes",
+  "value":["thaumcraft:cat_amulet"]}
+]}
+
+,{"key":"TT_CLEANING_TALISMAN","ops":[
+  {"op":"replace",
+  "path":"stages/1/recipes",
+  "value":["thaumcraft:cleanser"]}
+]}
+
+,{"key":"TT_EXPERIENCE_CHARM","ops":[
+  {"op":"replace",
+  "path":"stages/1/recipes",
+  "value":["thaumcraft:experience_charm"]}
+]}
+
+,{"key":"TT_WARP_SERIES","ops":[
+  {"op":"replace",
+  "path":"stages/0/recipes",
+  "value":["thaumcraft:sky_pearl"]}
+  ,{"op":"replace",
+  "path":"stages/1/recipes",
+  "value":["thaumcraft:sky_pearl", "thaumcraft:warp_gate"]}
+]}
+
+,{"key":"TT_SUMMONING","ops":[
+  {"op":"replace",
+  "path":"stages/1/recipes",
+  "value":["thaumcraft:blood_sword", "thaumcraft:summoner"]}
+]}
+
+,{"key":"ARCANETERMINAL","ops":[
+  {"op":"replace",
+  "path":"stages/1/recipes",
+  "value":["thaumcraft:arcane_terminal"]}
+]}
+
+,{"key":"GOLEMCLIMBER","ops":[
+  {"op":"remove",
+  "path":"stages/0/required_research"}
+]}
+
+,{"key":"TT_KAMIHELM","ops":[
+  {"op":"replace",
+  "path":"stages/1/recipes",
+  "value": ["thaumcraft:TT_kami_helm"]}
+]}
+
+,{"key":"TT_KAMICHEST","ops":[
+  {"op":"replace",
+  "path":"stages/1/recipes",
+  "value": ["thaumcraft:TT_kami_chest"]}
+]}
+
+,{"key":"TT_KAMILEGS","ops":[
+  {"op":"replace",
+  "path":"stages/1/recipes",
+  "value": ["thaumcraft:TT_kami_legs"]}
+]}
+
+,{"key":"TT_KAMIBOOTS","ops":[
+  {"op":"replace",
+  "path":"stages/1/recipes",
+  "value": ["thaumcraft:TT_kami_boots"]}
+]}
+
+,{"key":"LIQUIDDEATH","ops":[
+  {"op":"replace",
+  "path":"stages/0/warp",
+  "value": 1}
+]}
+
+,{"key":"BOTTLETAINT","ops":[
+  {"op":"remove",
+  "path":"stages/0/warp"}
+]}
+
+,{"key":"FORTRESSMASK","ops":[
+  {"op":"remove",
+  "path":"stages/1/warp"}
+]}
+
+,{"key":"JARBRAIN","ops":[
+  {"op":"replace",
+  "path":"stages/1/warp",
+  "value": 2}
+]}
+
+,{"key":"MINDBIOTHAUMIC","ops":[
+  {"op":"replace",
+  "path":"stages/1/warp",
+  "value": 1}
+]}
+
+,{"key":"SEALGUARD","ops":[
+  {"op":"remove",
+  "path":"stages/1/warp"}
+]}
+
+,{"key":"SEALBUTCHER","ops":[
+  {"op":"remove",
+  "path":"stages/1/warp"}
+]}
+
+,{"key":"INFUSIONPROVIDER","ops":[
+  {"op":"remove",
+  "path":"stages/1/warp"}
+]}
+
+,{"key":"KNOWLEDGECORE","ops":[
+  {"op":"remove",
+  "path":"stages/0/warp"}
+]}
+
+,{"key":"TAINT_MEAT","ops":[
+  {"op":"replace",
+  "path":"stages/0/warp",
+  "value": 2}
+]}
+
+,{"key":"TT_ICHORIUMTOOLS","ops":[
+  {"op":"remove",
+  "path":"stages/0/warp"}
+]}
+
+,{"key":"VOID_STONE_USAGE","ops":[
+  {"op":"remove",
+  "path":"stages/0/warp"}
+]}
+
+,{"key":"TT_ICHOR","ops":[
+  {"op":"remove",
+  "path":"stages/0/warp"},
+  {"op":"replace",
+  "path":"stages/1/warp",
+  "value": 3}
+]}
+
+,{"key":"WARP_PAPER","ops":[
+  {"op":"replace",
+  "path":"category",
+  "value": "BASICS"},
+  {"op":"replace",
+  "path":"parents",
+  "value": ["WARP"]},
+  {"op":"replace",
+  "path":"location",
+  "value": [2,-4]}
+]}
+
+,{"key":"PURE_TEAR","ops":[
+  {"op":"replace",
+  "path":"category",
+  "value": "BASICS"},
+  {"op":"replace",
+  "path":"parents",
+  "value": ["WARP_PAPER", "INFUSION"]},
+  {"op":"replace",
+  "path":"location",
+  "value": [3,-5]}
+]}
+
+,{"key":"CLEANSING_AMULET","ops":[
+  {"op":"replace",
+  "path":"category",
+  "value": "INFUSION"},
+  {"op":"replace",
+  "path":"parents",
+  "value": ["PURE_TEAR", "CURIOSITYBAND"]},
+  {"op":"replace",
+  "path":"location",
+  "value": [6,1]}
+]}
+
+,{"key":"TAINT_MEAT","ops":[
+  {"op":"replace",
+  "path":"category",
+  "value": "ALCHEMY"},
+  {"op":"replace",
+  "path":"parents",
+  "value": ["WARP_PAPER","LIQUIDDEATH"]},
+  {"op":"replace",
+  "path":"location",
+  "value": [-4,4]}
+]}
+
+,{"key":"TCONEVO_PRIMALMETAL","ops":[
+  {"op":"replace",
+  "path":"category",
+  "value": "BASICS"},
+  {"op":"replace",
+  "path":"parents",
+  "value": ["PRIMPEARL", "INFUSION"]},
+  {"op":"replace",
+  "path":"location",
+  "value": [-2,7]}
+]}
+
+,{"key":"TCONEVO_BASE","ops":[
+  {"op":"remove",
+  "path":"key"}
+]}
+
+,{"key":"TCONEVO_TCONINFUSIONENCH","ops":[
+  {"op":"remove",
+  "path":"key"}
+]}
+
+]

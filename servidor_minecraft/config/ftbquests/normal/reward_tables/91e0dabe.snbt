@@ -1,0 +1,25 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: {
+			tag: {
+				ench: [{
+					id: 19s,
+					lvl: 1s
+				}]
+			},
+			id: "twilightforest:ironwood_sword"
+		}
+	},
+	{
+		item: "twilightforest:block_storage"
+	},
+	{
+		item: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		}
+	}]
+}

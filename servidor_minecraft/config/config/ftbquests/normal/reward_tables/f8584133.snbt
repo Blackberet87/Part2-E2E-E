@@ -1,0 +1,18 @@
+{
+	loot_size: 1,
+	rewards: [{
+		icon: "xnet:controller 2",
+		item: "xnet:controller",
+		count: 2
+	},
+	{
+		icon: "xnet:netcable 64",
+		item: "xnet:netcable",
+		count: 64
+	},
+	{
+		icon: "xnet:connector 4",
+		item: "xnet:connector",
+		count: 4
+	}]
+}

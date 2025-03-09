@@ -1,0 +1,32 @@
+{
+	x: 9.166666666666666d,
+	y: 3.5d,
+	text: [
+		"{q.industrialcraft.thermal_centrifuge.desc}"
+	],
+	dependencies: [
+		"77721ec3",
+		"b67067b9"
+	],
+	tasks: [{
+		uid: "c73d9eba",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 52"
+		}]
+	}],
+	rewards: [{
+		uid: "44f00b28",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

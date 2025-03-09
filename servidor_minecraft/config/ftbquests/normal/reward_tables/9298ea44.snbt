@@ -1,0 +1,32 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: "ic2:weeding_trowel"
+	},
+	{
+		item: {
+			tag: {
+				growth: 1b,
+				owner: "ic2",
+				scan: 4b,
+				id: "meat_rose",
+				gain: 15b,
+				resistance: 1b
+			},
+			id: "ic2:crop_seed_bag"
+		}
+	},
+	{
+		item: {
+			tag: {
+				growth: 1b,
+				owner: "ic2",
+				scan: 4b,
+				id: "spidernip",
+				gain: 1b,
+				resistance: 1b
+			},
+			id: "ic2:crop_seed_bag"
+		}
+	}]
+}

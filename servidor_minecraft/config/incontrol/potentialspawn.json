@@ -1,0 +1,34 @@
+[
+  {
+    "mobs": [
+      {
+        "mob": "rats:rat",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 3
+      }
+    ]
+  },
+  {
+    "dimension": [0, 3],
+    "mobs": [
+      {
+        "mob": "endreborn:watcher",
+        "weight": 3,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  },
+  {
+    "dimension": 7,
+    "mobs": [
+      {
+        "mob": "thaumcraft:pech",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      }
+    ]
+  }
+]

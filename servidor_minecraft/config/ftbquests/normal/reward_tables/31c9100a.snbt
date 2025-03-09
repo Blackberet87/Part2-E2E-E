@@ -1,0 +1,36 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: {
+			tag: {
+				Material: "netherrack"
+			},
+			id: "tconstruct:pan_head"
+		}
+	},
+	{
+		item: {
+			tag: {
+				Material: "cactus"
+			},
+			id: "tconstruct:sword_blade"
+		}
+	},
+	{
+		item: {
+			tag: {
+				Material: "steel"
+			},
+			id: "tconstruct:knife_blade"
+		}
+	},
+	{
+		item: {
+			tag: {
+				Facing: 3b,
+				Level: 0b
+			},
+			id: "thermalexpansion:strongbox"
+		}
+	}]
+}

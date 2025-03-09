@@ -1,0 +1,111 @@
+{
+	title: "{q.mekanism.the_chapter_is_com.name}",
+	icon: {
+		tag: {
+			TrophyColorRed: 169,
+			TrophyColorBlue: 171,
+			TrophyVariant: "gold",
+			TrophyColorGreen: 88,
+			TrophyShowsTooltip: 1b,
+			TrophyItem: {
+				Damage: 0s,
+				Count: 1b,
+				id: "mekanism:energycube",
+				tag: {
+					tier: 3
+				}
+			},
+			TrophyName: "Mekanism Master Trophy§r"
+		},
+		id: "simple_trophies:trophy"
+	},
+	x: 10.5d,
+	y: 6.75d,
+	text: [
+		"{q.mekanism.the_chapter_is_com.desc}"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"52a42ee4",
+		"e7b47fb4",
+		"2ba4a725",
+		"54c54cc4",
+		"b3cb2a49",
+		"e28c10ce",
+		"a9b84ebe",
+		"6856159e",
+		"9eb5e63d",
+		"07fcb3f0",
+		"76b824a9",
+		"783e7aaf",
+		"f79e06c9",
+		"6d298370",
+		"0c7b7f66",
+		"4b203b3d",
+		"a655c4cb",
+		"929e3341",
+		"0b4341a3",
+		"b44cd2ec",
+		"dfac8acc",
+		"ae2d378c",
+		"abaec38c",
+		"48923a31",
+		"60557536",
+		"42c0bb65",
+		"b149be6c",
+		"0d618c46",
+		"ddedc94a",
+		"a3aae782",
+		"2f9b92b2",
+		"d0c5b8a8",
+		"702f421e",
+		"5fdb3ee8",
+		"92f9d38a",
+		"efd1a725",
+		"d178784d",
+		"27982cee",
+		"307c984a",
+		"974fe6f9",
+		"737fff48",
+		"7b68c590",
+		"5432434b",
+		"d905a47e",
+		"eb6f22d4",
+		"dc0766b8"
+	],
+	size: 1.5d,
+	rewards: [{
+		uid: "b283defe",
+		type: "item",
+		team_reward: 1b,
+		auto: "enabled",
+		item: {
+			tag: {
+				TrophyColorRed: 169,
+				TrophyColorBlue: 171,
+				TrophyVariant: "gold",
+				TrophyColorGreen: 88,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					Damage: 0s,
+					Count: 1b,
+					id: "mekanism:energycube",
+					tag: {
+						tier: 3
+					}
+				},
+				TrophyName: "Mekanism Master Trophy§r"
+			},
+			id: "simple_trophies:trophy"
+		}
+	},
+	{
+		uid: "284ff24b",
+		type: "custom",
+		title: "Notify everyone",
+		tags: [
+			"chapcomplete"
+		],
+		auto: "invisible"
+	}]
+}

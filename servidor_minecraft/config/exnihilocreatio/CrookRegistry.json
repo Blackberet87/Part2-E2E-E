@@ -1,0 +1,51 @@
+{
+  "ore:treeLeaves": [
+    {
+      "stack": {
+        "name": "exnihilocreatio:item_material",
+        "amount": 1,
+        "meta": 2
+      },
+      "chance": 0.1,
+      "fortuneChance": 0.0
+    },
+    {
+      "stack": {
+        "name": "integrateddynamics:menril_sapling",
+        "amount": 1,
+        "meta": 0
+      },
+      "chance": 0.02,
+      "fortuneChance": 0.0
+    },
+    {
+      "stack": {
+        "name": "rustic:sapling",
+        "amount": 1,
+        "meta": 0
+      },
+      "chance": 0.02,
+      "fortuneChance": 0.0
+    },
+    {
+      "stack": {
+        "name": "rustic:sapling",
+        "amount": 1,
+        "meta": 1
+      },
+      "chance": 0.02,
+      "fortuneChance": 0.0
+    }
+  ]
+  ,"rats:ratglove_flower": [{"stack": {"name": "rats:ratglove_petals","amount": 1,"meta": 0},"chance": 0.3,"fortuneChance": 0.0}]
+  ,"biomesoplenty:double_plant:2": [{"stack": {"name": "minecraft:spider_eye","amount": 1,"meta": 0},"chance": 1.0,"fortuneChance": 1.0}]
+
+  ,"twilightforest:twilight_leaves": [
+    {"stack": {"name": "twilightforest:twilight_sapling"     ,"meta": 1,"amount": 1},"chance": 0.1 ,"fortuneChance": 0.2 },
+    {"stack": {"name": "twilightforest:twilight_sapling"     ,"meta": 2,"amount": 1},"chance": 0.1 ,"fortuneChance": 0.2 },
+    {"stack": {"name": "twilightforest:twilight_sapling"     ,"meta": 3,"amount": 1},"chance": 0.1 ,"fortuneChance": 0.2 },
+    {"stack": {"name": "twilightforest:twilight_sapling"     ,"meta": 9,"amount": 1},"chance": 0.01,"fortuneChance": 0.02},
+    {"stack": {"name": "twilightforest:transformation_powder","meta": 0,"amount": 1},"chance": 0.01,"fortuneChance": 0.02},
+    {"stack": {"name": "twilightforest:twilight_plant"       ,"meta": 7,"amount": 1},"chance": 0.08,"fortuneChance": 1.0}
+  ]
+}

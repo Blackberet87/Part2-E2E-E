@@ -1,0 +1,17 @@
+{
+	title: "{q.advanced_rocketry.holo_projector.name}",
+	icon: "libvulpes:holoprojector",
+	x: 2.5d,
+	y: 2.5d,
+	text: [
+		"{q.advanced_rocketry.holo_projector.desc}"
+	],
+	dependencies: [
+		"9fddddb0"
+	],
+	rewards: [{
+		uid: "1eee5b5d",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

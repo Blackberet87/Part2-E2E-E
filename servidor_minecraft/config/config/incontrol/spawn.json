@@ -1,0 +1,80 @@
+[
+	{
+		"dimension": [
+			-2,
+			100,
+			101,
+			102,
+			103,
+			104,
+			106,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			115,
+			119,
+			120,
+			121,
+			122,
+			123
+		],
+		"result": "deny"
+	},
+  {
+    "mob": "minecraft:enderman",
+		"dimension": [0, 3],
+    "helditem": [
+			"20=excompressum:compressed_block@10",
+			"9=endreborn:block_wolframium_ore",
+			"8=netherendingores:ore_end_modded_1@1",
+			"7=netherendingores:ore_end_modded_1@3",
+			"6=netherendingores:ore_end_modded_1@8",
+			"5=endreborn:dragon_essence",
+			"4=netherendingores:ore_end_modded_1@5",
+			"3=netherendingores:ore_end_modded_1@11",
+			"2=netherendingores:ore_end_modded_1@6"
+		],
+    "random": 0.1
+  },
+	{
+		"mob": [
+			"betteranimalsplus:jellyfish",
+			"betteranimalsplus:whale",
+			"betteranimalsplus:horseshoecrab",
+			"betteranimalsplus:shark",
+			"betteranimalsplus:nautilus",
+			"betteranimalsplus:eel_saltwater",
+			"betteranimalsplus:lamprey",
+			"betteranimalsplus:bobbit_worm",
+			"betteranimalsplus:eel_freshwater",
+			"betteranimalsplus:crab"
+		],
+		"mod": "betteranimalsplus",
+		"mincount": 7,
+		"result": "deny"
+	},
+	{"mob": "quark:frog","mod": "quark","mincount": 20,"result": "deny"},
+	{"mob": "quark:foxhound","mod": "quark","mincount": 20,"result": "deny"},
+	{"mob": "emberroot:dire_wolf","mod": "emberroot","minlight": 7,"result": "deny"},
+
+  {"mob": "quark:stoneling","maxcount": {"amount": 3,"perchunk": true},"block": "minecraft:stone", "maxlight": 6,"result": "allow"},
+  {"mob": "quark:stoneling","result": "deny"},
+
+	{"mob": "rats:rat","mod": "rats","mincount": 15,"result": "deny"},
+  {"mob": "rats:rat","mod": "rats","block": "rats:garbage_pile","result": "allow"},
+  {"mob": "rats:rat","mod": "rats","result": "deny"},
+	
+	{"dimension": [0, 3], "mob": "endreborn:watcher","mod": "endreborn","mincount": 15,"result": "deny"},
+  {"dimension": [0, 3], "mob": "endreborn:watcher","mod": "endreborn", "maxlight": 7, "block": "ore:endstone","result": "allow"},
+  {"dimension": [0, 3], "mob": "endreborn:watcher","mod": "endreborn", "result": "deny"},
+	
+	{"dimension": 7,"mob": "thaumcraft:pech","mod": "thaumcraft","maxcount": 1,"perplayer": true,"result": "allow"},
+	{"mob": "forestry:butterflyge", "mincount": { "amount": 10, "mob": "forestry:butterflyge", "perplayer": true }, "result": "deny" },
+
+	{"mob": "endreborn:chronologist","mod": "endreborn","mincount": 20,"result": "deny"},
+  {"block":["ore:logWood","minecraft:brown_mushroom_block","minecraft:red_mushroom_block","bedrockores:bedrock_ore"],"result": "deny"}
+]

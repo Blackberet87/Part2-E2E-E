@@ -1,0 +1,19 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: "animus:kama_bound"
+	},
+	{
+		icon: "bloodmagic:component 2 8",
+		item: "bloodmagic:component 1 8",
+		count: 2
+	},
+	{
+		item: {
+			tag: {
+				type: "uncommon"
+			},
+			id: "ftbquests:lootcrate"
+		}
+	}]
+}

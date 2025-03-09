@@ -1,0 +1,31 @@
+{
+	x: 2.5d,
+	y: 3.5d,
+	text: [
+		"{q.industrialcraft.geothermal_generator.desc}"
+	],
+	dependencies: [
+		"cae88f3f"
+	],
+	tasks: [{
+		uid: "bb04b20a",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "5a150017",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

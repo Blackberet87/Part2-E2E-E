@@ -1,0 +1,60 @@
+{
+    "name": "exnihilocreatio:item_mesh_4",
+  
+    "target-item": "exnihilocreatio:item_mesh",
+    "target-meta": 4,
+    "target-count": 3,
+  
+    "duration": 1200,
+    "symmetrical": true,
+  
+    "catalyst": "extendedcrafting:material",
+    "catalyst-meta": 10,
+  
+    "input-types": {
+      "a": {
+        "id": "minecraft:diamond_block",
+        "meta": 0
+      }
+    },
+    "shape": [
+      [
+        [
+          "_",
+          "a",
+          "_",
+          "a",
+          "_"
+        ],
+        [
+          "a",
+          "a",
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "_",
+          "a",
+          "_",
+          "a",
+          "_"
+        ],
+        [
+          "a",
+          "a",
+          "a",
+          "a",
+          "a"
+        ],
+        [
+          "_",
+          "a",
+          "_",
+          "a",
+          "_"
+        ]
+      ]
+    ]
+  
+}

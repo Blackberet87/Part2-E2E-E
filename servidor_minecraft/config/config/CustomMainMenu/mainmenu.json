@@ -1,0 +1,259 @@
+{
+  "images": {
+    "enigmatica2logo": {
+      "image": "modpack:textures/gui/e2ee_logo.png",
+      "posX": -70,
+      "posY": 15,
+      "width": 313,
+      "height": 101,
+      "alignment": "top_center"
+    },
+    "transparentBox": {
+      "image": "modpack:textures/gui/image1.png",
+      "posX": 25,
+      "posY": -140,
+      "width": 140,
+      "height": 250,
+      "alignment": "left_center"
+    }
+  },
+  "buttons": {
+    "singleplayer": {
+      "text": "menu.singleplayer",
+      "posX": 44,
+      "posY": -130,
+      "width": 100,
+      "height": 20,
+      "normalTextColor": 16777215,
+      "hoverTextColor": 4286414205,
+      "texture": "modpack:textures/gui/button2.png",
+      "alignment": "left_center",
+      "action": {
+        "type": "openGui",
+        "gui": "singleplayer"
+      }
+    },
+    "multiplayer": {
+      "text": "menu.multiplayer",
+      "posX": 44,
+      "posY": -100,
+      "width": 100,
+      "height": 20,
+      "normalTextColor": 16777215,
+      "hoverTextColor": 4286414205,
+      "texture": "modpack:textures/gui/button2.png",
+      "alignment": "left_center",
+      "action": {
+        "type": "openGui",
+        "gui": "multiplayer"
+      }
+    },
+    "mods": {
+      "text": "fml.menu.mods",
+      "posX": 44,
+      "posY": -70,
+      "width": 100,
+      "height": 20,
+      "normalTextColor": 16777215,
+      "hoverTextColor": 4286414205,
+      "texture": "modpack:textures/gui/button2.png",
+      "alignment": "left_center",
+      "action": {
+        "type": "openGui",
+        "gui": "mods"
+      }
+    },
+    "options": {
+      "text": "menu.options",
+      "posX": 44,
+      "posY": -40,
+      "width": 100,
+      "height": 20,
+      "normalTextColor": 16777215,
+      "hoverTextColor": 4286414205,
+      "texture": "modpack:textures/gui/button2.png",
+      "alignment": "left_center",
+      "action": {
+        "type": "openGui",
+        "gui": "options"
+      }
+    },
+    "languages": {
+      "text": "Languages",
+      "posX": 44,
+      "posY": -10,
+      "width": 100,
+      "height": 20,
+      "normalTextColor": 16777215,
+      "hoverTextColor": 4286414205,
+      "texture": "modpack:textures/gui/button2.png",
+      "alignment": "left_center",
+      "action": {
+        "type": "openGui",
+        "gui": "languages"
+      }
+    },
+    "bug reports": {
+      "text": "Bug Reports",
+      "posX": 44,
+      "posY": 20,
+      "width": 100,
+      "height": 20,
+      "normalTextColor": 16777215,
+      "hoverTextColor": 4286414205,
+      "texture": "modpack:textures/gui/button2.png",
+      "alignment": "left_center",
+      "action": {
+        "type": "openLink",
+        "link": "https://github.com/Krutoy242/Enigmatica2Expert-Extended/issues"
+      }
+    },
+    "discord": {
+      "text": "Discord",
+      "posX": 44,
+      "posY": 50,
+      "width": 100,
+      "height": 20,
+      "normalTextColor": 16777215,
+      "hoverTextColor": 4286414205,
+      "texture": "modpack:textures/gui/button2.png",
+      "alignment": "left_center",
+      "action": {
+        "type": "openLink",
+        "link": "https://discord.gg/P2MTyxHZtw"
+      }
+    },
+    "quit": {
+      "text": "menu.quit",
+      "posX": 44,
+      "posY": 80,
+      "width": 100,
+      "height": 20,
+      "normalTextColor": 16777215,
+      "hoverTextColor": 4286414205,
+      "texture": "modpack:textures/gui/button2.png",
+      "alignment": "left_center",
+      "action": {
+        "type": "quit"
+      }
+    }
+  },
+  "labels": {
+    "mojang": {
+      "text": "Copyright Mojang AB. Do not distribute!",
+      "posX": 8,
+      "posY": -15,
+      "color": -1,
+      "alignment": "bottom_left"
+    },
+    "version_text": {
+      "text": "Modpack version:",
+      "posX": -70,
+      "posY": -25,
+      "color": 11251888,
+      "anchor": "end",
+      "alignment": "bottom_right"
+    },
+    "version_num": {
+      "text": "v1.56.1",
+      "posX": -65,
+      "posY": -25,
+      "color": 4956595,
+      "alignment": "bottom_right"
+    },
+    "version_web_text": {
+      "text": "Released version:",
+      "posX": -70,
+      "posY": -12,
+      "color": 6975085,
+      "anchor": "end",
+      "alignment": "bottom_right"
+    },
+    "version_web_num": {
+      "text": "web:https://raw.githubusercontent.com/Krutoy242/Enigmatica2Expert-Extended/master/dev/version.txt",
+      "posX": -65,
+      "posY": -12,
+      "color": 1279287,
+      "alignment": "bottom_right"
+    }
+  },
+  "other": {
+    "background": {
+      "image": "",
+      "slideshow": {
+        "images": [
+          "enigmatica:textures/slideshow/2021-01-08_15.06.28.jpg",
+          "enigmatica:textures/slideshow/2021-01-08_15.08.47.jpg",
+          "enigmatica:textures/slideshow/2021-04-15_12.10.58.jpg",
+          "enigmatica:textures/slideshow/2021-08-03_22.29.08.jpg",
+          "enigmatica:textures/slideshow/2021-08-03_22.30.58.jpg",
+          "enigmatica:textures/slideshow/2021-08-04_09.57.16.jpg",
+          "enigmatica:textures/slideshow/2021-08-04_10.10.05.jpg",
+          "enigmatica:textures/slideshow/2021-08-04_10.12.28.jpg",
+          "enigmatica:textures/slideshow/2021-11-19_13.44.49.jpg",
+          "enigmatica:textures/slideshow/2021-11-21_14.43.33.jpg",
+          "enigmatica:textures/slideshow/2022-05-27_13.38.09.jpg",
+          "enigmatica:textures/slideshow/2022-05-27_13.55.47.jpg",
+          "enigmatica:textures/slideshow/2022-05-27_14.26.04.jpg",
+          "enigmatica:textures/slideshow/2022-05-27_14.30.08.jpg",
+          "enigmatica:textures/slideshow/aliagor-2024-06-02_22.54.06.jpg",
+          "enigmatica:textures/slideshow/artpoke-2023-12-22_22.50.31.jpg",
+          "enigmatica:textures/slideshow/artpoke-2023-12-22_23.07.46.jpg",
+          "enigmatica:textures/slideshow/artpoke-2023-12-22_23.22.30.jpg",
+          "enigmatica:textures/slideshow/blisslen-2022-07-09_15.29.29.jpg",
+          "enigmatica:textures/slideshow/blisslen-2022-07-09_16.05.38.jpg",
+          "enigmatica:textures/slideshow/blisslen-2022-07-09_16.20.53.jpg",
+          "enigmatica:textures/slideshow/blisslen-2023-11-22_2.jpg",
+          "enigmatica:textures/slideshow/blisslen-2023-11-22_3.jpg",
+          "enigmatica:textures/slideshow/blisslen-2023-11-22_6.jpg",
+          "enigmatica:textures/slideshow/cevandri-2023-03-27_17.22.19.jpg",
+          "enigmatica:textures/slideshow/jimgo514-2022-08-13_16.50.05.jpg",
+          "enigmatica:textures/slideshow/jimgo514-2022-08-13_16.51.03.jpg",
+          "enigmatica:textures/slideshow/jimgo514-2022-08-13_16.53.54.jpg",
+          "enigmatica:textures/slideshow/jimgo514-2022-08-13_17.11.39.jpg",
+          "enigmatica:textures/slideshow/krutoy242-cevandri-huabun-manii-2023-04-17_14.09.48.jpg",
+          "enigmatica:textures/slideshow/krutoy242-cevandri-huabun-manii-2023-04-17_23.32.26.jpg",
+          "enigmatica:textures/slideshow/krutoy242-cevandri-huabun-manii-2023-04-18_09.51.24.jpg",
+          "enigmatica:textures/slideshow/krutoy242-cevandri-huabun-manii-2023-04-18_10.32.27.jpg",
+          "enigmatica:textures/slideshow/levon-2024-04-30_12.42.21.jpg",
+          "enigmatica:textures/slideshow/levon-2024-04-30_15.51.38.jpg",
+          "enigmatica:textures/slideshow/manii-2023-03-27_17.27.35.jpg",
+          "enigmatica:textures/slideshow/nonname123-2024-08-03_21.56.14.jpg",
+          "enigmatica:textures/slideshow/nonname123-2024-08-04_13.51.42.jpg",
+          "enigmatica:textures/slideshow/otg-generator-2023-02-11_14.53.45.jpg",
+          "enigmatica:textures/slideshow/slideshow_01.jpg",
+          "enigmatica:textures/slideshow/slideshow_04.jpg",
+          "enigmatica:textures/slideshow/slideshow_05.jpg",
+          "enigmatica:textures/slideshow/slideshow_06.jpg",
+          "enigmatica:textures/slideshow/slideshow_07.jpg",
+          "enigmatica:textures/slideshow/slideshow_08.jpg",
+          "enigmatica:textures/slideshow/slideshow_09.jpg",
+          "enigmatica:textures/slideshow/slideshow_10.jpg",
+          "enigmatica:textures/slideshow/slideshow_11.jpg",
+          "enigmatica:textures/slideshow/slideshow_12.jpg",
+          "enigmatica:textures/slideshow/slideshow_13.jpg",
+          "enigmatica:textures/slideshow/slideshow_14.jpg",
+          "enigmatica:textures/slideshow/slideshow_15.jpg",
+          "enigmatica:textures/slideshow/slideshow_16.jpg",
+          "enigmatica:textures/slideshow/slideshow_17.jpg",
+          "enigmatica:textures/slideshow/slideshow_18.jpg",
+          "enigmatica:textures/slideshow/slideshow_19.jpg",
+          "enigmatica:textures/slideshow/slideshow_20.jpg",
+          "enigmatica:textures/slideshow/slideshow_22.jpg",
+          "enigmatica:textures/slideshow/slideshow_23.jpg",
+          "enigmatica:textures/slideshow/thefool_-2023-12-21_11.44.10.jpg",
+          "enigmatica:textures/slideshow/thefool_-2023-12-21_12.40.48.jpg",
+          "enigmatica:textures/slideshow/thekaarlo-tomm2000-2024-03-05_21.52.jpg",
+          "enigmatica:textures/slideshow/thekaarlo-tomm2000-2024-03-05_21.53.jpg",
+          "enigmatica:textures/slideshow/trashboxbobylev-2022-08-06_17.43.13.jpg",
+          "enigmatica:textures/slideshow/trashboxbobylev-2022-08-06_17.46.15.jpg",
+          "enigmatica:textures/slideshow/_stea-2023-08-04_11.02.53.jpg",
+          "enigmatica:textures/slideshow/_stea-2023-08-04_11.06.18.jpg"
+        ],
+        "displayDuration": 100,
+        "fadeDuration": 30,
+        "shuffle": true
+      }
+    }
+  }
+}

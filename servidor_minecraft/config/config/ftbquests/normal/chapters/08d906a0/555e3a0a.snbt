@@ -1,0 +1,33 @@
+{
+	x: 13.5d,
+	y: 0.0d,
+	dependencies: [
+		"e8818eb6"
+	],
+	optional: 1b,
+	or_tasks: 1b,
+	tasks: [{
+		uid: "1482b826",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "plankTreatedWood"
+				}
+			},
+			tag: {
+				display: {
+					Name: "Any plankTreatedWood"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "9e6f2ebb",
+		type: "item",
+		item: "minecraft:dye 1 15",
+		count: 64
+	}]
+}

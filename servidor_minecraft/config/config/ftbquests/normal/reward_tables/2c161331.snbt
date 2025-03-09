@@ -1,0 +1,34 @@
+{
+	title: "Huge Energy storage",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			tag: {
+				Energy: 500000000,
+				Creative: 0b,
+				Level: 4b
+			},
+			id: "thermalexpansion:cell"
+		}
+	},
+	{
+		item: {
+			tag: {
+				"enderio:energy": 500000000
+			},
+			Damage: 2s,
+			id: "enderio:block_cap_bank"
+		}
+	},
+	{
+		item: {
+			tag: {
+				energyStorage: {
+					capacity: 512000000L,
+					energy: 512000000L
+				}
+			},
+			id: "nuclearcraft:lithium_ion_battery_du"
+		}
+	}]
+}

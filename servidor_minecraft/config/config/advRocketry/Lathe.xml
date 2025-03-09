@@ -1,0 +1,148 @@
+<!-->
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME SIZE</fluidStack>
+			<itemStack>ITEM_NAME SIZE META</itemStack>
+			<oreDict>OREDICT_NAME SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="false">
+	<Recipe timeRequired="10" power="100000">
+		<input>
+			<oreDict>blockCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productrod 64 4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="10" power="100000">
+		<input>
+			<oreDict>blockSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:material 64 2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="15" power="100000">
+		<input>
+			<oreDict>blockTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productrod 64 7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="15" power="100000">
+		<input>
+			<oreDict>blockIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productrod 64 10</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="20" power="100000">
+		<input>
+			<oreDict>blockTitaniumAluminide</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productrod 64</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="20" power="100000">
+		<input>
+			<oreDict>blockTitaniumIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productrod 64 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="10" power="100000">
+		<input>
+			<oreDict>blockIron</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:material 64 1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="10" power="100000">
+		<input>
+			<oreDict>blockAluminium</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:material 64 3</itemStack>
+		</output>
+	</Recipe>
+	<!-- Recipe below generated automatically. Do not make changes or they gonna be rewritten. -->
+	<!-- [Wires crystalPureFluix] -->
+	<Recipe timeRequired="10" power="100000">
+		<input>
+			<oreDict>crystalPureFluix</oreDict>
+		</input>
+		<output>
+			<itemStack>appliedenergistics2:part 4 16</itemStack>
+		</output>
+	</Recipe>
+	<!-- Recipe below generated automatically. Do not make changes or they gonna be rewritten. -->
+	<!-- [Wires ingotAluminium] -->
+	<Recipe timeRequired="10" power="100000">
+		<input>
+			<oreDict>ingotAluminium</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:material 5 22</itemStack>
+		</output>
+	</Recipe>
+	<!-- Recipe below generated automatically. Do not make changes or they gonna be rewritten. -->
+	<!-- [Wires ingotCopper] -->
+	<Recipe timeRequired="10" power="100000">
+		<input>
+			<oreDict>ingotCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:material 5 20</itemStack>
+		</output>
+	</Recipe>
+	<!-- Recipe below generated automatically. Do not make changes or they gonna be rewritten. -->
+	<!-- [Wires ingotElectrum] -->
+	<Recipe timeRequired="10" power="100000">
+		<input>
+			<oreDict>ingotElectrum</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:material 5 21</itemStack>
+		</output>
+	</Recipe>
+	<!-- Recipe below generated automatically. Do not make changes or they gonna be rewritten. -->
+	<!-- [Wires ingotSteel] -->
+	<Recipe timeRequired="10" power="100000">
+		<input>
+			<oreDict>ingotSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:material 5 23</itemStack>
+		</output>
+	</Recipe>
+	<!-- Recipe below generated automatically. Do not make changes or they gonna be rewritten. -->
+	<!-- [Wires integrateddynamics:crystalized_menril_chunk] -->
+	<Recipe timeRequired="10" power="100000">
+		<input>
+			<itemStack>integrateddynamics:crystalized_menril_chunk</itemStack>
+		</input>
+		<output>
+			<itemStack>integrateddynamics:cable 2</itemStack>
+		</output>
+	</Recipe>
+</Recipes>

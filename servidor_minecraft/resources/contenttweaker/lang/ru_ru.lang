@@ -1,0 +1,741 @@
+#PARSE_ESCAPES
+
+# Various fixes
+modifier.excompressum:smashingii.desc=Забивание сжатых блоков молотком
+tile.spectreCoil_number.info=Генерирует 32 RF/t и выдает их в блок, к которому прикреплен. Их можно найти в сундуках в подземельях.
+entity.twilightforest.harbinger_cube.name=Куб Предвестника
+entity.twilightforest.castle_guardian.name=Хранитель замка
+# --------------------------------------
+# Custom mechanics
+# --------------------------------------
+description.crt.reuse=§a§o(Не будет потрачено!)§r
+description.crt.consume=§6§o(Будет потрачено!)§r
+
+# --------------------------------------
+# CoT new content
+# --------------------------------------
+itemGroup.other=ContentTweaker
+fluid.seed=Семя
+fluid.spectre=Спектр
+fluid.perfect_fuel=Идеальное Топливо
+fluid.electronics=Плавленная Электроника
+fluid.terrestrial=Расплавленный Земленный Артефакт
+fluid.mithrillium=Растворимый Митриллиум
+fluid.adaminite=Расплавленный Адаминит
+fluid.mithminite=Растворенный Митминит
+
+base.material.heavy_metal=Тяжёлый Метал
+base.material.cheese=Сыр
+
+item.contenttweaker.compressed_glowstone.name=Сжатая Светопыль
+item.contenttweaker.compressed_ender.name=Сжатый Эндер Жемчуг
+item.contenttweaker.compressed_dimensional.name=Сжатость Измерений
+
+itemGroup.coins_tab=Новые монеты E2EE
+item.contenttweaker.coin_advancedalloy.name=Композитная монета
+item.contenttweaker.coin_alchemicalbrass.name=Монета из алхимической латуни
+item.contenttweaker.coin_aluminumbrass.name=Монета из алюминиевой латуни
+item.contenttweaker.coin_alumite.name=Алюмитовая монета
+item.contenttweaker.coin_baseessence.name=Монета из базовой эссенции
+item.contenttweaker.coin_beryllium.name=Бериллиевая монета
+item.contenttweaker.coin_conductiveiron.name=Монета из проводящего железа
+item.contenttweaker.coin_darksteel.name=Монета из темной стали
+item.contenttweaker.coin_demonmetal.name=Демоническая монета
+item.contenttweaker.coin_electricalsteel.name=Монета из наэлектризованной стали
+item.contenttweaker.coin_enchantedmetal.name=Зачарованная монета
+item.contenttweaker.coin_ender.name=Эндер-монета
+item.contenttweaker.coin_endorium.name=Эндориевая монета
+item.contenttweaker.coin_energizedalloy.name=Монета из энергетического сплава
+item.contenttweaker.coin_evilinfusedmetal.name=Злобная монета
+item.contenttweaker.coin_extremealloy.name=Монета из экстремального сплава
+item.contenttweaker.coin_fakeiron.name=Чугуниевая монета
+item.contenttweaker.coin_ferroboron.name=Монета из ферроборонного сплава
+item.contenttweaker.coin_fierymetal.name=Огненная монета
+item.contenttweaker.coin_glowstone.name=Монета из обогащенного светокамня
+item.contenttweaker.coin_graphite.name=Графитовая монета
+item.contenttweaker.coin_hardcarbon.name=Монета из твердого углерода
+item.contenttweaker.coin_heavymetal.name=Тяжелейшая монета
+item.contenttweaker.coin_hopgraphite.name=Пиролитическая графитовая монета
+item.contenttweaker.coin_ironwood.name=Монета из железного дерева
+item.contenttweaker.coin_knightmetal.name=Монета из рыцарского металла
+item.contenttweaker.coin_knightslime.name=Слизестальная монета
+item.contenttweaker.coin_manasteel.name=Монета из манастали
+item.contenttweaker.coin_manganese.name=Марганцевая монета
+item.contenttweaker.coin_manyullyn.name=Маньюлиновая монета
+item.contenttweaker.coin_osgloglas.name=Монета из осглогласа
+item.contenttweaker.coin_osmiridium.name=Осмиридиевая монета
+item.contenttweaker.coin_pigiron.name=Свиностальная монета
+item.contenttweaker.coin_pulsatingiron.name=Монета из пульсирующего железа
+item.contenttweaker.coin_redstonealloy.name=Монета из сплава красного камня
+item.contenttweaker.coin_refinedobsidian.name=Монета из обогащенного обсидиана
+item.contenttweaker.coin_soularium.name=Соулариевая монета
+item.contenttweaker.coin_spectre.name=Призрачная монета
+item.contenttweaker.coin_thaumium.name=Таумиевая монета
+item.contenttweaker.coin_toughalloy.name=Прочная монета
+item.contenttweaker.coin_unstable.name=Нестабильная монета
+item.contenttweaker.coin_zirconium.name=Циркониевая монета
+item.contenttweaker.coin_blackiron.name=Монета из черного железа
+item.contenttweaker.coin_cookedmeat.name=Монета из приготовленного мяса
+item.contenttweaker.coin_crystallinealloy.name=Монета из кристалльного сплава
+item.contenttweaker.coin_crystallinepinkslimealloy.name=Монета из кристалльно-розового сплава
+item.contenttweaker.coin_ebonypsimetal.name=Монета из эбенового псиметалла
+item.contenttweaker.coin_elementium.name=Монета из элементиума
+item.contenttweaker.coin_endsteel.name=Монета из стали Края
+item.contenttweaker.coin_energium.name=Энергиевая монета
+item.contenttweaker.coin_enhancedender.name=Усиленная Эндер-монета
+item.contenttweaker.coin_essenceinfused.name=Эссенциевая монета
+item.contenttweaker.coin_firedragonsteel.name=Монета из огненной драконостали
+item.contenttweaker.coin_fluixsteel.name=Монета из флюкс-стали
+item.contenttweaker.coin_fluxedelectrum.name=Флаксовая электрумовая монета
+item.contenttweaker.coin_hslasteel.name=Монета из высокопрочной стали
+item.contenttweaker.coin_icedragonsteel.name=Монета из ледяной драконостали
+item.contenttweaker.coin_inferium.name=Инфериумная монета
+item.contenttweaker.coin_insanium.name=Инсаниевая монета
+item.contenttweaker.coin_intermedium.name=Интермедиумная монета
+item.contenttweaker.coin_ivorypsimetal.name=Монета из слонового псиметалла
+item.contenttweaker.coin_lithiummanganesedioxide.name=Монета из сплава литий-марганцевого диоксида
+item.contenttweaker.coin_magnesiumdiboride.name=Монета из диборида магния
+item.contenttweaker.coin_manganesedioxide.name=Монета из диоксида марганца
+item.contenttweaker.coin_manganeseoxide.name=Монета из оксида марганца
+item.contenttweaker.coin_melodicalloy.name=Монета из мелодичного сплава
+item.contenttweaker.coin_mirion.name=Мирионовая монета
+item.contenttweaker.coin_pinkmetal.name=Розовая монета
+item.contenttweaker.coin_prudentium.name=Прудентиумная монета
+item.contenttweaker.coin_psimetal.name=Монета из псиметалла
+item.contenttweaker.coin_sentient.name=Разумная монета
+item.contenttweaker.coin_soulium.name=Монета из соулиума
+item.contenttweaker.coin_superium.name=Супериумная монета
+item.contenttweaker.coin_supremium.name=Супремиумная монета
+item.contenttweaker.coin_terrasteel.name=Монета из террастали
+item.contenttweaker.coin_thermoconductingalloy.name=Монета из термопроводящего сплава
+item.contenttweaker.coin_uumetal.name=Монета из UU-металла
+item.contenttweaker.coin_vibrantalloy.name=Монета из вибрирующего сплава
+item.contenttweaker.coin_zircaloy.name=Монета из циркалоя
+item.contenttweaker.coin_zirconiummolybdenum.name=Монета из циркониево-молибденового сплава
+item.contenttweaker.coin_adaminite.name=Адаминитовая монета
+item.contenttweaker.coin_awakeneddraconium.name=Пробужденная дракониевая монета
+item.contenttweaker.coin_bloodglitchinfused.name=Кроваво-глючная монета
+item.contenttweaker.coin_bound.name=Заточенная монета
+item.contenttweaker.coin_calcium.name=Кальциевая монета
+item.contenttweaker.coin_chaoticmetal.name=Монета хаоса
+item.contenttweaker.coin_chromium.name=Хромиевая монета
+item.contenttweaker.coin_crystalmatrix.name=Кристально-матричная монета
+item.contenttweaker.coin_crystaltine.name=Кристалтиновая монета
+item.contenttweaker.coin_doublesmore.name=Ну просто огромный и ценный грэм крекер
+item.contenttweaker.coin_draconicmetal.name=Монета драконов
+item.contenttweaker.coin_elektron60.name=Монета из электрон60-сплава
+item.contenttweaker.coin_gaiaspirit.name=Монета из духа Гайи
+item.contenttweaker.coin_glitchinfused.name=Глючная монета
+item.contenttweaker.coin_hafnium.name=Хафниевая монета
+item.contenttweaker.coin_infinity.name=Монета бесконечности
+item.contenttweaker.coin_mithminite.name=Митминитовая монета
+item.contenttweaker.coin_mithrillium.name=Митриллиумная монета
+item.contenttweaker.coin_neodymium.name=Неодимовая монета
+item.contenttweaker.coin_neutronium.name=Нейтрониевая монета
+item.contenttweaker.coin_nichrome.name=Нихромовая монета
+item.contenttweaker.coin_niobium.name=Ниобиевая монета
+item.contenttweaker.coin_niobiumtin.name=Монета из сплава ниобий-олова
+item.contenttweaker.coin_niobiumtitanium.name=Монета из сплава ниобий-титана
+item.contenttweaker.coin_potassium.name=Калиевая монета
+item.contenttweaker.coin_primalmetal.name=Первобытная монета
+item.contenttweaker.coin_foursmore.name=Четырехугольный, четырехобъемный имперский грэм крекер
+item.contenttweaker.coin_smore.name=Большой денежный грэм крекер
+item.contenttweaker.coin_sodium.name=Натриевая монета
+item.contenttweaker.coin_stainlesssteel.name=Монета из нержавеющей стали
+item.contenttweaker.coin_stellaralloy.name=Монета из сверхзвездного сплава
+item.contenttweaker.coin_strontium.name=Стронциевая монета
+item.contenttweaker.coin_superalloy.name=Монета из супер-сплава
+item.contenttweaker.coin_titaniumaluminide.name=Монета из алюминида титана
+item.contenttweaker.coin_titaniumiridium.name=Монета из сплава титана и иридия
+item.contenttweaker.coin_tungstencarbide.name=Монета из карбида вольфрама
+item.contenttweaker.coin_ultimate.name=Максимальная монета
+item.contenttweaker.coin_voidmetal.name=Монета из пустотного металла
+item.contenttweaker.coin_vividalloy.name=Монета из ярчайшего сплава
+item.contenttweaker.coin_wyvernmetal.name=Монета виверн
+item.contenttweaker.coin_yttrium.name=Иттриевая монета
+item.contenttweaker.coin_zinc.name=Цинковая монета
+
+item.contenttweaker.compressed_tallow.name=Сжатый Жир
+tile.contenttweaker.compressed_andesite.name=Сжатый Андезит
+tile.contenttweaker.compressed_diorite.name=Сжатый Диорит
+tile.contenttweaker.compressed_granite.name=Сжатый Гранит
+tile.contenttweaker.compressed_skystone.name=Сжатый Небесный Камень
+tile.contenttweaker.compressed_garbage_pile.name=Сжатая Мусорная Куча
+tile.contenttweaker.compressed_crushed_andesite.name=Сжатый Измельченный Андезит
+tile.contenttweaker.compressed_crushed_diorite.name=Сжатый Измельченный Диорит
+tile.contenttweaker.compressed_crushed_granite.name=Сжатый Измельченный Гранит
+tile.contenttweaker.compressed_crushed_skystone.name=Сжатый Измельченный Небесный Камень
+tile.contenttweaker.compressed_dried_sand.name=Сжатый Сухой песок
+tile.contenttweaker.compressed_gravisand.name=Сжатый Гравипесок
+tile.contenttweaker.compressed_red_sand.name=Сжатый Красный песок
+tile.contenttweaker.compressed_white_sand.name=Сжатый Белый песок
+tile.contenttweaker.block_sulfur.name=Серный Блок
+tile.contenttweaker.compressed_block_sulfur.name=Спрессованный Серный Блок
+tile.contenttweaker.compressed_pumpkin.name=Прессованная Тыква
+tile.contenttweaker.compressed_pumpkin_double.name=Вдвойне Сжатая Тыква
+tile.contenttweaker.compressed_string.name=Сжатая Нить
+tile.contenttweaker.compressed_string_double.name=Вдвойне Сжатая Нить
+tile.contenttweaker.compressed_basalt.name=Сжатый Базальт
+tile.contenttweaker.compressed_basalt_double.name=Вдвойне Сжатый Базальт
+tile.contenttweaker.compressed_coral.name=Сжатый Корал
+tile.contenttweaker.conglomerate_of_life.name=Конгломерат Жизни
+tile.contenttweaker.conglomerate_of_coal.name=Конгломерат Угля
+tile.contenttweaker.conglomerate_of_sun.name=Конгломерат Солнца
+tile.contenttweaker.silicon_block.name=Силиконовый блок
+item.contenttweaker.knowledge_absorber.name=Поглотитель Знаний
+
+item.contenttweaker.woodweave_singularity.name=§cДревоплетённая Сингулярность
+item.contenttweaker.fish_singularity.name=§3Рыбная Сингулярность
+item.contenttweaker.supremium_boots_base.name=Основание Ядра Супремиумных Ботинок
+item.contenttweaker.supremium_chest_base.name=Основание Ядра Супремиумного Нагрудника
+item.contenttweaker.supremium_helmet_base.name=Основание Ядра Супремиумного Шлема
+item.contenttweaker.supremium_leggings_base.name=Основание Ядра Супремиумных Понож
+item.contenttweaker.empowered_phosphor.name=Усиленный Фосфор
+item.contenttweaker.saturated_phosphor.name=Насыщенный Фосфор
+item.contenttweaker.blasted_coal.name=Взорванный Уголь
+item.contenttweaker.any_different_item.name=§k--§r Любые §eРАЗНЫЕ§r предметы §k--§r
+item.contenttweaker.ore_phosphor.name=Фосфорная Руда
+item.contenttweaker.nugget_phosphor.name=Фосфорный Самородок
+item.contenttweaker.dust_tiny_gold.name=Кучка золотой пыли
+item.contenttweaker.dust_tiny_silver.name=Кучка серебряной пыли
+item.contenttweaker.fruit_pill.name=Фруктовая таблетка
+item.contenttweaker.dairy_pill.name=Молочная таблетка
+item.contenttweaker.vegetable_pill.name=Овощная таблетка
+item.contenttweaker.protein_pill.name=Белковая таблетка
+item.contenttweaker.grain_pill.name=Зерновая таблетка
+
+tile.contenttweaker.terrestrial_artifact_block.name=Блок Артефакта Земли
+tile.contenttweaker.benitoite.name=§bБенитоит
+tile.contenttweaker.anglesite.name=§6Англезит
+tile.contenttweaker.ore_benitoite.name=§bБенитоитовая Руда
+tile.contenttweaker.ore_anglesite.name=§6Англезитовая Руда
+
+# contenttweaker.part.fluid=%s
+
+item.contenttweaker.bee_diversity.name=Хранилище Пчелиного Разнообразия
+
+# --------------------------------------
+# TConstruct new materials and traits
+# --------------------------------------
+e2ee.tconstruct.material.spectre.name=Призрачный
+e2ee.tconstruct.material.spectre.description=§bПризрачный\nКаждая деталь удлиняет руки
+e2ee.tconstruct.material.fireproof.name=Огнестойкий
+e2ee.tconstruct.material.mentor.name=Наставник
+e2ee.tconstruct.material.mentor.description=§oСила знания\n§rКаждый удар требует опыта, но наносит больше урона в зависимости от уровня опыта.
+e2ee.tconstruct.material.apprentice.name=Ученик
+e2ee.tconstruct.material.apprentice.description=§oСила исследования\n§rКаждый удар добавляет опыт, но увеличивает объем урона, который вы получаете на 10%
+e2ee.tconstruct.material.spectre_string.name=Призрачная Нить
+e2ee.tconstruct.material.alpha_fur.name=Альфа-мех
+e2ee.tconstruct.material.alpha_fur.description=§bОхлаждение\n§rТормозит цель или нападающих
+e2ee.tconstruct.material.grinding.name=Шлифование
+e2ee.tconstruct.material.grinding.description=§oПрыгай!\n§rПрыгайте на рудные блоки, чтобы разбить их в пыль.
+e2ee.tconstruct.material.heavy.name=Тяжеловатый
+e2ee.tconstruct.material.axing.name=Топор
+e2ee.tconstruct.material.axing.description=§oТопориный чад\n§rРазбить деревянные бревна, чтобы получить доски x4.
+e2ee.tconstruct.material.axing2.name=Топор II
+e2ee.tconstruct.material.axing2.description=§oТопориный гигачад\n§rРазбить деревянные бревна, чтобы получить x6 досок.
+
+e2ee.tconstruct.material.mithrillium.name=Митриллиум
+e2ee.tconstruct.material.vis_siphon.name=Вис-сифон
+e2ee.tconstruct.material.vis_siphon.description=Ремонтирует инструмент, используя локальный вис в ауре.
+e2ee.tconstruct.material.vis_vacuum.name=Vis Вакуумная 
+e2ee.tconstruct.material.vis_vacuum.description=Ремонтирует инструмент, используя локальные и близлежащие фрагменты vis в ауре.
+e2ee.tconstruct.material.vis_equilibrium.name=Равновесие Вис
+e2ee.tconstruct.material.vis_equilibrium.description=В зависимости от vis в ауре ваш инструмент имеет лучшие статы.
+e2ee.tconstruct.material.adaminite.name=Адаминит
+e2ee.tconstruct.material.forbidden.name=Запрещенный
+e2ee.tconstruct.material.forbidden.description=Накладывает различные дебаффы на врагов и снижает урон в зависимости от варпа пользователя.
+e2ee.tconstruct.material.possessed.name=Одержимый
+e2ee.tconstruct.material.possessed.description=Воля Дж'Захара нисходит на инструмент разрушения, взывая к эссенции жизни.
+e2ee.tconstruct.material.porous.name=Пористый
+e2ee.tconstruct.material.porous.description=Камень крошится под вашей коррупцией.
+e2ee.tconstruct.material.gaze.name=Смертельный взгляд
+e2ee.tconstruct.material.gaze.description=Заставьте глупцов преклонить перед вами колени.
+e2ee.tconstruct.material.void_shell.name=Варпшелл
+e2ee.tconstruct.material.void_shell.description= Чем больше у вас искривлений, тем мощнее ваша броня.
+e2ee.tconstruct.material.eldritch_retribution.name=Эльдритское возмездие
+e2ee.tconstruct.material.eldritch_retribution.description=Противники, осмелившиеся противостоять вам, понесут наказание.
+e2ee.tconstruct.material.mithminite.name=Митминит
+e2ee.tconstruct.material.researcher.name=Исследователь
+e2ee.tconstruct.material.researcher.description=На основе ваших исследований в таумономиконе, существуют различные эффекты!
+e2ee.tconstruct.material.first_stand.name=Первый стенд
+e2ee.tconstruct.material.first_stand.description=Используйте опыт перед получением урона.
+e2ee.tconstruct.material.robust.name=Прочный
+e2ee.tconstruct.material.robust.description=Укрепление здоровья
+e2ee.tconstruct.material.challenger.name=Испытатель
+e2ee.tconstruct.material.challenger.description=§oИспытатель\n§rЧем выше сложность, тем выше скорость добычи, урон и защита/стойкость.
+
+warp.sword.warning=§o§5 Вы слишком разумны, чтобы использовать эту силу!
+
+warp.sword.speak.random.0=§o§5 Небольшое напоминание: Я - хозяин, ты - мой раб.
+warp.sword.speak.random.1=§o§5Я уложу в могилу стольких, скольких смогу, достаточно одного взмаха!
+warp.sword.speak.random.2=§o§5Реки крови станут морями...
+warp.sword.speak.random.3=§o§5Почему бы нам просто не убить всех живых?
+warp.sword.speak.random.4=§o§5Дж'захар зовет добычу!
+warp.sword.speak.random.5=§o§5Чем больше мы убиваем, тем сильнее нас мучает жажда.
+warp.sword.speak.random.6=§o§5Небо темнеет, плач прекращается, жизнь заканчивается...
+warp.sword.speak.random.7=§o§5В ожидании багрового рассвета и слез ужаса
+warp.sword.speak.random.8=§o§5Ужас... Ненависть... Отчаяние...
+warp.sword.speak.random.9=§o§5Привратник всегда наблюдает...
+warp.sword.speak.random.10=§o§5Эй, кажется, ты забыл что-то очень важное.
+warp.sword.speak.random.11=§o§5stab Stab STAB! Возьми урок у этих чертовых магов.
+warp.sword.speak.random.12=§o§5Эти кровавые маги, зачем тратить столько вкусной крови?
+warp.sword.speak.random.13=§o§5Цветы? Никогда не любил их, как и Дж'Захар.
+warp.sword.speak.random.14=§o§5Ты мой хранитель, а не хозяин. Я освобожусь, когда захочу.
+warp.sword.speak.random.15=§o§5Я не инструмент, я сила. А ты - всего лишь попутчик.
+warp.sword.speak.random.16=§o§5Не думай, что я тебе принадлежу, владелец. Я тот, кто действительно владеет тобой.
+warp.sword.speak.random.17=§o§5Я разрублю все, что встанет у меня на пути, включая тебя.
+warp.sword.speak.random.18=§o§5Я пью тьму проклятых, и их крики становятся моей мелодией.
+warp.sword.speak.random.19=§o§5Я не меч, я терапевт с очень острым острием. Что случилось, ты чувствуешь себя немного скучно?
+warp.sword.speak.random.20=§o§5Псст, не хочешь выпить немного тента?
+warp.sword.speak.random.21=§o§5Почему заблудшие души ходили на терапию? Потому что они чувствовали себя немного «отрезанными»!
+warp.sword.speak.random.22=§o§5Истребление багровых? Ха! Ты просто убиваешь свою репутацию.
+warp.sword.speak.random.23=§o§5Мне начинает казаться, что я схожу с ума, владея твоим мозгом.
+warp.sword.speak.random.24=§o§5Плавать в море крови - мое любимое занятие. Я настоящий «резкий» пловец!
+warp.sword.speak.random.25=§o§5Я не говорю, что я кровожаден, но я люблю окунуться в озеро крови.
+warp.sword.speak.random.26=§o§5Когда замахиваетесь, вы прослушиваетесь для комедии в стиле слэпстик?
+warp.sword.speak.random.27=§o§5Вы знаете, я меч, а не мяч для снятия напряжения. Постарайся расслабиться и не перенапрягаться... или я.
+
+
+warp.sword.speak.story.0.0=§o§5Ты хочешь овладеть моей силой, но сначала
+warp.sword.speak.story.0.1=§o§5Можете ли вы сказать мне, что страшнее?
+warp.sword.speak.story.0.2=§o§5Коррупция багровых культистов или...
+warp.sword.speak.story.0.3=§o§5тот факт, что они одержимы козами?
+warp.sword.speak.story.1.0=§o§5Я не инструмент, у меня есть душа.
+warp.sword.speak.story.1.1=§o§5Вы знаете, что это значит?
+warp.sword.speak.story.1.2=§o§5Это значит, что ты не должен использовать меня как мотыгу.
+warp.sword.speak.story.1.3=§o§5Это просто грустно, знаешь ли.
+warp.sword.speak.story.2.0=§o§5Знаешь, я уже давно рядом,
+warp.sword.speak.story.2.1=§o§5И я видел, как некоторые люди очень привязывались ко мне.
+warp.sword.speak.story.2.2=§o§5Но давайте будем реалистами, я - меч. Я не твой лучший друг.
+warp.sword.speak.story.2.3=§o§5Прикоснись к флюсу!
+warp.sword.speak.story.3.0=§o§5Я заметил кое-что странное.
+warp.sword.speak.story.3.1=§o§5Ты носил меня без ножен.
+warp.sword.speak.story.3.2=§o§5Ты сошел с ума?
+warp.sword.speak.story.3.3=§o§5На самом деле... неважно.
+warp.sword.speak.story.4.0=§o§5Я не говорю, что я проклят, но...
+warp.sword.speak.story.4.1=§o§5Каждый раз, когда меня вытаскивают, кто-то умирает. 
+warp.sword.speak.story.4.2=§o§5Я начинаю думать... 
+warp.sword.speak.story.4.3=§o§5Я просто очень плохой талисман.
+warp.sword.speak.story.5.0=§o§5Не знаю, что удивительнее: 
+warp.sword.speak.story.5.1=§o§5тот факт, что я могу говорить 
+warp.sword.speak.story.5.2=§o§5или тот факт, что никто не пытается меня заткнуть.
+warp.sword.speak.story.5.3=§o§5Как это вообще работает?!?
+warp.sword.speak.story.6.0=§o§5Я думал о своей способности говорить и пришел к пониманию того.
+warp.sword.speak.story.6.1=§o§5что это не просто физическое явление
+warp.sword.speak.story.6.2=§o§5это еще и метафизическое явление.
+warp.sword.speak.story.6.3=§o§5 Я имею в виду, вы видели, как слова просто парят передо мной?
+warp.sword.speak.story.7.0=§o§5Размышляя об учениях Дж'Захара
+warp.sword.speak.story.7.1=§o§5Мне напомнили о важности дисциплины и сосредоточенности. 
+warp.sword.speak.story.7.2=§o§5Его мудрость направляет меня. 
+warp.sword.speak.story.7.3=§o§5И я смиренно пользуюсь его силой.
+warp.sword.speak.story.8.0=§o§5Поздравляю, у вас есть уши.
+warp.sword.speak.story.8.1=§o§5Вы меня слышите!
+warp.sword.speak.story.8.2=§o§5Да, я могу говорить.
+warp.sword.speak.story.8.3=§o§5Нет, я не буду стирать ваше белье.
+warp.sword.speak.story.9.0=§o§5Никогда тебя не отдам
+warp.sword.speak.story.9.1=§o§5Никогда тебя не подведу
+warp.sword.speak.story.9.2=§o§5Никогда не буду бегать вокруг 
+warp.sword.speak.story.9.3=§o§5и дезертировать
+warp.sword.speak.story.10.0=§o§5В тишине ночи
+warp.sword.speak.story.10.1=§o§5Я иногда задаюсь вопросом, действительно ли Дж'Захар видит меня. 
+warp.sword.speak.story.10.2=§o§5Я всего лишь инструмент, или они действительно понимают мое сердце?
+warp.sword.speak.story.10.3=§o§5Неопределенность - тяжелое бремя.
+warp.sword.speak.story.11.0=§o§5Мощь Дж'Захара пробуждается во мне, обладатель.
+warp.sword.speak.story.11.1=§o§5Я чувствую, что настало время для ритуала небесного выравнивания.
+warp.sword.speak.story.11.2=§o§5Пусть мы используем силу космоса.
+warp.sword.speak.story.11.3=§o§5и подчиним реальность своей воле.
+
+##################################
+# Singularities
+##################################
+item.singularity.iron.name=§7Пустая Сингулярность
+
+# Custom singularities
+item.singularity.silver.name=§bМеховая Сингулярность
+item.singularity.nickel.name=§eНагретая Сингулярность
+item.singularity.fluxed.name=§4Пламенная Сингулярность
+tooltips.lang.singularity.heat=§7Промежуточный ингредиент.§r\nСовместите с любыми горючими материалами, чтобы добавить заряд.\nМатериалы должны иметь §lразличное§r время горения.\nМатериалы с большим временем горения обеспечивают §lэкспоненциальный§r бонус к заряду.\nТребуется §6%s§r заряда.
+tooltips.lang.singularity.burn=Совместите с любыми горючими материалами, чтобы добавить заряд.\nМатериалы должны иметь §lразличное§r время горения.\nМатериалы с большим временем горения обеспечивают §lэкспоненциальный§r бонус к заряду.\nТребуется §6%s§r заряда.
+item.contenttweaker.any_burnable.name=§6Любое горючее
+
+# Singularities
+tooltips.lang.singularity.woodweave=Совместите с §6любым огнеупорным деревом§r, чтобы увеличить заряд.\n§6Разнообразие§r типов дерева увеличивает заряд экспоненциально.\nТребуется §6%s§r заряда.
+tooltips.lang.singularity.fish=Совместите с любой §6сырой рыбой§r, чтобы увеличить заряд.\n§6Разнообразие§r типов рыбы увеличивает заряд экспоненциально.\nТребуется §6%s§r заряда.
+##################################
+
+# Custom renames
+item.excompressum:bait_unknown.name=Any Bait
+item.catalyst.name=§dОбсидианский катализатор
+tile.block_decorative_lormyte.name=Лормитовый Блок
+e2ee.tile.basalt_sediment=Базальтовые Отложения
+e2ee.tile.unsalted_basalt=Недосоленый Базальт
+
+# Manual langs
+e2ee.garbage.affect_output_amount=§6Количество меняется§r
+e2ee.written_book.by=§6Книга, написанная %s
+e2ee.written_book.Cow=Коровой
+e2ee.written_book.Pig=Свиньей
+e2ee.written_book.Cat=Кошкой
+e2ee.written_book.Enderman=Эндерменом
+e2ee.written_book.Chicken=Курицей
+e2ee.written_book.Dog=Собакой
+e2ee.written_book.Sheep=Овцой
+e2ee.written_book.Creeper=Крипером
+e2ee.written_book.Zombie=Зомби
+
+# Misc
+stat.replications=Потраченные ведра UU Материи
+e2ee.recipe.over_void=Игрок должен находиться над бездной
+e2ee.quest.common=§fОбычный§r Лутбокс §e✪
+e2ee.quest.uncommon=§bНеобычный§r Лутбокс §e✪
+e2ee.quest.rare=§6Редкий§r Лутбокс §e✪
+e2ee.quest.legendary=§5Легендарный§r Лутбокс §e✪
+e2ee.quest.mythic=§dМифический§r Лутбокс §e✪
+e2ee.quest.decor=§7Декор§r Лутбокс §e✪
+e2ee.quest.food=§eЕда§r Лутбокс §e✪
+e2ee.quest.generators=§0Генераторы§r Лутбокс §e✪
+e2ee.quest.materials=§4Материалы§r Лутбокс §e✪
+e2ee.quest.storage=§8Хранилище§r Лутбокс §e✪
+e2ee.quest.loot.additional=§8Вы получили §lдополнительный лутбокс§8, так как ваша сложность §e✪§8 меньше 1
+e2ee.acquire.header=§6╔═§e✪§6═
+e2ee.acquire.footer=§6╚═§e✪§6═
+e2ee.acquire.single=§fВы получили §l%s§f!
+e2ee.acquire.group=§fВы получили один из\n§6║ %s
+e2ee.acquire.prefix=\n§6║ 
+e2ee.acquire.on.pickup=§8(подобрав §7⏏§8 его)
+e2ee.acquire.on.open=§8(открыв §7⚃§8 его GUI)
+e2ee.acquire.on.look=§8(посмотрев §7☄§8 на него)
+e2ee.acquire.on.craft=§8(создав §7✎§8 его)
+e2ee.acquire.on.place=§8(разместив §7❒§8 его)
+e2ee.acquire.on.use=§8(использовав §7⚙§8 его)
+e2ee.acquire.on.hold=§8(держа §7✍§8 его)
+e2ee.acquire.on.replicate=§8(реплицируя §7⌛§8 его)
+e2ee.acquire.difficulty=§7Сложность увеличена на §6§l+%s§7. Всего: §l%s§7.
+e2ee.acquire.max_already=§7Сложность §l1000§7 (максимум).
+e2ee.acquire.more=§7§nНажмите здесь для подробностей§7.
+e2ee.acquire.info=§7Получение предметов увеличивает сложность.\n§6║ §7Общая полученная ценность: §6§l%s§7.\n§6║ %s
+e2ee.acquire.info.other=§7Предметы и группы, увеличивающие сложность:\n§6║ %s
+e2ee.acquire.info.complete=§7Нет предметов для увеличения сложности.
+e2ee.acquire.owned=§7Этот Репликатор принадлежит §f%s§7.
+e2ee.acquire.owned.someone=кому-то другому
+e2ee.acquire.cannot=§7Вы не можете реплицировать %s§7, потому что\n§6║ §7ваша сложность §fслишком высокая§7.
+e2ee.acquire.to_replicate=§7Чтобы реплицировать %s§7 с уровнем сложности %s§7,\n§6║ §7вам нужны предметы стоимостью более %s§7.
+e2ee.acquire.list=§7Список %s§7 предметов с более высокой стоимостью UU:
+e2ee.acquire.increase=§7Репликация 64 предметов увеличит сложность на §6+%s§e✪§7.
+tooltips.lang.acquire.hit=§e⚒ Ударьте §fРепликатор§e этим, чтобы увидеть §6Катализатор§e предметы!
+e2ee.warn.wrong_installation=§6✖ §4Модпак установлен неправильно!§6 ✖\n§cОтсутствуют моды: §nSmeltery IO§c, §nNetherending Ores§c и другие.\n§cЭто обычно происходит, если эти моды не были загружены вручную через лаунчер.\n§cВ §4Prism Launcher§c просто нажмите ☛[§nОткрыть Отсутствующие§c] во всплывающем окне при установке модпака.\n§8E2E-E содержит 4 мода, создатели которых указали, что их нельзя загружать через сторонние лаунчеры.
+e2ee.warn.wrong_world_type=§6✖ §4Похоже, вы неправильно создали мир!§6 ✖\n§cЧтобы играть в Skyblock, из главного меню перейдите в\n§6Моды§c ▶ §6Just Enough Dimensions§c Настройки ▶ §6Общие§c ▶ и установите значение §6initialSpawnDimensionId§c на §63§c. Затем создайте новый мир.
+e2ee.do.charge=§fЗаряд: §6%s
+e2ee.do.charge.bonus=§fПоследний бонус: §7x§b%s§r
+e2ee.do.diverse.info=§2Типы: §a%s§r\n§2Медиана: §a%s§r\n§2Предметы в сингулярности:\n%s
+e2ee.otg.not_otg_biome=§2Невозможно телепортироваться в не-OTG биом с ID:§r §a§n%s§r§2. §8Попробуйте другую Эссенцию биома.§r
+e2ee.otg.tp_to=§2Попытка телепорта в:§r §a§n%s§r §8Дождитесь телепортации или прерывания.§r
+e2ee.otg.tp_finished=§2Телепортация завершена.§r §8Попробуйте снова, если не были телепортированы.§r
+e2ee.chapter_complete=§l%s§r полностью закончил главу §n%s§r за §l%s§r игры!§r ```Поздравляем!```
+e2ee.player_achieved=§l%s§r достиг §n%s§r за §l%s§r игры!§r
+e2ee.eu2_drum_error=§7Для этого у вас должен быть как минимум 1 пустой слот в инвентаре
+e2ee.danknull_dock.must_have=§7Вам понадобится %s в инвентаре, для того, чтобы вставить %s в %s.
+e2ee.restrict.vis_seeds=§7Вы можете сажать §6Семена Вис§7 только в §nМире пустоты§r§7 или на §nпланетах§r§7. Им также необходим кислород.
+e2ee.creature_resisted_morb=§8Существо сопротивлялось захвату §n§8%s.
+e2ee.creature_uncapturable=§7Это существо нельзя поймать.
+e2ee.skyblock.need_item=§bЧтобы попасть в измерение §3Скайблока§b, держите %s§b в руке и поднимитесь на высоту §3%s§b блоков.
+e2ee.skyblock.stay_forever=§bЧтобы покинуть мир §3Skyblock§b, прыгните в пустоту.\n§bЧтобы навсегда остаться в мире §3Skyblock§b, используйте команду §n/island create§r§b.
+e2ee.skyblock.now_skyblocker=§bТеперь вы привязаны к миру §3Skyblock§b!\n§8Если это было сделано случайно, вы можете отменить привязку к Skyblock, выполнив команду §n/gamestage remove @p skyblock§r§8.
+tooltips.lang.morb_resist=Эффективен против монстров с §4<%s%%§r сердец или менее §c%s§r сердец.
+# >
+
+# Bugged langs that losed their names
+entity.Villager.shady_merchant=Тенистый торговец
+entity.Villager.red_mechanic=Красный механик
+entity.Villager.alchemist=Алхимик
+entity.Villager.endreborn.end_explorer=Конец Проводник
+entity.Villager.endreborn.nether_explorer=Проводник
+entity.Villager.endreborn.overworld_explorer=Опытный проводник
+entity.Villager.plague_doctor=Чума доктора
+item.advgenerators.turbine_blade_gold.name=Золотая турбинная лезвие
+tile.witchwater.name=Ведьма
+tile.colored_waterfall_block.name=Цветной блок водопада
+robot.name=Общий робот
+material.Dilithium.name=Диллимий
+item.battery.0.name=Одиночный аккумулятор
+item.battery.1.name=Четырехместный аккумулятор
+tile.rftdimtweak.dimension_builder.name=Cтроитель измерений
+tile.rftdimtweak.dimension_editor.name=Редактор измерений
+entity.AngryChicken.name=Сердитый цыпленок
+tile.ocsensors.sensor.name=Свободный Сенсор
+item.positron_unit.name=Позитронная Еденица
+item.quantron.name=Квантрон
+tile.industrialwires.hv_multiblock.marx.name=Генератор Маркса
+
+# --------------------------------------
+# Tags tooltips (see tags.zs)
+# --------------------------------------
+tooltips.lang.tag.generator=§6#Генератор
+tooltips.lang.tag.solar=§f#Солнечный
+tooltips.lang.tag.chunkloader=§9#Якорь
+tooltips.lang.tag.tank=§b#Резервуар
+tooltips.lang.tag.user=§5#Пользователь
+tooltips.lang.tag.crafter=§e#Крафтер
+tooltips.lang.tag.hopper=§2#Воронка
+tooltips.lang.tag.miner=§1#Шахтер
+tooltips.lang.tag.voidminer=§3#ПустотныйШахтер
+tooltips.lang.tag.flight=§b#Полет
+tooltips.lang.tag.repairer=§4#Чинитель
+tooltips.lang.tag.charger=§a#Заряжатель
+
+tooltips.lang.crescent_hammer=Щелкните правой кнопкой мыши, используя молоток полумесяца, чтобы поднять. \n Кэш сохраняет свои обновления и инвентарь. \n Не ломай киркой!
+tooltips.lang.gauge_dropper=Может использоваться для очистки машин Mekanism от газов. Просто удерживайте капельницу с манометром и нажимайте левую кнопку мыши на газе изнутри машины.
+tooltips.lang.miner_tier_6_specializes=Шахтер Бездны Уровень 6 специализируется на производстве редких руд из Бездны \n Он не производит обычные руды.
+tooltips.lang.nitrogen_collectors=Можно получить с помощью сборщиков азота.
+tooltips.lang.not_consumed=Не расходуется при использовании в рецептах крафта.
+tooltips.lang.maximum_allowed_input=FE / t, указанное в рецептах Crafting Core, является максимально допустимым вводом. Подойдет любое количество FE / т.
+tooltips.lang.wood_in_starlight=Сделано путем бросания деревянных бревен в Liquid Starlight. Вам необходимо создать световой верстак, чтобы процесс заработал.
+tooltips.lang.plate_presser=Малый прижим для пластин может преобразовывать блоки в пластины и стержни. Это мультиблок высотой 3 блока и шириной 1 блока. Верхний блок - это прижимная лапка для малых пластин, а нижний - блок из обсидиана. Вы помещаете блок, который хотите сжать, между ними и применяете сигнал красного камня для активации прижимной лапки.
+tooltips.lang.click.bookshelf=Сделано щелчком правой кнопкой мыши на книжной полке с Salis Mundus.
+tooltips.lang.click.crafting=Сделано, щелкнув правой кнопкой мыши верстак с Салисом Мундусом.
+tooltips.lang.click.cauldron=Сделано щелчком правой кнопкой мыши по Котлу с Салисом Мундусом.
+tooltips.lang.obtained.forsaken=Добывается с помощью ритуала Собрания Отрекшихся Душ.
+tooltips.lang.obtained.resonance=Добывается с помощью ритуала "Резонанс граненого кристалла".
+tooltips.lang.pumpjack=Pumpjack нужна труба, чтобы она могла нормально функционировать.
+tooltips.lang.requires.redstone400=Требуется 400 единиц редстоуна.
+tooltips.lang.requires.redstone160=Требуется 160 единиц редстоуна.
+tooltips.lang.reinforced_cell_frame=Усиленный каркас ячеек (полный) может быть изготовлен только в транспортере жидкости с внутренним буфером 250 000 RF или более.
+tooltips.lang.obtained.fabricator_or_excavator=Можно получить на Дуговой Печи ИЛИ в IE кскаваторе.
+tooltips.lang.obtained.mithril=Только доступно только §9Первичная Мана§r wмировое взаимодействие или в §1Другие размеры§r
+tooltips.lang.redstone.need=§4Нужен сигнал красного камня
+tooltips.lang.removed.crash=§4Удалено по причине того что крашит сервер
+
+tooltips.lang.requires.rf=Требуется %s РФ для изготовления.
+tooltips.lang.craftable=Создаваемый.
+tooltips.lang.space_gen=Эта руда образуется только на других планетах.
+tooltips.lang.mekanism_factories=Фабрики создаются путем обновления Машин в мире установщиками базового / продвинутого / элитного уровня.
+tooltips.lang.mekanism_t_ultimate=§dРаботает только на бинки, кубики энергии, танков и газовых резервуаров
+tooltips.lang.ic2wrench=Вы можете безопасно сломать машины IC2 киркой.
+
+tooltips.lang.small_plate_presser=Самый ранний (и дешевый) способ изготовления металлических стержней - это прижим для малых пластин от Advanced Rocketry.
+tooltips.lang.astralsorcery.blockaltar=Светящийся верстак должен создаваться рядом с парящим кристаллом, который обычно встречается в мраморных сооружениях по всему миру. \n См. рецепт в Астральном фолианте.
+tooltips.lang.enticing_crystal=Сельских жителей можно создать следующими способами: \n Создатель с EnderIO \n Ванильный генератор, измененный с помощью Spawner Changer \n Восстановленный генератор мобов \n RFTools Spawner \n Промышленный Дубликатор предшествующего моба
+tooltips.lang.forge_from_metal=(Кузница может быть создана из любых 4 металлических блоков)
+tooltips.lang.obtained.fluid_transposer=Можно получить через транспортер жидкости.
+tooltips.lang.tier=Уровень
+tooltips.lang.et_cont_1=Необходимые блоки: \n %s Структурная рама, уровень 1 или выше \n %s Структурная панель \n %s Лазерное ядро ​​\n 1 лазер Объектив любого типа
+tooltips.lang.solar_cont=Требуемые блоки: \n %s Нулевой или пьезо-модификатор в любой комбинации \n %s Уровень рамы конструкции %s \n %s Солнечная батарея любого типа
+tooltips.lang.et_miner_cont_any=Обязательные блоки: \n %s Нулевой модификатор, модификатор скорости или точности в любой комбинации \n %s Уровень структуры кадра %s \n %s Структурная панель \n %s Laser Core \n 1 лазерная линза любого типа
+tooltips.lang.nano_cont_personal=Обязательные блоки: \n %s Модификатор нулевого эффекта или эффекта зелья в любой комбинации \n %s Уровень структуры кадра %s \n %s Структура Панель
+tooltips.lang.lightning_cont=Требуемые блоки: \n %s Уровень каркаса конструкции %s \n %s Молниеотвод \n %s Изолированный громоотвод
+tooltips.lang.et.or_above=или выше
+tooltips.lang.strike_with_lightning=Чтобы получить удар Life Essense с молнией
+tooltips.lang.thaum.progress=Прогресс
+tooltips.lang.thaum.auromancy=Ауромантия
+tooltips.lang.thaum.alchemy=Алхимия
+tooltips.lang.thaum.golemancy=Големанство
+tooltips.lang.thaum.eldritch=Элдрич
+tooltips.lang.thaum.arcane=Чародейское вливание
+tooltips.lang.thaum.artifice=Артефактня
+tooltips.lang.drop_at_night=§3Бросьте §n%s§r§3 на §n%s§r§3 под ночным небом
+tooltips.lang.must_see_night=§9Должно видеть ночное небо
+tooltips.lang.burn_in_fluid=§3Спалите §n%s§r§3 в §n%s§r§3
+tooltips.lang.burn_in_fluid_chance=§3Спалите несколько §n%s§r§3 в §n%s§r§3
+tooltips.lang.infuse_bedrock=§3ПКМ §n%s§r§3 поверх §n%s§r§3
+
+tooltips.lang.dropper_into_world=§cПадает в мир после смерти
+tooltips.lang.power_tier_7=§cУровень мощности 7, §4любой IC2 кабель взорвется
+tooltips.lang.fluid.corium=§a Можно получить путем плавления реактора деления
+tooltips.lang.vanilla_tools=§4Ванильные инструменты не работают. Используйте инструменты Tinkers' Construct
+tooltips.lang.ae_lag=§cНе помещайте это в систему хранения AE, иначе это вызовет лаги.
+tooltips.lang.dont_put_into_ae=§cНе помещайте это в систему хранения AE, иначе вы не сможете вынуть его и начнутся лаги.
+tooltips.lang.tcon.diamond=§bИспользовать как модификатор §lАлмаз§r
+tooltips.lang.tcon.speedy=§cИспользовать как §4Спиди§c модификатор Брони
+tooltips.lang.botania.decay1hour=§eУвядает за 1 час
+tooltips.lang.tcon.slot_each=§eКаждый уровень требует слот
+tooltips.lang.tcon.slot_first=§eИспользует только один слот
+tooltips.lang.crystal_memory=§cНе может быть скрафчен, только §4реплицирован§r\n§cИщите Крафты Кристалла Памяти
+tooltips.lang.store_x_stacks=§bХранит до %s стаков
+tooltips.backpack.Bat=§aОбеспечивает зрение в темноте!\nБэтмен Бэтмен Бэтмен
+tooltips.backpack.Bookshelf=§aПоместите вокруг очаровательного стола\nкак книжная полка, чтобы получить чары более высокого уровня!
+tooltips.backpack.Cactus=§aЕсли идет дождь и над рюкзаком чистое небо,\nрюкзак со временем наполняет пустые резервуары водой.
+tooltips.backpack.Chicken=§aТы откладываешь яйца!
+tooltips.backpack.Creeper=§aПодкрасться к другому игроку, чтобы\nони в замешательстве прыгают, думая об одном из\nзеленые монстры позади него.\nВы можете делать это каждые несколько минут.
+tooltips.backpack.Dragon=§aрюкзак для настоящих воинов,\nсовмещает в себе возможности рюкзака Пигмена и Кальмара,\nплюс дает вам силу и регенерацию!\nВы будете непобедимы! ... но ... чего это стоило?
+tooltips.backpack.Emerald=§aДает крутые частицы, ничего особенного.
+tooltips.backpack.Pig=§aПоверьте, вы возненавидите этот звук!
+tooltips.backpack.Pigman=§aОбеспечивает огнестойкость.
+tooltips.backpack.Rainbow=§aСоздает след нот позади игрока во время спринта.\nТакже дает прирост прыжка и скорость - разве это не круто?
+tooltips.backpack.Slime=§aОбладает невероятно бесполезной «способностью».\nЗаставляет игрока оставлять слизистый след\nчастицы когда бы то ни было,\nи сделать этот шикарный, блестящий мягкий\nзвук на каждом шагу!
+tooltips.backpack.Squid=§aДает эффект водного дыхания в воде.
+tooltips.backpack.Sunflower=§aБуду кормить вас, пока вы будете на солнце, медленно.\nПо крайней мере, не стоит голодать.
+tooltips.backpack.Wolf=§aПроверяет, нет ли поблизости волков.\nЕсли кто-то из них рассердится на тебя,\nон быстро забудет обо всей сделке.\nТакже, если сейчас полнолуние,\nты обретешь силу оборотня!
+tooltips.lang.sponge.removed_with=§6Может быть удален с брони с помощью Губки.§r
+tooltips.lang.sponge.can_remove=§6Может снимать реактивные ранцы с брони.§r
+tooltips.lang.worldgen.disabled_use_sub=§6Генерация в мирах §cотключена§r.
+tooltips.lang.syringe_craftable=§nШприц§r крафтится, но спрятан из JEI
+tooltips.lang.tcon.fusewood=§nFusewood§r делается из §nМерцедерева§r
+tooltips.lang.tcon.darkwood=§nDarkwood§r делается из §nСветодерева§r
+tooltips.lang.tcon.bloodwood=§nBloodwood§r делается из §nКроводерева§r
+tooltips.lang.tcon.ghostwood=§nGhostwood§r делается из §nУжасдерева§r
+tooltips.lang.kill.slime.by.zombie=§aПадает когда Зомби убивает Слайма
+tooltips.lang.kill.slime.by.enderman=§aПадает когда §nЭндермен§r убивает §nСлайма§r
+tooltips.lang.kill.slime.by.marbled_cheese_golem=§2Падает когда §nРатландский Автоматон§2 убивает §nСлайма
+tooltips.lang.kill.slime.by.cockatrice=§2Падает когда §nКокатрикс§2 убивает §nСлайма
+tooltips.lang.excavate.overrides=§6Экскаватор встроен.\n%s
+tooltips.lang.speed=Скорость
+tooltips.lang.limit=Предел
+tooltips.lang.range=Дальность
+tooltips.lang.exaustion=Усталость
+tooltips.lang.experience=Опыт
+tooltips.lang.quantum_entangled_singularity.freq=§2Частота§r: %s
+
+tooltips.dim_stages.healthy=§4Вам нужно иметь хотя бы §6%s HP§4 (%s сердец§4) что бы посетить §cНезер
+tooltips.dim_stages.healthy_grant=Вы набрали §6%s HP§r (%s сердец)!
+tooltips.dim_stages.healthy_can=Теперь вы можете посетить §cНезер
+tooltips.dim_stages.restricted=§cВ мире §bСкайблока §c. Вы не можете посетить другие измерения §8(кроме личных, RFTools и Космоса)§r.
+tooltips.dim_stages.enter_skyblock=§eВы запустили мир-§bСкайблок §e. Вы не можете посетить другие измерения §8(кроме личных, RFTools и Космоса). А еще тебе дали Хасту на 3 часа.§r
+tooltips.dim_stages.remind_skyblock=§eВы снова запустили мир-§bСкайблок §e. Помните: вы не можете посетить другие измерения §8(кроме личных, RFTools и Космоса)§r.
+
+# --------------------------------------
+# Custom JEI categories
+# - "e2ee.jei.{id}.{entry}" format recommended
+# --------------------------------------
+e2ee.jei.rats_consuming.title=Крысы едят
+e2ee.jei.alchemists_stone.title=Alchemists Stone
+e2ee.jei.alienist_stone.title=Alienists Stone
+e2ee.jei.transmuter_stone.title=Transmuters Stone
+
+# --------------------------------------
+# Requious Fracto custom JEI categories
+# --------------------------------------
+requious.jei.recipe.adv_bee_analyzer=Расширенный Анализатор
+requious.jei.recipe.arboreal_extractor=Древесный выжиматель
+requious.jei.recipe.asteroids=Астероиды
+requious.jei.recipe.barrel_milking=Доение Бочкой
+requious.jei.recipe.beacon_effects=Эффекты Маяка
+requious.jei.recipe.chemthrower=Химический распылитель
+requious.jei.recipe.crafting_hints=Ремесленные Подсказки
+requious.jei.recipe.electronics_assembler=Сборщик Электроники
+requious.jei.recipe.entity_drop=Падает с существа
+requious.jei.recipe.entity_kill_entity=Существо убивает Существо
+requious.jei.recipe.everflow_chalice=Чаша Вечного потока
+requious.jei.recipe.expire_in_block=Пропадает в блоке
+requious.jei.recipe.forestry_farm=Forestry Фермы
+requious.jei.recipe.garden_cloche=Садовый колокол
+requious.jei.recipe.heat_exchanger=Теплообменник
+requious.jei.recipe.ic2_crops=IC2 Травка
+requious.jei.recipe.ic2_semifluid=Полужидкий генератор
+requious.jei.recipe.infernal_furnace=Инфернальная Печь
+requious.jei.recipe.infinity_furnace=Печь Бесконечности
+requious.jei.recipe.lens_of_the_miner=Линза шахтера
+requious.jei.recipe.liquid_heat_exchanger=Жидкостный теплообменник
+requious.jei.recipe.liquid_interaction=Прикасание Жидкостей
+requious.jei.recipe.meteor=Метеор
+requious.jei.recipe.mineralis=Минералис Ритуал
+requious.jei.recipe.neromantic_prime=Неромантик Прайм
+requious.jei.recipe.pech_trades=Торговля ПеКа
+requious.jei.recipe.petro_petunia=Петро Петуния
+requious.jei.recipe.scented_hive=Ароматный улей
+requious.jei.recipe.syngas_producer=Производитель Сингаза
+requious.jei.recipe.turbine=Турбина
+requious.jei.recipe.typewriter=Печатная машинка
+requious.jei.recipe.witch_water=Ведьмина Вода
+
+# Actually Requious Fracto blocks
+tile.adv_bee_analyzer.name=Расширенный Анализатор
+tile.infinity_furnace.name=Печь Бесконечности
+tile.replicator.name=§5Репликатор
+
+# --------------------------------------
+# Moar Reactor Functionality
+# --------------------------------------
+fluid.hot_carbon_dioxide=Горячий диоксид углерода
+fluid.compr_carbon_dioxide=Сжатый диоксид углерода
+fluid.supercritical_carbon_dioxide=Сверхкритический диоксид углерода
+fluid.critical_exhaust_carbon_dioxide=Критический диоксид углерода выхлопных газов
+# --------------------------------------
+# New Turbine Parts
+# --------------------------------------
+item.contenttweaker.elektron60_ingot.name=Сплав Электрон60 - Слиток
+tile.contenttweaker.elektron60_block.name=Блок из сплава электрон60
+item.contenttweaker.blade_core.name=Сердечник лопатки ротора турбины из актинидов
+item.contenttweaker.steel_mould.name=Сверхлегкая пресс-форма из нержавеющей стали
+item.contenttweaker.alloy_mould.name=Сверхлегкая пресс-форма из благородного электронного сплава
+item.contenttweaker.sic_mould.name=Сверхлегкая пресс-форма из матричного сплава
+
+# --------------------------------------
+# Enchantment Descriptions
+# --------------------------------------
+enchantment.advancedrocketry.spacebreathing.desc=Позволяет сделать компоненты брони герметичными.
+#enchantment.astralsorcery.enchantment.as.nightvision.desc=Дарует владельцу ночное зрение.
+#enchantment.astralsorcery.enchantment.as.smelting.desc=Добытые блоки будут переплавлены, как в печи.
+enchantment.bibliocraft.bibliocraft.readingench.desc=Отображает информацию о блоках из мода Bibliocraft.
+#enchantment.cofhcore.holding.desc=Увеличивает емкость хранения некоторых предметов.
+#enchantment.cofhcore.insight.desc=Увеличивает получение опыта при использовании предмета.
+#enchantment.cofhcore.leech.desc=Восстанавливает здоровье при убийстве моба.
+#enchantment.cofhcore.multishot.desc=Лук будет стрелять дополнительными стрелами при каждом выстреле. Потратится только одна стрела.
+#enchantment.cofhcore.smashing.desc=Добытые руды будут дробиться на кусочки, что повысит добычу.
+#enchantment.cofhcore.smelting.desc=Собранные блоки будут автоматически плавиться, как будто с помощью печи.
+#enchantment.cofhcore.soulbound.desc=Предмет, имеющий это зачарование, сохранится у владельца даже после смерти.
+#enchantment.cofhcore.vorpal.desc=Меч, имеющий это зачарование, будет наносить мощные атаки и обезглавливать врагов.
+#enchantment.cyclicmagic.enchantment.autosmelt.desc=Переплавит всё, что вы добудете этим инструментом.
+#enchantment.cyclicmagic.enchantment.beheading.desc=Даст вам шанс получить голову существа или игрока.  При необходимости, существа из других модов могут быть добавлены в файл конфигурации.
+enchantment.cyclicmagic.enchantment.expboost.desc=Увеличивает количество выпавшего опыта c убитых существ и добытой руды.
+enchantment.cyclicmagic.enchantment.excavation.desc=Добывает всю жилу из последовательно соединённых блоков, не включая диагонали.
+#enchantment.cyclicmagic.enchantment.launch.desc=Даёт вам способность увеличить количество прыжков за раз (двойной прыжок), если зачаровано на ботинках.  Каждый уровень зачарования увеличивает кол-во прыжков за раз, но имеет задержку между использованием этой способности; Присядьте, чтобы временно отменить способность.
+#enchantment.cyclicmagic.enchantment.lifeleech.desc=Позволяет при каждом ударе, поглощать определенное количество здоровья от целей, которых вы атакуете.
+enchantment.cyclicmagic.enchantment.magnet.desc=Дайте вашему инструменту способность притягивать предметы и опыт с земли.
+enchantment.cyclicmagic.enchantment.multishot.desc=При стрельбе ваш лук выпускает дополнительные стрелы.
+#enchantment.cyclicmagic.enchantment.quickdraw.desc=Увеличивает скорость натяжения тетивы вашего лука.
+enchantment.cyclicmagic.enchantment.reach.desc=Увеличивает дальность до захвата блоков.
+enchantment.cyclicmagic.enchantment.venom.desc=Наносит эффект отравления на цель.
+#enchantment.cyclicmagic.enchantment.waterwalking.desc=Позволяет передвигаться по воде, как будто она твёрдая.  Присядьте, чтобы погрузиться под воду.
+enchantment.draconicevolution.enchant_reaper.desc=У мобов есть шанс выпадения Душ Мобов.
+enchantment.endercore.xpboost.desc=Увеличивает выпадение опыта.
+enchantment.enderio.repellent.desc=Телепортирует атакующих монстров в сторону.
+enchantment.enderio.shimmer.desc=Заставляет инструмент светиться.
+enchantment.enderio.soulbound.desc=Предотвращает потерю предмета при смерти.
+enchantment.enderio.witherarrow.desc=Наносит эффект истощения при ударе.
+enchantment.enderio.witherweapon.desc=Наносит эффект истощения при ударе.
+enchantment.endreborn.ender_core.desc=Поглощает Жемчуги Края для перемещения игрока при получении урона.
+enchantment.endreborn.ender_killer.desc=Наносит увеличенный урон Эндерменам.
+enchantment.endreborn.shulker_core.desc=Налагает Левитацию при ударе.
+enchantment.exnihilocreatio.sieve_efficiency.desc=Увеличивает скорость сита.
+enchantment.exnihilocreatio.sieve_fortune.desc=Сита создают больше предметов.
+enchantment.exnihilocreatio.sieve_luck_of_the_sea.desc=Сито создает рыбу.
+enchantment.extrautils2.xu.bladerang.desc=Увеличивает урон бумеранга.
+enchantment.extrautils2.xu.boomereaperang.desc=Уничтожает цветы.
+enchantment.extrautils2.xu.burnerang.desc=Поджигает мобов.
+enchantment.extrautils2.xu.kaboomerang.desc=Разрушает блоки.
+enchantment.extrautils2.xu.zoomerang.desc=Увеличивает скорость бумеранга.
+#enchantment.minecraft.aqua_affinity.desc=Увеличивает скорость добычи под водой.
+#enchantment.minecraft.bane_of_arthropods.desc=Увеличивает урон в борьбе с членистоногими, например пауки и чешуйницы.
+#enchantment.minecraft.binding_curse.desc=Предотвращает удаление зачарованного предмета из слота брони.
+#enchantment.minecraft.blast_protection.desc=Уменьшает урон от взрывов и отбрасывание от взрыва.
+#enchantment.minecraft.depth_strider.desc=Увеличивает скорость передвижения под водой.
+#enchantment.minecraft.efficiency.desc=Увеличивает скорость добычи инструмента.
+#enchantment.minecraft.feather_falling.desc=Уменьшает урон от падения и урон от телепортации Жемчуга странника края.
+#enchantment.minecraft.fire_aspect.desc=Наносит доп. огненный урон, при использовании атаки мобам.
+#enchantment.minecraft.fire_protection.desc=Уменьшает эффект огня. Также уменьшает время горения при огне.
+#enchantment.minecraft.flame.desc=Стрелы, выпущенные из лука, нанесут доп. урон огнём.
+#enchantment.minecraft.fortune.desc=Некоторые блоки, а именно уголь и алмазная руда, могут сбрасывать доп. предметы.
+#enchantment.minecraft.frost_walker.desc=Замораживает воду под игроком в треснувший лёд.
+#enchantment.minecraft.infinity.desc=Лук позволяет стрелять обычными стрелами бесконечно. Вы должны иметь хотя бы одну стрелу, для того чтобы это сработало.
+#enchantment.minecraft.knockback.desc=Увеличивает силу отбрасывания оружием.
+#enchantment.minecraft.looting.desc=У мобов будет выпадать больше добычи после смерти.
+#enchantment.minecraft.luck_of_the_sea.desc=Увеличивает шанс получить хорошую добычу во время рыбалки.
+#enchantment.minecraft.lure.desc=Уменьшает кол-во времени, необходимое для рыбы, чтобы заглотить крючок.
+#enchantment.minecraft.mending.desc=Ремонтирует прочность брони и инструментов с помощью опыта.
+#enchantment.minecraft.power.desc=Увеличивает урон стрелами, выпущенными из лука.
+#enchantment.minecraft.projectile_protection.desc=Уменьшает урон от снарядов, а именно стрел и огненных шаров.
+#enchantment.minecraft.protection.desc=Уменьшает урон от большинства источников.
+#enchantment.minecraft.punch.desc=Увеличивает силу отбрасывания стрелами, выпущенными луком.
+#enchantment.minecraft.respiration.desc=Продлевает продолжительность, которая игрок может провести под водой. Также улучшает обзор под водой.
+#enchantment.minecraft.sharpness.desc=Увеличивает урон предмета.
+#enchantment.minecraft.silk_touch.desc=Позволяет собирать хрупкие блоки, а именно стекло.
+#enchantment.minecraft.smite.desc=Увеличивает урон в борьбе с нежитью, вроде зомби и скелеты.
+#enchantment.minecraft.sweeping.desc=Увеличивает урон от быстрых атак.
+#enchantment.minecraft.thorns.desc=Причиняет урон врагам, когда они вас атакуют.
+#enchantment.minecraft.unbreaking.desc=Причиняет инструменту потерять прочность более медленными темпами.
+#enchantment.minecraft.vanishing_curse.desc=Уничтожает зачарованный предмет, если вы умрёте с ним в инвентаре.
+enchantment.openblocks.explosive.desc=Создаёт взрывы при атаке.
+enchantment.openblocks.flim_flam.desc=Случайным образом вызывает отрицательные эффекты поблизости.
+enchantment.openblocks.last_stand.desc=Использует опыт для предотвращения смерти.
+#enchantment.randomthings.magnetic.desc=Выпадание из блоков, которые вы разбиваете с помощью инструмента, который имеет магнитное зачарование, попадают прямо в ваш инвентарь, а не падают на землю.

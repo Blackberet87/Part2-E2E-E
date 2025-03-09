@@ -1,0 +1,82 @@
+{
+	title: "{q.draconic_evolution.draconic_chestplate.name}",
+	icon: {
+		tag: {
+			Energy: 16000000
+		},
+		id: "draconicevolution:draconic_chest"
+	},
+	x: 8.7d,
+	y: -7.1000000000000005d,
+	shape: "hexagon",
+	text: [
+		"{q.draconic_evolution.draconic_chestplate.desc}"
+	],
+	dependencies: [
+		"9043cbbc"
+	],
+	tasks: [{
+		uid: "67446d22",
+		type: "item",
+		items: [{
+			tag: {
+				Energy: 16000000
+			},
+			id: "draconicevolution:draconic_helm"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3351bb7d",
+		type: "item",
+		items: [{
+			tag: {
+				Energy: 16000000
+			},
+			id: "draconicevolution:draconic_chest"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "53817c7e",
+		type: "item",
+		items: [{
+			tag: {
+				Energy: 16000000
+			},
+			id: "draconicevolution:draconic_legs"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a118c677",
+		type: "item",
+		items: [{
+			tag: {
+				Energy: 16000000
+			},
+			id: "draconicevolution:draconic_boots"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d3f6dbd4",
+		type: "custom",
+		title: "{e2ee.quest.legendary}",
+		icon: {
+			tag: {
+				type: "legendary"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	},
+	{
+		uid: "bc69f68f",
+		type: "command",
+		auto: "invisible",
+		command: "gamestage silentadd @p armor_draconic"
+	}]
+}

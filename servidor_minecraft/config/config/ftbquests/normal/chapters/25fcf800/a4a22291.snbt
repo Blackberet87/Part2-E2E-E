@@ -1,0 +1,32 @@
+{
+	x: 3.75d,
+	y: 3.5d,
+	text: [
+		"{q.environmental_tech.void_ore_miner_con.desc}"
+	],
+	dependencies: [
+		"b2bc3ad7"
+	],
+	tasks: [{
+		uid: "2a16e6ef",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0cb9e83e",
+		type: "custom",
+		title: "{e2ee.quest.rare}",
+		icon: {
+			tag: {
+				type: "rare"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

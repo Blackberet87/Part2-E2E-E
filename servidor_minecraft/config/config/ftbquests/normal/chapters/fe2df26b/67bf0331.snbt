@@ -1,0 +1,16 @@
+{
+	title: "{q.applied_energetics.packaged_ex_crafting.name}",
+	icon: "packagedexcrafting:advanced_crafter",
+	x: 6.8d,
+	y: 1.0d,
+	text: [
+		"{q.applied_energetics.packaged_ex_crafting.desc}"
+	],
+	dependencies: [
+		"d1ac96d8"
+	],
+	tasks: [{
+		uid: "67e31243",
+		type: "checkmark"
+	}]
+}

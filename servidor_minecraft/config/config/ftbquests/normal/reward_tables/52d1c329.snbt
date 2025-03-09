@@ -1,0 +1,22 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: {
+			tag: {
+				Energy: 320000
+			},
+			id: "redstonearsenal:tool.sword_flux"
+		}
+	},
+	{
+		item: "redstonearsenal:storage"
+	},
+	{
+		item: {
+			tag: {
+				type: "uncommon"
+			},
+			id: "ftbquests:lootcrate"
+		}
+	}]
+}

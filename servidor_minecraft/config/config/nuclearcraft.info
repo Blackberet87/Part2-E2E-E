@@ -1,0 +1,191 @@
+# Configuration file
+
+output {
+    S:fission_placement <
+        water_sink -> one cell
+        iron_sink -> one moderator
+        redstone_sink -> one cell && one moderator
+        quartz_sink -> one redstone sink
+        obsidian_sink -> two axial glowstone sinks
+        nether_brick_sink -> one obsidian sink
+        glowstone_sink -> two moderators
+        lapis_sink -> one cell && one casing
+        gold_sink -> exactly two iron sinks
+        prismarine_sink -> two water sinks
+        slime_sink -> exactly one water sink && two lead sinks
+        end_stone_sink -> one reflector
+        purpur_sink -> one reflector && one iron sink
+        diamond_sink -> one cell && one gold sink
+        emerald_sink -> one moderator && one prismarine sink
+        copper_sink -> one water sink
+        tin_sink -> two axial lapis sinks
+        lead_sink -> one iron sink
+        boron_sink -> exactly one quartz sink && one casing
+        lithium_sink -> exactly two axial lead sinks && one casing
+        magnesium_sink -> exactly one moderator && one casing
+        manganese_sink -> two cells
+        aluminum_sink -> one quartz sink && one lapis sink
+        silver_sink -> two glowstone sinks && one tin sink
+        fluorite_sink -> one gold sink && one prismarine sink
+        villiaumite_sink -> one redstone sink && one end_stone sink
+        carobbiite_sink -> one end_stone sink && one copper sink
+        arsenic_sink -> two axial reflectors
+        liquid_nitrogen_sink -> two copper sinks && one purpur sink
+        liquid_helium_sink -> exactly two redstone sinks
+        enderium_sink -> three moderators
+        cryotheum_sink -> three cells
+        standard_heater -> one vessel
+        iron_heater -> one moderator
+        redstone_heater -> one vessel && one moderator
+        quartz_heater -> one redstone heater
+        obsidian_heater -> two axial glowstone heaters
+        nether_brick_heater -> one obsidian heater
+        glowstone_heater -> two moderators
+        lapis_heater -> one vessel && one casing
+        gold_heater -> exactly two iron heaters
+        prismarine_heater -> two standard heaters
+        slime_heater -> exactly one standard heater && two lead heaters
+        end_stone_heater -> one reflector
+        purpur_heater -> one reflector && one iron heater
+        diamond_heater -> one vessel && one gold heater
+        emerald_heater -> one moderator && one prismarine heater
+        copper_heater -> one standard heater
+        tin_heater -> two axial lapis heaters
+        lead_heater -> one iron heater
+        boron_heater -> exactly one quartz heater && one casing
+        lithium_heater -> exactly two axial lead heaters && one casing
+        magnesium_heater -> exactly one moderator && one casing
+        manganese_heater -> two vessels
+        aluminum_heater -> one quartz heater && one lapis heater
+        silver_heater -> two glowstone heaters && one tin heater
+        fluorite_heater -> one gold heater && one prismarine heater
+        villiaumite_heater -> one redstone heater && one end_stone heater
+        carobbiite_heater -> one end_stone heater && one copper heater
+        arsenic_heater -> two axial reflectors
+        liquid_nitrogen_heater -> two copper heaters && one purpur heater
+        liquid_helium_heater -> exactly two redstone heaters
+        enderium_heater -> three moderators
+        cryotheum_heater -> three vessels
+     >
+    S:turbine_placement <
+        magnesium_coil -> one bearing || one connector
+        beryllium_coil -> one magnesium coils
+        aluminum_coil -> two magnesium coil
+        gold_coil -> one aluminum coil
+        copper_coil -> one beryllium coil
+        silver_coil -> one gold coil && one copper coil
+        connector -> one of any coil
+        lapisconverter_coil -> one obsidianstabilizer coil || one bricknetherstabilizer coil
+        diamondconverter_coil -> one slimeballstabilizer coil || one boronstabilizer coil || one lapisconverter coil
+        emeraldconverter_coil -> one manganesedioxidestabilizer coil || one diamondconverter coil
+        prismarineconverter_coil -> one manganeseoxidestabilizer coil || one emeraldconverter coil
+        arsenicconverter_coil -> one zircaloystabilizer coil || one prismarineconverter coil
+        carobbiiteconverter_coil -> one boronarsenidestabilizer coil || one arsenicconverter coil
+        fluoriteconverter_coil -> one boronnitridestabilizer coil || one carobbiiteconverter coil
+        rhodochrositeconverter_coil -> one hardcarbonstabilizer coil || one fluoriteconverter coil
+        villiaumiteconverter_coil -> one hslasteelstabilizer coil || one rhodochrositeconverter coil
+        zirconiumconverter_coil -> one lithiummanganesedioxidestabilizer coil || one villiaumiteconverter coil
+        glowstoneconverter_coil -> one magnesiumdiboridestabilizer coil || one zirconiumconverter coil
+        quartzconverter_coil -> one toughstabilizer coil || one glowstoneconverter coil
+        molybdenumconverter_coil -> one coriumstabilizer coil || one quartzconverter coil
+        endstoneconverter_coil -> one extremealloystabilizer coil || one molybdenumconverter coil
+        purpurconverter_coil -> one liquidheliumstabilizer coil || one endstoneconverter coil
+        cobaltconverter_coil -> one liquidnitrogenstabilizer coil || one purpurconverter coil
+        lumiumconverter_coil -> one sicsiccmcstabilizer coil || one cobaltconverter coil
+        bariumconverter_coil -> one sodiumstabilizer coil || one lumiumconverter coil
+        witheriteconverter_coil -> one bariumoxidestabilizer coil || one bariumconverter coil
+        promethium147converter_coil -> one caesium137stabilizer coil || one witheriteconverter coil
+        mercuryconverter_coil -> one thermoconductingstabilizer coil || one promethium147converter coil
+        niobiumtinconverter_coil -> one zirconiummolybdenumstabilizer coil || one mercuryconverter coil
+        baratolconverter_coil -> one nichromestabilizer coil || one niobiumtinconverter coil
+        gold198converter_coil -> one niobiumstabilizer coil || one baratolconverter coil
+        europium155converter_coil -> one titaniumstabilizer coil || one gold198converter coil
+        strontiumconverter_coil -> one tungstencarbidestabilizer coil || one europium155converter coil
+        enderiumconverter_coil -> one cryotheumstabilizer coil || one strontiumconverter coil
+        terbiumconverter_coil -> one bariumnitratestabilizer coil || one enderiumconverter coil
+        ytterbiumconverter_coil -> one iodinestabilizer coil || one terbiumconverter coil
+        baseconverter_coil -> one basemagnet coil
+        antitritiumconverter_coil -> one antideuteriumstabilizer coil || one ytterbiumconverter coil
+        redstoneextractor_coil -> one lapisconverter coil || one diamondconverter coil
+        aluminiumextractor_coil -> one emeraldconverter coil || one prismarineconverter coil || one redstoneextractor coil
+        copperextractor_coil -> one arsenicconverter coil || one carobiiteconverter coil || one aluminiumextractor coil
+        goldextractor_coil -> one fluoriteconverter coil || one rhodochrositeconverter coil || one copperextractor coil
+        berylliumextractor_coil -> one zirconiumconverter coil || one villiaumiteconverter coil || one goldextractor coil
+        graphiteextractor_coil -> one glowstoneconverter coil || one quartzconverter coil || one berylliumextractor coil
+        magnesiumextractor_coil -> one molybdenumconverter coil || one endstoneconverter coil || one graphiteextractor coil
+        silverextractor_coil -> one purpurconverter coil || one cobaltconverter coil || one magnesiumextractor coil
+        signalumextractor_coil -> one lumiumconverter coil || one bariumconverter coil || one silverextractor coil
+        smoreextractor_coil -> one witheriteconverter coil || one silverextractor coil
+        electrumextractor_coil -> one promethium147converter coil || one smoreextractor coil
+        calciumextractor_coil -> one mercuryconverter coil || one electrumextractor coil
+        hafniumextractor_coil -> one niobiumtinconverter coil || one calciumextractor coil
+        lithium6deuterideextractor_coil -> one baratolconverter coil || one hafniumextractor coil
+        superalloyextractor_coil -> one gold198converter coil || one lithium6deuterideextractor coil
+        yttriumextractor_coil -> one europium155converter coil || one superalloyextractor coil
+        platinumextractor_coil -> one strontiumconverter coil || one yttriumextractor coil
+        erbiumextractor_coil -> one enderiumconverter coil || one platinumextractor coil
+        radioactiveearthextractor_coil -> one terbiumconverter coil || one erbiumextractor coil
+        osmiridiumextractor_coil -> one ytterbiumconverter coil || one radioactiveearthextractor coil
+        baseextractor_coil -> one baseconverter coil
+        antiheliumextractor_coil -> one antitritiumconverter coil || one osmiridiumextractor coil
+        antihelium3extractor_coil -> one antiheliumextractor coil 
+        ironmagnet_coil -> one bearing
+        lithiummagnet_coil -> one connector
+        constantanmagnet_coil -> one ironmagnet coil || one lithiummagnet coil
+        manganesemagnet_coil -> one lithiummagnet coil
+        bronzemagnet_coil -> one ironmagnet coil
+        leadmagnet_coil -> one ironmagnet coil && one lithiummagnet coil
+        nickelmagnet_coil -> two lithiummagnet coils
+        steelmagnet_coil -> two ironmagnet coils
+        tinmagnet_coil -> three ironmagnet coils || three lithiummagnet coils
+        ferroboronmagnet_coil -> one manganesemagnet coil || one bronzemagnet coil || one constantanmagnet coil || one leadmagnet coil
+        siliconcarbidemagnet_coil -> one tinmagnet coil
+        invarmagnet_coil -> one steelmagnet coil || one nickelmagnet coil
+        potassiummagnet_coil -> one siliconcarbidemagnet coil
+        chromiummagnet_coil -> two ferroboronmagnet coils || two siliconcarbidemagnet coils || two invarmagnet coils
+        tungstenmagnet_coil -> one nakmagnet coil
+        zincmagnet_coil -> one potassiummagnet coil
+        neodymiummagnet_coil -> one tungstenmagnet coil
+        osmiummagnet_coil -> one zincmagnet coil
+        iridiummagnet_coil -> one neodymiummagnet coil || one osmiummagnet coil
+        samariummagnet_coil -> one neodymiummagnet coil || one osmiummagnet coil
+        basemagnet_coil -> one bearing
+        nakmagnet_coil -> one ferroboronmagnet coil || one invarmagnet coil
+        antihydrogenmagnet_coil -> one iridiummagnet coil || one samariummagnet coil
+        bricknetherstabilizer_coil -> one ironmagnet coil
+        obsidianstabilizer_coil -> one bricknetherstabilizer coil || one lithiummagnet coil
+        slimeballstabilizer_coil -> one obsidianstabilizer coil
+        boronstabilizer_coil -> one slimeballstabilizer coil || one manganesemagnet coil
+        manganesedioxidestabilizer_coil -> one boronstabilizer coil || one bronzemagnet coil
+        manganeseoxidestabilizer_coil -> one manganesedioxidestabilizer coil
+        zircaloystabilizer_coil -> one manganeseoxidestabilizer coil || one constantanmagnet coil
+        boronarsenidestabilizer_coil -> one zircaloystabilizer coil || one leadmagnet coil
+        boronnitridestabilizer_coil -> one boronarsenidestabilizer coil
+        hardcarbonstabilizer_coil -> one boronnitridestabilizer coil || one nickelmagnet coil
+        hslasteelstabilizer_coil -> one hardcarbonstabilizer coil || one steelmagnet coil
+        lithiummanganesedioxidestabilizer_coil -> one hslasteelstabilizer coil
+        magnesiumdiboridestabilizer_coil -> one lithiummanganesedioxidestabilizer coil || one tinmagnet coil
+        toughstabilizer_coil -> one magnesiumdiboridestabilizer coil || one ferroboronmagnet coil
+        extremealloystabilizer_coil -> one coriumstabilizer coil || one siliconcarbidemagnet coil
+        sicsiccmcstabilizer_coil -> one extremealloystabilizer coil || one nakmagnet coil
+        sodiumstabilizer_coil -> one sicsiccmcstabilizer coil
+        bariumoxidestabilizer_coil -> one sodiumstabilizer coil || one potassiummagnet coil
+        caesium137stabilizer_coil -> one bariumoxidestabilizer coil || one chromiummagnet coil
+        thermoconductingstabilizer_coil -> one caesium137stabilizer coil
+        zirconiummolybdenumstabilizer_coil -> one thermoconductingstabilizer coil || one tungstenmagnet coil
+        nichromestabilizer_coil -> one zirconiummolybdenumstabilizer coil || one zincmagnet coil
+        niobiumstabilizer_coil -> one nichromestabilizer coil 
+        titaniumstabilizer_coil -> one niobiumstabilizer coil || one neodymiummagnet coil 
+        tungstencarbidestabilizer_coil -> one titaniumstabilizer coil || one osmiummagnet coil 
+        bariumnitratestabilizer_coil -> one cryotheumstabilizer coil || one iridiummagnet coil
+        iodinestabilizer_coil -> one bariumnitratestabilizer coil || one samariummagnet coil
+        coriumstabilizer_coil -> one toughstabilizer coil
+        liquidheliumstabilizer_coil -> one extremealloystabilizer coil
+        liquidnitrogenstabilizer_coil -> one liquidheliumtabilizer coil || one invarmagnet coil
+        cryotheumstabilizer_coil -> one tungstencarbidestabilizer coil
+        basestabilizer_coil -> one basemagnet coil
+        antideuteriumstabilizer_coil -> one antihydrogenmagnet coil || one iodinestabilizer coil
+     >
+}
+
+

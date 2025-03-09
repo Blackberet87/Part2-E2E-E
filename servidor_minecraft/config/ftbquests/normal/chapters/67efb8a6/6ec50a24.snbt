@@ -1,0 +1,42 @@
+{
+	x: 9.1d,
+	y: -6.4d,
+	shape: "hexagon",
+	text: [
+		"{q.draconic_evolution.draconic_axe.desc}"
+	],
+	dependencies: [
+		"0fa6089d"
+	],
+	tasks: [{
+		uid: "88715f37",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Items: [],
+					Size: 18
+				}
+			},
+			tag: {
+				Energy: 16000000
+			},
+			id: "draconicevolution:draconic_axe"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1780f48d",
+		type: "custom",
+		title: "{e2ee.quest.rare}",
+		icon: {
+			tag: {
+				type: "rare"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

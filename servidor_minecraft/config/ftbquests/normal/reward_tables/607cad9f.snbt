@@ -1,0 +1,22 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: {
+			tag: {
+				Material: "elementium"
+			},
+			id: "tconstruct:large_sword_blade"
+		}
+	},
+	{
+		item: "botania:storage 1 2"
+	},
+	{
+		item: {
+			tag: {
+				type: "uncommon"
+			},
+			id: "ftbquests:lootcrate"
+		}
+	}]
+}

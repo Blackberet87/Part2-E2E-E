@@ -1,0 +1,76 @@
+{
+	title: "{q.getting_started.excavation.name}",
+	x: -4.0d,
+	y: 2.0d,
+	text: [
+		"{q.getting_started.excavation.desc}"
+	],
+	dependencies: [
+		"c35399e6"
+	],
+	tasks: [{
+		uid: "82cff715",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"plustic:musicofthespheres_cap": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:fruitsalad_cap": {
+					Items: [],
+					Size: 5
+				}
+			},
+			tag: {
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood",
+						"wood"
+					],
+					Modifiers: []
+				},
+				Stats: {
+					FreeModifiers: 3,
+					MiningSpeed: 1.5f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 1.5f,
+					Durability: 56
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"tool",
+						"harvest"
+					]
+				},
+				StatsOriginal: {
+					FreeModifiers: 3,
+					MiningSpeed: 1.5f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 0,
+					Attack: 1.5f,
+					Durability: 56
+				}
+			},
+			id: "tconstruct:pickaxe"
+		},
+		{
+			item: "minecraft:wooden_pickaxe"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f0dda096",
+		type: "item",
+		item: "oeintegration:excavatemodifier",
+		count: 2
+	}]
+}

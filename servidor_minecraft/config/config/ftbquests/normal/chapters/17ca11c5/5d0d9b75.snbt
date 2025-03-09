@@ -1,0 +1,31 @@
+{
+	x: 5.958333333333333d,
+	y: 10.958333333333332d,
+	text: [
+		"{q.bragging_rights.world_breaker.desc}"
+	],
+	dependencies: [
+		"5b1cc401"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "0e5497d6",
+		type: "item",
+		items: [{
+			tag: {
+				ench: [{
+					id: 35s,
+					lvl: 10s
+				}]
+			},
+			id: "avaritia:infinity_pickaxe"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "81cd1349",
+		type: "command",
+		auto: "invisible",
+		command: "/tellraw @a [{\"text\":\"# `\",\"color\":\"dark_gray\",\"extra\":[{\"text\":\"@p\",\"bold\":true,\"color\":\"light_purple\"},\"`\",{\"text\":\" has obtained the \",\"color\":\"white\"},\"*\",{\"translate\":\"World Breaker\",\"color\":\"gold\",\"bold\":true},\"*\",{\"text\":\"!\",\"color\":\"white\"}]}]"
+	}]
+}

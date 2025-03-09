@@ -1,0 +1,37 @@
+{
+	title: "{q.industrialcraft.crystal_memory.name}",
+	x: 12.1d,
+	y: 5.0d,
+	text: [
+		"{q.industrialcraft.crystal_memory.desc}"
+	],
+	dependencies: [
+		"658445bd"
+	],
+	tasks: [{
+		uid: "7d4454b8",
+		type: "custom",
+		title: "Hit anything with written Crystal Memory",
+		icon: {
+			tag: {},
+			id: "ic2:crystal_memory"
+		},
+		tags: [
+			"crystal_memory_hit"
+		]
+	}],
+	rewards: [{
+		uid: "982885d8",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

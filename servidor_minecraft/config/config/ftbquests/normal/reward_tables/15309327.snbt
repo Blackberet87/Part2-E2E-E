@@ -1,0 +1,370 @@
+{
+	title: "Uncommon",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			tag: {
+				type: "storage"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		weight: 25
+	},
+	{
+		item: {
+			tag: {
+				flooCount: 128
+			},
+			id: "randomthings:floopouch"
+		}
+	},
+	{
+		icon: "conarm:resist_mat 2",
+		item: "conarm:resist_mat",
+		count: 2
+	},
+	{
+		icon: "conarm:resist_mat_blast 8",
+		item: "conarm:resist_mat_blast",
+		count: 8
+	},
+	{
+		icon: "conarm:resist_mat_fire 8",
+		item: "conarm:resist_mat_fire",
+		count: 8
+	},
+	{
+		icon: "conarm:resist_mat_proj 8",
+		item: "conarm:resist_mat_proj",
+		count: 8
+	},
+	{
+		icon: "tconstruct:materials 4 14",
+		item: "tconstruct:materials 1 14",
+		count: 4
+	},
+	{
+		icon: "tconstruct:materials 2 19",
+		item: "tconstruct:materials 1 19",
+		count: 2
+	},
+	{
+		item: "tconstruct:materials 1 16"
+	},
+	{
+		item: "conarm:gauntlet_mat_attack"
+	},
+	{
+		item: "conarm:gauntlet_mat_speed"
+	},
+	{
+		item: "openblocks:golden_egg"
+	},
+	{
+		item: {
+			tag: {
+				preview: {
+					bBox: [I;
+						0,
+						0,
+						0,
+						1,
+						1,
+						1
+					],
+					tile: {
+						block: "minecraft:stone"
+					}
+				}
+			},
+			id: "littletiles:chisel"
+		}
+	},
+	{
+		item: "conarm:travel_soul"
+	},
+	{
+		item: "conarm:travel_night"
+	},
+	{
+		item: "conarm:travel_slowfall"
+	},
+	{
+		item: "openblocks:sponge_on_a_stick"
+	},
+	{
+		item: "minecraft:elytra"
+	},
+	{
+		item: "draconicevolution:dislocator"
+	},
+	{
+		item: {
+			tag: {},
+			id: "botania:exchangerod"
+		}
+	},
+	{
+		item: "botania:terraformrod"
+	},
+	{
+		item: "tconstruct:slimesling"
+	},
+	{
+		item: "testdummy:dummy"
+	},
+	{
+		icon: "scannable:module_blank 8",
+		item: "scannable:module_blank",
+		count: 8
+	},
+	{
+		item: "openblocks:hang_glider"
+	},
+	{
+		icon: "openblocks:beartrap 32",
+		item: "openblocks:beartrap",
+		count: 32
+	},
+	{
+		item: {
+			tag: {
+				rotationBase: 637.62756f,
+				equipped: 0b
+			},
+			id: "botania:autocraftinghalo"
+		}
+	},
+	{
+		item: "extrautils2:boomerang"
+	},
+	{
+		item: {
+			tag: {
+				Energy: 200000
+			},
+			id: "rftools:charged_porter"
+		}
+	},
+	{
+		icon: "tconstruct:throwball 16 1",
+		item: "tconstruct:throwball 1 1",
+		count: 16
+	},
+	{
+		item: {
+			tag: {
+				chiseldata: {}
+			},
+			id: "chisel:chisel_hitech"
+		}
+	},
+	{
+		item: {
+			tag: {
+				Fluid: {
+					Amount: 10000,
+					FluidName: "lava"
+				}
+			},
+			id: "randomthings:reinforcedenderbucket"
+		}
+	},
+	{
+		item: {
+			tag: {
+				mekData: {
+					name: "Robit",
+					energyStored: 100000.0d,
+					Items: []
+				}
+			},
+			id: "mekanism:robit"
+		}
+	},
+	{
+		item: "betterbuilderswands:wanddiamond"
+	},
+	{
+		item: "extrautils2:itembuilderswand"
+	},
+	{
+		item: {
+			tag: {
+				StoredEnchantments: [{
+					id: 16s,
+					lvl: 10s
+				}]
+			},
+			id: "minecraft:enchanted_book"
+		}
+	},
+	{
+		item: "mysticalagriculture:watering_can 1 4"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				Parent: {
+					Items: [],
+					Size: 1
+				}
+			},
+			tag: {
+				"IE:Shader": {
+					Damage: 0s,
+					id: "immersiveengineering:shader",
+					Count: 1b,
+					tag: {
+						shader_name: "Hollow"
+					}
+				},
+				energy: 1600,
+				upgrades: {
+					scope: 1b,
+					speed: 1.0f
+				}
+			},
+			id: "immersiveengineering:railgun"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				Parent: {
+					Items: [],
+					Size: 1
+				}
+			},
+			tag: {
+				"IE:Shader": {
+					Damage: 0s,
+					id: "immersiveengineering:shader",
+					Count: 1b,
+					tag: {
+						shader_name: "Dominator"
+					}
+				},
+				upgrades: {
+					capacity: 2000,
+					focus: 1b
+				},
+				Fluid: {
+					Amount: 4000,
+					FluidName: "moltensalt"
+				}
+			},
+			id: "immersiveengineering:chemthrower"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				Parent: {
+					Items: [],
+					Size: 21
+				}
+			},
+			tag: {
+				"IE:Shader": {
+					Damage: 0s,
+					id: "immersiveengineering:shader",
+					Count: 1b,
+					tag: {
+						shader_name: "Microshark"
+					}
+				},
+				upgrades: {
+					bullets: 6,
+					melee: 6.0f
+				},
+				bullets: []
+			},
+			id: "immersiveengineering:revolver"
+		}
+	},
+	{
+		item: {
+			tag: {
+				mekData: {
+					stored: {
+						gasName: "hydrogen",
+						amount: 24000
+					}
+				}
+			},
+			id: "mekanism:flamethrower"
+		}
+	},
+	{
+		item: {
+			tag: {
+				tc.charge: 100
+			},
+			id: "thaumcraft:grapple_gun"
+		}
+	},
+	{
+		item: "villagermarket:villager_market"
+	},
+	{
+		item: "cyclicmagic:magic_net"
+	},
+	{
+		item: "mysticalagriculture:infusion_crystal"
+	},
+	{
+		item: {
+			tag: {
+				mekData: {
+					energyStored: 64000.0d
+				}
+			},
+			id: "mekanism:freerunners"
+		}
+	},
+	{
+		item: {
+			tag: {
+				mekData: {
+					stored: {
+						gasName: "oxygen",
+						amount: 24000
+					}
+				}
+			},
+			id: "mekanism:scubatank"
+		}
+	},
+	{
+		item: {
+			tag: {
+				"oc:charge": 15000.0d
+			},
+			id: "opencomputers:hoverboots"
+		}
+	},
+	{
+		icon: "forestry:kit_shovel 24",
+		item: "forestry:kit_shovel",
+		count: 24
+	},
+	{
+		icon: "forestry:kit_pickaxe 24",
+		item: "forestry:kit_pickaxe",
+		count: 24
+	},
+	{
+		item: "advancedrocketry:hovercraft"
+	}],
+	loot_crate: {
+		string_id: "uncommon",
+		item_name: "Uncommon",
+		color: 8103344,
+		drops: {
+			boss: 0,
+			monster: 0,
+			passive: 0
+		}
+	}
+}

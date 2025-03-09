@@ -1,0 +1,38 @@
+{
+	title: "{q.gates.conflux_i.name}",
+	icon: "extendedcrafting:material 1 8",
+	x: 14.6d,
+	y: 0.5d,
+	shape: "square",
+	text: [
+		"{q.gates.conflux_i.desc}"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"00f29513",
+		"e07d1afe",
+		"2957f2cc",
+		"3a9c8200",
+		"009a4c27"
+	],
+	size: 0.75d,
+	rewards: [{
+		uid: "63777c33",
+		type: "custom",
+		title: "Give next Conflux tier role",
+		tags: [
+			"conflux_i"
+		],
+		auto: "enabled"
+	},
+	{
+		uid: "f9ec55d7",
+		type: "item",
+		item: {
+			tag: {
+				Fluid: "petrotheum"
+			},
+			id: "thermalexpansion:florb"
+		}
+	}]
+}

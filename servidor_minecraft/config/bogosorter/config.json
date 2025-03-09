@@ -1,0 +1,57 @@
+{
+  "General": {
+    "enableAutoRefill": true,
+    "refillDmgThreshold": 0,
+    "enableHotbarSwap": true,
+    "sortSound": "minecraft:ui.button.click",
+    "buttonColor": "#ffffffff"
+  },
+  "ItemSortRules": [
+    {
+      "name": "block_type",
+      "inverted": false
+    },
+    {
+      "name": "hunger",
+      "inverted": true
+    },
+    {
+      "name": "saturation",
+      "inverted": true
+    },
+    {
+      "name": "mod",
+      "inverted": false
+    },
+    {
+      "name": "meta",
+      "inverted": false
+    },
+    {
+      "name": "nbt_has",
+      "inverted": false
+    },
+    {
+      "name": "nbt_rules",
+      "inverted": false
+    },
+    {
+      "name": "id",
+      "inverted": false
+    }
+  ],
+  "NbtSortRules": [
+    {
+      "name": "enchantment_book",
+      "inverted": false
+    },
+    {
+      "name": "enchantment",
+      "inverted": false
+    },
+    {
+      "name": "potion",
+      "inverted": false
+    }
+  ]
+}

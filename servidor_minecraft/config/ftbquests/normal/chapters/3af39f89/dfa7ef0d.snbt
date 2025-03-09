@@ -1,0 +1,39 @@
+{
+	icon: {
+		tag: {
+			Energy: 0,
+			Facing: 1b,
+			RSControl: 0b,
+			Level: 0b
+		},
+		id: "thermalexpansion:dynamo"
+	},
+	x: 4.8d,
+	y: 7.1d,
+	text: [
+		"{q.thermal_expansion.mini_gate_dynamos.desc}"
+	],
+	dependencies: [
+		"aa982aad"
+	],
+	tasks: [{
+		uid: "e37c0ac1",
+		type: "item",
+		items: [{
+			tag: {
+				Energy: 0,
+				Facing: 1b,
+				RSControl: 0b,
+				Level: 0b
+			},
+			id: "thermalexpansion:dynamo"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f240635d",
+		type: "item",
+		item: "thermalexpansion:augment 1 512",
+		count: 3
+	}]
+}

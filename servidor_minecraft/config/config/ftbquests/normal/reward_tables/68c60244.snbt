@@ -1,0 +1,14 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: "ic2:wrench_new"
+	},
+	{
+		item: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		}
+	}]
+}

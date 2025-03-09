@@ -1,0 +1,44 @@
+{
+	icon: "thaumicwonders:primordial_grain",
+	x: 11.0d,
+	y: -3.0d,
+	text: [
+		"{q.thaumcraft.primordial_grain.desc}"
+	],
+	dependencies: [
+		"948f2215"
+	],
+	tasks: [{
+		uid: "2dbbb9e2",
+		type: "item",
+		items: [{
+			item: "thaumicwonders:primordial_grain"
+		}]
+	},
+	{
+		uid: "5897a50a",
+		type: "item",
+		items: [{
+			item: "thaumicwonders:primordial_accelerator"
+		}]
+	},
+	{
+		uid: "f6860861",
+		type: "item",
+		items: [{
+			item: "thaumicwonders:primordial_accelerator_tunnel"
+		}]
+	},
+	{
+		uid: "b5abd926",
+		type: "item",
+		items: [{
+			item: "thaumicwonders:primordial_accelerator_terminus"
+		}]
+	}],
+	rewards: [{
+		uid: "ae9ba963",
+		type: "item",
+		item: "thaumadditions:jar_mithminite"
+	}]
+}

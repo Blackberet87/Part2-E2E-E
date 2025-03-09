@@ -1,0 +1,16 @@
+{
+	loot_size: 1,
+	rewards: [{
+		icon: "draconicevolution:chaotic_core 2",
+		item: "draconicevolution:chaotic_core",
+		count: 2
+	},
+	{
+		item: {
+			tag: {
+				Material: "chaotic_metal"
+			},
+			id: "tconstruct:sword_blade"
+		}
+	}]
+}

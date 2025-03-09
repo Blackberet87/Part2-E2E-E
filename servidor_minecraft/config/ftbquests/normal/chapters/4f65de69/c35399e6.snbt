@@ -1,0 +1,75 @@
+{
+	title: "{q.getting_started.tinker_s_construct.name}",
+	icon: {
+		tag: {
+			textureBlock: {
+				Damage: 0s,
+				Count: 1b,
+				id: "minecraft:log"
+			}
+		},
+		Damage: 2s,
+		id: "tconstruct:tooltables"
+	},
+	x: -4.0d,
+	y: 3.5d,
+	text: [
+		"{q.getting_started.tinker_s_construct.desc}"
+	],
+	dependencies: [
+		"f968d750"
+	],
+	tasks: [{
+		uid: "3ef2f3f2",
+		type: "item",
+		items: [{
+			tag: {
+				textureBlock: {
+					Damage: 0s,
+					Count: 1b,
+					id: "minecraft:planks"
+				}
+			},
+			Damage: 1s,
+			id: "tconstruct:tooltables"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8a466e3e",
+		type: "item",
+		items: [{
+			tag: {
+				textureBlock: {
+					Damage: 0s,
+					Count: 1b,
+					id: "minecraft:log"
+				}
+			},
+			Damage: 2s,
+			id: "tconstruct:tooltables"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6375a12f",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ca018d1f",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c5173bba",
+		type: "choice",
+		table: 39
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: "botania:terrasword"
+	},
+	{
+		item: "botania:storage 1 1"
+	},
+	{
+		item: {
+			tag: {
+				type: "uncommon"
+			},
+			id: "ftbquests:lootcrate"
+		}
+	}]
+}

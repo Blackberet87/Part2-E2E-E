@@ -1,0 +1,17 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: "libvulpes:coalgenerator"
+	},
+	{
+		item: {
+			tag: {
+				Type: "extrautils2:generator"
+			},
+			id: "extrautils2:machine"
+		}
+	},
+	{
+		item: "industrialforegoing:pitiful_fuel_generator"
+	}]
+}

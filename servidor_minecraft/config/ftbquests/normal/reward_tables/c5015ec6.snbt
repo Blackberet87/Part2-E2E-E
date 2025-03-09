@@ -1,0 +1,45 @@
+{
+	title: "Focus tier 2",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			tag: {
+				package: {
+					complexity: 18,
+					nodes: [{
+						type: "MEDIUM",
+						key: "ROOT"
+					},
+					{
+						type: "MEDIUM",
+						key: "thaumcraft.TOUCH"
+					},
+					{
+						type: "EFFECT",
+						setting.depth: 32,
+						setting.duration: 10,
+						key: "thaumcraft.RIFT"
+					}],
+					index: 0,
+					power: 1.0f
+				},
+				display: {
+					Name: "Riftmaker"
+				},
+				color: -13692571
+			},
+			id: "thaumcraft:focus_2"
+		}
+	},
+	{
+		item: "thaumcraft:focus_2"
+	},
+	{
+		item: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		}
+	}]
+}

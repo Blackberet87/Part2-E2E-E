@@ -1,0 +1,56 @@
+{
+	title: "{q.thaumcraft.void_frotress_armo.name}",
+	x: 12.0d,
+	y: 6.0d,
+	text: [
+		"{q.thaumcraft.void_frotress_armo.desc}"
+	],
+	dependencies: [
+		"537d4079",
+		"3f58b214"
+	],
+	tasks: [{
+		uid: "4930639d",
+		type: "item",
+		items: [{
+			tag: {},
+			id: "thaumicwonders:void_fortress_helm"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b455eb8a",
+		type: "item",
+		items: [{
+			tag: {},
+			id: "thaumicwonders:void_fortress_chest"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5a131fd2",
+		type: "item",
+		items: [{
+			tag: {},
+			id: "thaumicwonders:void_fortress_legs"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "95ea7dbc",
+		type: "custom",
+		title: "{e2ee.quest.uncommon}",
+		icon: {
+			tag: {
+				type: "uncommon"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

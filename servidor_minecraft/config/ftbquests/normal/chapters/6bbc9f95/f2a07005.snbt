@@ -1,0 +1,102 @@
+{
+	title: "{q.thaumcraft.focus_modifiers.name}",
+	icon: {
+		tag: {
+			id: "thaumicaugmentation:strength_elemental"
+		},
+		id: "thaumicaugmentation:augment_builder_power"
+	},
+	x: 6.0d,
+	y: -2.0d,
+	shape: "pentagon",
+	text: [
+		"{q.thaumcraft.focus_modifiers.desc}"
+	],
+	dependencies: [
+		"376e781b"
+	],
+	tasks: [{
+		uid: "dae25140",
+		type: "item",
+		title: "Modifier Effect",
+		items: [{
+			tag: {
+				id: "thaumicaugmentation:effect_power"
+			},
+			id: "thaumicaugmentation:augment_builder_effect"
+		},
+		{
+			tag: {
+				id: "thaumicaugmentation:effect_cast_speed"
+			},
+			id: "thaumicaugmentation:augment_builder_effect"
+		},
+		{
+			tag: {
+				id: "thaumicaugmentation:effect_cost"
+			},
+			id: "thaumicaugmentation:augment_builder_effect"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1888442f",
+		type: "item",
+		title: "Modifier Base",
+		items: [{
+			tag: {
+				id: "thaumicaugmentation:strength_experience"
+			},
+			id: "thaumicaugmentation:augment_builder_power"
+		},
+		{
+			tag: {
+				id: "thaumicaugmentation:strength_overworld"
+			},
+			id: "thaumicaugmentation:augment_builder_power"
+		},
+		{
+			tag: {
+				id: "thaumicaugmentation:strength_nether"
+			},
+			id: "thaumicaugmentation:augment_builder_power"
+		},
+		{
+			tag: {
+				id: "thaumicaugmentation:strength_end"
+			},
+			id: "thaumicaugmentation:augment_builder_power"
+		},
+		{
+			tag: {
+				id: "thaumicaugmentation:strength_emptiness"
+			},
+			id: "thaumicaugmentation:augment_builder_power"
+		},
+		{
+			ForgeCaps: {
+				Parent: {
+					energy: {
+						energy: 0L
+					},
+					augment: {}
+				}
+			},
+			id: "thaumicaugmentation:augment_caster_rift_energy_storage"
+		},
+		{
+			tag: {
+				id: "thaumicaugmentation:strength_elemental",
+				aspect: "ignis"
+			},
+			id: "thaumicaugmentation:augment_builder_power"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2f63f48d",
+		type: "random",
+		table: 142
+	}]
+}

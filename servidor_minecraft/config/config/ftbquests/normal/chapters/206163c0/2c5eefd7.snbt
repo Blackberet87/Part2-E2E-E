@@ -1,0 +1,31 @@
+{
+	x: 0.5d,
+	y: 0.8333333333333333d,
+	text: [
+		"{q.forestry.apiary.desc}"
+	],
+	dependencies: [
+		"4007e26a"
+	],
+	tasks: [{
+		uid: "f7a35637",
+		type: "item",
+		items: [{
+			item: "forestry:apiary"
+		}]
+	}],
+	rewards: [{
+		uid: "2d87f272",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

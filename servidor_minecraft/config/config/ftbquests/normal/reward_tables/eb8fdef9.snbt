@@ -1,0 +1,17 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: "enderio:item_stellar_alloy_sword"
+	},
+	{
+		item: "enderio:block_alloy_endergy 1 3"
+	},
+	{
+		item: {
+			tag: {
+				type: "legendary"
+			},
+			id: "ftbquests:lootcrate"
+		}
+	}]
+}

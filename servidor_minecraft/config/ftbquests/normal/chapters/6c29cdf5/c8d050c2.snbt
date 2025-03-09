@@ -1,0 +1,22 @@
+{
+	title: "{q.botania.botania.name}",
+	icon: {
+		tag: {},
+		id: "botania:lexicon"
+	},
+	x: 5.0d,
+	y: 12.0d,
+	text: [
+		"{q.botania.botania.desc}"
+	],
+	dependencies: [
+		"5672d99b"
+	],
+	size: 1.6666666666666667d,
+	rewards: [{
+		uid: "9fe26a19",
+		type: "item",
+		item: "botania:fertilizer",
+		count: 16
+	}]
+}

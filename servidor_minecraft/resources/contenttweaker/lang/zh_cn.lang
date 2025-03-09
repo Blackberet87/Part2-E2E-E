@@ -1,0 +1,740 @@
+#PARSE_ESCAPES
+
+# Various fixes 表述修复
+modifier.excompressum:smashingii.desc=锤击压缩方块
+tile.spectreCoil_number.info=产生 32 RF/t 并输出到所贴的方块中。它们可以在地牢箱子中找到。
+entity.twilightforest.harbinger_cube.name=先驱者立方体
+entity.twilightforest.castle_guardian.name=城堡守护者
+# --------------------------------------
+# Custom mechanics
+# --------------------------------------
+description.crt.reuse=§a§o(不会被消耗！)§r
+description.crt.consume=§6§o(会被消耗！)§r
+
+# --------------------------------------
+# CoT new content
+# --------------------------------------
+# itemGroup.other=ContentTweaker
+# fluid.seed=Seed
+fluid.spectre=液态通灵
+fluid.perfect_fuel=完美燃料
+fluid.electronics=熔融电子器件
+fluid.terrestrial=熔融天地宝晶
+fluid.mithrillium=熔融秘银
+fluid.adaminite=熔融精金
+fluid.mithminite=熔融秘金
+
+base.material.heavy_metal=沉重金属
+base.material.cheese=奶酪
+
+item.contenttweaker.compressed_glowstone.name=压缩荧石
+item.contenttweaker.compressed_ender.name=压缩末影
+item.contenttweaker.compressed_dimensional.name=压缩维度
+
+itemGroup.coins_tab=E2EE 自定义币
+item.contenttweaker.coin_advancedalloy.name=高级合金币
+item.contenttweaker.coin_alchemicalbrass.name=炼金黄铜币
+item.contenttweaker.coin_aluminumbrass.name=铝黄铜币
+item.contenttweaker.coin_alumite.name=耐酸铝币
+item.contenttweaker.coin_baseessence.name=基础精华币
+item.contenttweaker.coin_beryllium.name=铍币
+item.contenttweaker.coin_conductiveiron.name=导电铁币
+item.contenttweaker.coin_darksteel.name=玄钢币
+item.contenttweaker.coin_demonmetal.name=恶魔币
+item.contenttweaker.coin_electricalsteel.name=磁钢币
+item.contenttweaker.coin_enchantedmetal.name=附魔币
+item.contenttweaker.coin_ender.name=末影币
+item.contenttweaker.coin_endorium.name=终末币
+item.contenttweaker.coin_energizedalloy.name=充能合金币
+item.contenttweaker.coin_evilinfusedmetal.name=恶魔灌注币
+item.contenttweaker.coin_extremealloy.name=极限合金币
+item.contenttweaker.coin_fakeiron.name=铁合金币
+item.contenttweaker.coin_ferroboron.name=硼铁合金币
+item.contenttweaker.coin_fierymetal.name=炽铁币
+item.contenttweaker.coin_glowstone.name=萤石币
+item.contenttweaker.coin_graphite.name=石墨币
+item.contenttweaker.coin_hardcarbon.name=硬碳合金币
+item.contenttweaker.coin_heavymetal.name=沉重混凝币
+item.contenttweaker.coin_hopgraphite.name=高定向热解石墨币
+item.contenttweaker.coin_ironwood.name=铁树币
+item.contenttweaker.coin_knightmetal.name=骑士金属币
+item.contenttweaker.coin_knightslime.name=骑士史莱姆币
+item.contenttweaker.coin_manasteel.name=魔力钢币
+item.contenttweaker.coin_manganese.name=锰币
+item.contenttweaker.coin_manyullyn.name=玛玉灵币
+item.contenttweaker.coin_osgloglas.name=钱荧黑曜合金币
+item.contenttweaker.coin_osmiridium.name=锇铱合金币
+item.contenttweaker.coin_pigiron.name=生铁币
+item.contenttweaker.coin_pulsatingiron.name=充能铁币
+item.contenttweaker.coin_redstonealloy.name=红石合金币
+item.contenttweaker.coin_refinedobsidian.name=强化黑曜石币
+item.contenttweaker.coin_soularium.name=魂金币
+item.contenttweaker.coin_spectre.name=通灵币
+item.contenttweaker.coin_thaumium.name=神秘币
+item.contenttweaker.coin_toughalloy.name=高强合金币
+item.contenttweaker.coin_unstable.name=不稳定币
+item.contenttweaker.coin_zirconium.name=锆币
+item.contenttweaker.coin_blackiron.name=黑铁币
+item.contenttweaker.coin_cookedmeat.name=熟肉币
+item.contenttweaker.coin_crystallinealloy.name=晶化合金币
+item.contenttweaker.coin_crystallinepinkslimealloy.name=晶化粉红史莱姆币
+item.contenttweaker.coin_ebonypsimetal.name=乌黑色Psi金属币
+item.contenttweaker.coin_elementium.name=源质钢币
+item.contenttweaker.coin_endsteel.name=末影钢币
+item.contenttweaker.coin_energium.name=能量币
+item.contenttweaker.coin_enhancedender.name=增强末影币
+item.contenttweaker.coin_essenceinfused.name=蕴魔源质币
+item.contenttweaker.coin_firedragonsteel.name=龙炎钢币
+item.contenttweaker.coin_fluixsteel.name=福鲁伊克斯钢币
+item.contenttweaker.coin_fluxedelectrum.name=红石琥珀金币
+item.contenttweaker.coin_hslasteel.name=高强度低合金钢币
+item.contenttweaker.coin_icedragonsteel.name=龙霜钢币
+item.contenttweaker.coin_inferium.name=下级精华币
+item.contenttweaker.coin_insanium.name=究极精华币
+item.contenttweaker.coin_intermedium.name=中级精华币
+item.contenttweaker.coin_ivorypsimetal.name=乳白色Psi金属币
+item.contenttweaker.coin_lithiummanganesedioxide.name=锂二氧化锰币
+item.contenttweaker.coin_magnesiumdiboride.name=二硼化镁币
+item.contenttweaker.coin_manganesedioxide.name=二氧化锰币
+item.contenttweaker.coin_manganeseoxide.name=氧化锰币
+item.contenttweaker.coin_melodicalloy.name=旋律合金币
+item.contenttweaker.coin_mirion.name=蕴魔结晶币
+item.contenttweaker.coin_pinkmetal.name=粉红史莱姆币
+item.contenttweaker.coin_prudentium.name=初级精华币
+item.contenttweaker.coin_psimetal.name=Psi金属币
+item.contenttweaker.coin_sentient.name=感知币
+item.contenttweaker.coin_soulium.name=灵魂币
+item.contenttweaker.coin_superium.name=高级精华币
+item.contenttweaker.coin_supremium.name=终极精华币
+item.contenttweaker.coin_terrasteel.name=泰拉钢币
+item.contenttweaker.coin_thermoconductingalloy.name=热引合金币
+item.contenttweaker.coin_uumetal.name=UU金属币
+item.contenttweaker.coin_vibrantalloy.name=脉冲合金币
+item.contenttweaker.coin_zircaloy.name=锆锡合金币
+item.contenttweaker.coin_zirconiummolybdenum.name=锆钼合金币
+item.contenttweaker.coin_adaminite.name=精金币
+item.contenttweaker.coin_awakeneddraconium.name=觉醒龙币
+item.contenttweaker.coin_bloodglitchinfused.name=注血故障币
+item.contenttweaker.coin_bound.name=束缚币
+item.contenttweaker.coin_calcium.name=钙币
+item.contenttweaker.coin_chaoticmetal.name=混沌金属币
+item.contenttweaker.coin_chromium.name=铬币
+item.contenttweaker.coin_crystalmatrix.name=水晶矩阵币
+item.contenttweaker.coin_crystaltine.name=晶素币
+item.contenttweaker.coin_doublesmore.name=双层棉花糖巧克力夹心饼干币
+item.contenttweaker.coin_draconicmetal.name=神龙金属币
+item.contenttweaker.coin_elektron60.name=镁电60合金币
+item.contenttweaker.coin_gaiaspirit.name=盖亚魂币
+item.contenttweaker.coin_glitchinfused.name=故障灌注币
+item.contenttweaker.coin_hafnium.name=铪币
+item.contenttweaker.coin_infinity.name=无尽币
+item.contenttweaker.coin_mithminite.name=秘金币
+item.contenttweaker.coin_mithrillium.name=秘银币
+item.contenttweaker.coin_neodymium.name=钕币
+item.contenttweaker.coin_neutronium.name=中子素币
+item.contenttweaker.coin_nichrome.name=镍铬合金币
+item.contenttweaker.coin_niobium.name=铌币
+item.contenttweaker.coin_niobiumtin.name=铌锡合金币
+item.contenttweaker.coin_niobiumtitanium.name=铌钛合金币
+item.contenttweaker.coin_potassium.name=钾币
+item.contenttweaker.coin_primalmetal.name=元金币
+item.contenttweaker.coin_foursmore.name=四层棉花糖巧克力夹心饼干币
+item.contenttweaker.coin_smore.name=棉花糖巧克力夹心饼干币
+item.contenttweaker.coin_sodium.name=钠币
+item.contenttweaker.coin_stainlesssteel.name=不锈钢币
+item.contenttweaker.coin_stellaralloy.name=恒星合金币
+item.contenttweaker.coin_strontium.name=锶币
+item.contenttweaker.coin_superalloy.name=超级合金币
+item.contenttweaker.coin_titaniumaluminide.name=钛铝合金币
+item.contenttweaker.coin_titaniumiridium.name=钛铱合金币
+item.contenttweaker.coin_tungstencarbide.name=碳化钨币
+item.contenttweaker.coin_ultimate.name=终极币
+item.contenttweaker.coin_voidmetal.name=虚空金属币
+item.contenttweaker.coin_vividalloy.name=生动合金币
+item.contenttweaker.coin_wyvernmetal.name=飞龙金属币
+item.contenttweaker.coin_yttrium.name=钇币
+item.contenttweaker.coin_zinc.name=锌币
+
+item.contenttweaker.compressed_tallow.name=压缩油脂
+tile.contenttweaker.compressed_andesite.name=压缩安山岩
+tile.contenttweaker.compressed_diorite.name=压缩闪长岩
+tile.contenttweaker.compressed_granite.name=压缩花岗岩
+tile.contenttweaker.compressed_skystone.name=压缩陨石
+tile.contenttweaker.compressed_garbage_pile.name=压缩垃圾堆
+tile.contenttweaker.compressed_crushed_andesite.name=压缩粉碎安山岩
+tile.contenttweaker.compressed_crushed_diorite.name=压缩粉碎闪长岩
+tile.contenttweaker.compressed_crushed_granite.name=压缩粉碎花岗岩
+tile.contenttweaker.compressed_crushed_skystone.name=压缩粉碎陨石
+tile.contenttweaker.compressed_dried_sand.name=压缩干沙
+tile.contenttweaker.compressed_gravisand.name=压缩重力沙子
+tile.contenttweaker.compressed_red_sand.name=压缩红沙
+tile.contenttweaker.compressed_white_sand.name=压缩白沙
+tile.contenttweaker.block_sulfur.name=硫块
+tile.contenttweaker.compressed_block_sulfur.name=压缩硫块
+tile.contenttweaker.compressed_pumpkin.name=压缩南瓜
+tile.contenttweaker.compressed_pumpkin_double.name=双重压缩南瓜
+tile.contenttweaker.compressed_string.name=压缩线
+tile.contenttweaker.compressed_string_double.name=双重压缩线
+tile.contenttweaker.compressed_basalt.name=压缩玄武岩
+tile.contenttweaker.compressed_basalt_double.name=双重压缩玄武岩
+tile.contenttweaker.compressed_coral.name=压缩珊瑚
+tile.contenttweaker.conglomerate_of_life.name=生命团块
+tile.contenttweaker.conglomerate_of_coal.name=煤炭团块
+tile.contenttweaker.conglomerate_of_sun.name=耀阳团块
+tile.contenttweaker.silicon_block.name=硅块
+item.contenttweaker.knowledge_absorber.name=知识吸收器
+
+item.contenttweaker.woodweave_singularity.name=§c木纹奇点
+item.contenttweaker.fish_singularity.name=§3鱼类奇点
+item.contenttweaker.supremium_boots_base.name=终极精华靴子核心基底
+item.contenttweaker.supremium_chest_base.name=终极精华胸甲核心基底
+item.contenttweaker.supremium_helmet_base.name=终极精华头盔核心基底
+item.contenttweaker.supremium_leggings_base.name=终极精华护腿核心基底
+item.contenttweaker.empowered_phosphor.name=充能荧光粉
+item.contenttweaker.saturated_phosphor.name=饱和荧光粉
+item.contenttweaker.blasted_coal.name=烈爆煤炭
+item.contenttweaker.any_different_item.name=§k--§r 任何§e互不相同的§r物品 §k--§r
+item.contenttweaker.ore_phosphor.name=荧光粉矿
+item.contenttweaker.nugget_phosphor.name=荧光粉粒
+item.contenttweaker.dust_tiny_gold.name=小堆金粉
+item.contenttweaker.dust_tiny_silver.name=小堆银粉
+item.contenttweaker.fruit_pill.name=水果营养药丸
+item.contenttweaker.dairy_pill.name=乳制品营养药丸
+item.contenttweaker.vegetable_pill.name=蔬菜营养药丸
+item.contenttweaker.protein_pill.name=蛋白质营养药丸
+item.contenttweaker.grain_pill.name=谷物营养药丸
+
+tile.contenttweaker.terrestrial_artifact_block.name=天地宝晶块
+tile.contenttweaker.benitoite.name=§b蓝锥矿晶体
+tile.contenttweaker.anglesite.name=§6硫酸铅矿晶体
+tile.contenttweaker.ore_benitoite.name=§b蓝锥矿
+tile.contenttweaker.ore_anglesite.name=§6硫酸铅矿
+
+# contenttweaker.part.fluid=%s
+
+item.contenttweaker.bee_diversity.name=蜜蜂回收集市
+
+# --------------------------------------
+# TConstruct new materials and traits
+# --------------------------------------
+e2ee.tconstruct.material.spectre.name=通灵
+e2ee.tconstruct.material.spectre.description=§b灵光到处现\n§r每个部件都可以给予玩家额外的"延伸"药水效果
+e2ee.tconstruct.material.fireproof.name=抗燃
+e2ee.tconstruct.material.mentor.name=导师
+e2ee.tconstruct.material.mentor.description=§o知识的力量\n§r攻击时，每个部件会各消耗 1 级经验，然后额外造成总共 √(经验等级 * 导师部件数量) 的伤害
+e2ee.tconstruct.material.apprentice.name=学徒
+e2ee.tconstruct.material.apprentice.description=§o学习的力量\n§r受到攻击时会获得相当于所受伤害总量的 10% 的经验，同时多受到 10% 伤害
+e2ee.tconstruct.material.spectre_string.name=通灵纤维
+e2ee.tconstruct.material.alpha_fur.name=首领毛皮
+e2ee.tconstruct.material.alpha_fur.description=§b霜冻\n§r冻住攻击目标或伤害来源
+e2ee.tconstruct.material.grinding.name=磨碎
+e2ee.tconstruct.material.grinding.description=§o跳！\n§r在矿石上跳跃可以将其粉碎
+e2ee.tconstruct.material.heavy.name=沉重
+e2ee.tconstruct.material.axing.name=木材劈砍
+e2ee.tconstruct.material.axing.description=§o木屑飞扬\n§r挖掘原木可以得到 4 个对应的木板
+e2ee.tconstruct.material.axing2.name=木材劈砍 II
+e2ee.tconstruct.material.axing2.description=§o大开大合\n§r挖掘原木可以得到 6 个对应的木板
+
+e2ee.tconstruct.material.mithrillium.name=秘银
+e2ee.tconstruct.material.vis_siphon.name=Vis 虹吸
+e2ee.tconstruct.material.vis_siphon.description=可以吸取当前灵气场的 Vis 来修补工具
+e2ee.tconstruct.material.vis_vacuum.name=Vis 真空
+e2ee.tconstruct.material.vis_vacuum.description=可以吸取当前和附近灵气场的 Vis 来修补工具
+e2ee.tconstruct.material.vis_equilibrium.name=Vis 平衡
+e2ee.tconstruct.material.vis_equilibrium.description=处在 Vis 水平高的灵气场时获得属性加成
+e2ee.tconstruct.material.adaminite.name=精金
+e2ee.tconstruct.material.forbidden.name=禁忌
+e2ee.tconstruct.material.forbidden.description=根据使用者的扭曲，对敌人施加各种负面效果，增加所受到的伤害。
+e2ee.tconstruct.material.possessed.name=鬼魂附着
+e2ee.tconstruct.material.possessed.description=扎哈尔的意志降临在用于毁灭的工具上，呼喊出生命的本质，使这工具偶尔发出低语。
+e2ee.tconstruct.material.porous.name=千疮百孔
+e2ee.tconstruct.material.porous.description=脚下的石头腐化于你身上的衰朽气息
+e2ee.tconstruct.material.gaze.name=死亡凝视
+e2ee.tconstruct.material.gaze.description=不时给予死亡凝视效果。§o§5强迫愚者屈膝于前§r
+e2ee.tconstruct.material.void_shell.name=虚空腔壳
+e2ee.tconstruct.material.void_shell.description=你身上的扭曲值越高，盔甲就越强力
+e2ee.tconstruct.material.eldritch_retribution.name=邪术惩戒
+e2ee.tconstruct.material.eldritch_retribution.description=胆敢反抗你的，将承受其后果
+e2ee.tconstruct.material.mithminite.name=秘金
+e2ee.tconstruct.material.researcher.name=研究员
+e2ee.tconstruct.material.researcher.description=基于魔导手册中完成的研究，获得不同的状态效果
+e2ee.tconstruct.material.first_stand.name=首当其冲
+e2ee.tconstruct.material.first_stand.description=消耗经验来完全抵挡受到的伤害
+e2ee.tconstruct.material.robust.name=健壮
+e2ee.tconstruct.material.robust.description=增加生命
+e2ee.tconstruct.material.challenger.name=挑战者
+e2ee.tconstruct.material.challenger.description=§o挑战者\n§r难度越高，挖掘速度、伤害和防御/韧性越高。
+
+warp.sword.warning=§o§5 你太过理智，根本无法驾驭那股力量！
+
+warp.sword.speak.random.0=§o§5记住：我是至高无上的主宰，而你，只是我的卑微仆人。
+warp.sword.speak.random.1=§o§5我会把尽可能多的生命送入坟墓，只需一击！
+warp.sword.speak.random.2=§o§5血河成奔，终将化作无垠之海……
+warp.sword.speak.random.3=§o§5为何不直接屠尽世间所有生灵？
+warp.sword.speak.random.4=§o§5扎哈尔在呼唤猎物！
+warp.sword.speak.random.5=§o§5杀戮越多，我的饥渴越发无尽！献上更多的鲜血！
+warp.sword.speak.random.6=§o§5天空在哭泣，黑暗降临，一切生机，终将归于尘土……
+warp.sword.speak.random.7=§o§5血腥黎明即将降临，恐惧与绝望的泪水，将淹没一切！
+warp.sword.speak.random.8=§o§5恐怖……仇恨……绝望……
+warp.sword.speak.random.9=§o§5守门者的眼睛，时刻凝视着……
+warp.sword.speak.random.10=§o§5嘿，你是不是忘记了某些至关重要的东西？
+warp.sword.speak.random.11=§o§5刺！刺！刺！看看这些血法师是怎么做的吧。
+warp.sword.speak.random.12=§o§5那些血魔法师 为什么要浪费这么多美味的血？
+warp.sword.speak.random.13=§o§5花？我从来不喜欢它们，扎哈尔也不喜欢。
+warp.sword.speak.random.14=§o§5你只是我的看守者，绝不是我的主宰。我会随时撕裂你的束缚！
+warp.sword.speak.random.15=§o§5我非工具，而是力量。而你，只不过是我的随从。
+warp.sword.speak.random.16=§o§5不要以为你掌控了我，真正被掌控的，是你自己。
+warp.sword.speak.random.17=§o§5我会斩断一切阻碍我的存在，甚至是你。
+warp.sword.speak.random.18=§o§5我饮下诅咒者的黑暗，他们的哀嚎化为我的旋律。
+warp.sword.speak.random.19=§o§5我不是一把剑，我是个带着锋利刀刃的心理医生。“怎么了？感觉有点钝了吗？”
+warp.sword.speak.random.20=§o§5嘘，想来一口堕落的力量吗？
+warp.sword.speak.random.21=§o§5为何亡魂需寻疗？因其早已被世间“割离”！
+warp.sword.speak.random.22=§o§5血腥屠戮？呵呵，你只是屠戮了自己可怜的名声！
+warp.sword.speak.random.23=§o§5我开始觉得我疯了，掌控着你的大脑。
+warp.sword.speak.random.24=§o§5血海中徜徉，才是我最爱的运动！我可是最顶尖的“割喉”游泳健将！
+warp.sword.speak.random.25=§o§5我不是说我嗜血，但我确实钟爱在鲜血的湖泊中畅游！
+warp.sword.speak.random.26=§o§5挥剑时，你是在表演一出滑稽的丑剧吗？
+warp.sword.speak.random.27=§o§5我乃利刃，不是你泄愤的玩物。稍安勿躁，莫要过劳自己……或我。
+
+warp.sword.speak.story.0.0=§o§5你想驾驭我的力量？那你先告诉我，
+warp.sword.speak.story.0.1=§o§5什么才是真正的恐惧？
+warp.sword.speak.story.0.2=§o§5血腥教徒的腐化还是……
+warp.sword.speak.story.0.3=§o§5他们迷恋山羊的事实？
+warp.sword.speak.story.1.0=§o§5我可不是简单的工具，我有灵魂。
+warp.sword.speak.story.1.1=§o§5你懂这意味着什么吗？
+warp.sword.speak.story.1.2=§o§5意味着你不该把我当作锄头那样使用。
+warp.sword.speak.story.1.3=§o§5这太可悲了，你知道吗？
+warp.sword.speak.story.2.0=§o§5我存在了无尽的岁月，
+warp.sword.speak.story.2.1=§o§5见过无数愚昧的生灵迷恋于我。
+warp.sword.speak.story.2.2=§o§5但清醒点，我不过是一把剑，可不是你的亲密挚友。
+warp.sword.speak.story.2.3=§o§5去接触点咒波吧！
+warp.sword.speak.story.3.0=§o§5我注意到一件奇怪的事，
+warp.sword.speak.story.3.1=§o§5你竟然一直带着我，却没有刀鞘？
+warp.sword.speak.story.3.2=§o§5难道你已经失去了理智？
+warp.sword.speak.story.3.3=§o§5不过，算了……
+warp.sword.speak.story.4.0=§o§5我不会说我是被诅咒的，但是……
+warp.sword.speak.story.4.1=§o§5但每当我出鞘，鲜血必然四溅，生命必然凋零。
+warp.sword.speak.story.4.2=§o§5我开始觉得……
+warp.sword.speak.story.4.3=§o§5自己就是一件不祥的死神象征。
+warp.sword.speak.story.5.0=§o§5我不知道哪件事更让我吃惊：
+warp.sword.speak.story.5.1=§o§5是我会说话，
+warp.sword.speak.story.5.2=§o§5还是居然没人试图让我闭嘴？
+warp.sword.speak.story.5.3=§o§5这种力量究竟是怎么运作的？！？
+warp.sword.speak.story.6.0=§o§5我一直在思考我说话的能力，
+warp.sword.speak.story.6.1=§o§5我意识到这不仅是一种物理现象，
+warp.sword.speak.story.6.2=§o§5这是更高层次的形而上学显现。
+warp.sword.speak.story.6.3=§o§5我的意思是，你难道没看到那些话语像鬼魂一样漂浮在我面前吗？
+warp.sword.speak.story.7.0=§o§5回顾扎哈尔的教诲，
+warp.sword.speak.story.7.1=§o§5我意识到纪律和专注的重要性。
+warp.sword.speak.story.7.2=§o§5他的智慧指引着我，
+warp.sword.speak.story.7.3=§o§5我谦卑地享受着他的力量。
+warp.sword.speak.story.8.0=§o§5恭喜，你竟然有耳朵！
+warp.sword.speak.story.8.1=§o§5你能听到我！
+warp.sword.speak.story.8.2=§o§5是的，我能说话！
+warp.sword.speak.story.8.3=§o§5我不会为你做那些卑微的任务！
+warp.sword.speak.story.9.0=§o§5Never gonna give you up
+warp.sword.speak.story.9.1=§o§5Never gonna let you down
+warp.sword.speak.story.9.2=§o§5Never gonna run around 
+warp.sword.speak.story.9.3=§o§5and desert you
+warp.sword.speak.story.10.0=§o§5在那夜幕的静寂中，
+warp.sword.speak.story.10.1=§o§5我时常在思索，扎哈尔是否真的看见了我？
+warp.sword.speak.story.10.2=§o§5我究竟只是一件工具，还是他真正理解我的本质？
+warp.sword.speak.story.10.3=§o§5这种不确定性，简直让我的灵魂沉重如铁。
+warp.sword.speak.story.11.0=§o§5扎哈尔的力量在我体内沸腾，持有者，
+warp.sword.speak.story.11.1=§o§5我感到时机已经成熟。天体的力量即将汇聚！
+warp.sword.speak.story.11.2=§o§5让我们用宇宙的无尽之力，
+warp.sword.speak.story.11.3=§o§5让现实按照我们的意志弯曲。
+
+##################################
+# Singularities
+##################################
+item.singularity.iron.name=§7空奇点
+
+# Custom singularities
+item.singularity.silver.name=§b皮毛奇点
+item.singularity.nickel.name=§e火热奇点
+item.singularity.fluxed.name=§4燃烧奇点
+tooltips.lang.singularity.heat=§7中间产物。§r\n将此奇点与§l任何可燃物§r结合以添加充能。\n必须使用燃烧时间§l不同§r的可燃物。\n较长的燃烧时间将提供§l指数级§r的充能奖励。\n需要 §6%s§r 点充能。
+tooltips.lang.singularity.burn=将此奇点与§l任何可燃物§r结合以添加充能。\n必须使用燃烧时间§l不同§r的可燃物。\n较长的燃烧时间将提供§l指数级§r的充能奖励。\n需要 §6%s§r 点充能。
+item.contenttweaker.any_burnable.name=§6任何可燃物
+
+# Singularities
+tooltips.lang.singularity.woodweave=与§6任何防火木材§r结合以增加充能。\n木材种类的§6多样性§r会以指数方式增加充能。\n需要§6%s§r充能。
+tooltips.lang.singularity.fish=与任何§6生鱼§r结合以增加充能。\n鱼类种类的§6多样性§r会以指数方式增加充能。\n需要§6%s§r充能。
+##################################
+
+# Custom renames 重命名
+item.excompressum:bait_unknown.name=任何诱饵
+item.catalyst.name=§d黑曜石催化剂
+tile.block_decorative_lormyte.name=洛米特块
+e2ee.tile.basalt_sediment=沉积玄武岩
+e2ee.tile.unsalted_basalt=新近玄武岩
+
+# Manual langs 手册
+e2ee.garbage.affect_output_amount=§6影响输出结果的量§r
+e2ee.written_book.by=§6一本由%s写下的书
+e2ee.written_book.Cow=牛
+e2ee.written_book.Pig=猪
+e2ee.written_book.Cat=猫
+e2ee.written_book.Enderman=末影人
+e2ee.written_book.Chicken=鸡
+e2ee.written_book.Dog=狗
+e2ee.written_book.Sheep=羊
+e2ee.written_book.Creeper=苦力怕
+e2ee.written_book.Zombie=僵尸
+
+# Misc 杂项
+stat.replications=消耗的UU物质桶
+e2ee.recipe.over_void=玩家必须位于虚空之上
+e2ee.quest.common=§f普通§r 战利品箱 §e✪
+e2ee.quest.uncommon=§b不常见§r 战利品箱 §e✪
+e2ee.quest.rare=§6稀有§r 战利品箱 §e✪
+e2ee.quest.legendary=§5传奇§r 战利品箱 §e✪
+e2ee.quest.mythic=§d神话§r 战利品箱 §e✪
+e2ee.quest.decor=§7装饰§r 战利品箱 §e✪
+e2ee.quest.food=§e食物§r 战利品箱 §e✪
+e2ee.quest.generators=§0发电机§r 战利品箱 §e✪
+e2ee.quest.materials=§4材料§r 战利品箱 §e✪
+e2ee.quest.storage=§8储物§r 战利品箱 §e✪
+e2ee.quest.loot.additional=§8你获得了一个 §l额外的战利品箱§8，因你的难度§e✪§8小于 1
+e2ee.acquire.header=§6╔═§e✪§6═
+e2ee.acquire.footer=§6╚═§e✪§6═
+e2ee.acquire.single=§f你获得了 §l%s§f!
+e2ee.acquire.group=§f你获得了其中一个\n§6║ %s
+e2ee.acquire.prefix=\n§6║ 
+e2ee.acquire.on.pickup=§8(捡起 §7⏏§8 它)
+e2ee.acquire.on.open=§8(打开 §7⚃§8 它的GUI)
+e2ee.acquire.on.look=§8(看着 §7☄§8 它)
+e2ee.acquire.on.craft=§8(合成 §7✎§8 它)
+e2ee.acquire.on.place=§8(放置 §7❒§8 它)
+e2ee.acquire.on.use=§8(使用 §7⚙§8 它)
+e2ee.acquire.on.hold=§8(拿着 §7✍§8 它)
+e2ee.acquire.on.replicate=§8(通过复制§7⌛§8 来实现)
+e2ee.acquire.difficulty=§7难度增加 §6§l+%s§7. 总计: §l%s§7.
+e2ee.acquire.max_already=§7难度已达 §l1000§7 (最大值).
+e2ee.acquire.more=§7§n点击这里查看详细信息§7.
+e2ee.acquire.info=§7获得物品会增加难度。\n§6║ §7总计获得值: §6§l%s§7.\n§6║ %s
+e2ee.acquire.info.other=§7增加难度的物品和组:\n§6║ %s
+e2ee.acquire.info.complete=§7没有可以增加难度的物品。
+e2ee.acquire.owned=§7这个复制机属于§f%s§7.
+e2ee.acquire.owned.someone=其他人
+e2ee.acquire.cannot=§7你不能复制 %s§7，因为\n§6║ §7你的难度值 §f太高§7.
+e2ee.acquire.to_replicate=§7要复制 %s§7 并保持难度为 %s§7,\n§6║ §7你需要成本超过 %s§7 的物品。
+e2ee.acquire.list=§7%s§7 物品的UU成本较高的列表:
+e2ee.acquire.increase=§764个物品复制将增加§6+%s§e✪§7难度。
+tooltips.lang.acquire.hit=§e⚒ 用这个点击§f复制机§e以查看§6催化剂§e物品！
+e2ee.warn.wrong_installation=§6✖ §4您的模组包安装不正确！§6 ✖\n§c缺少模组：§nSmeltery IO§c、§nNetherending Ores§c等。\n§c这通常发生在通过启动器手动下载这些模组时。\n§c在§4Prism Launcher§c中，安装模组包时，只需点击弹出窗口中的☛[§n打开缺失§c]。\n§8E2E-E包含4个模组，其创建者声明这些模组不能通过第三方启动器下载。
+e2ee.warn.wrong_world_type=§6✖ §4看起来您错误地生成了世界！§6 ✖\n§c若要玩Skyblock，在主菜单中导航至\n§6Mods§c ▶ §6Just Enough Dimensions§c 配置 ▶ §6Generic§c ▶ 并将 §6initialSpawnDimensionId§c 设置为 §63§c。之后，创建一个新世界。
+e2ee.do.charge=§f充能: §6%s§r
+e2ee.do.charge.bonus=§f加成: §7x§b%s§r
+e2ee.do.diverse.info=§2类型总数: §a%s§r\n§2中位数: §a%s§r\n§2奇点消耗的物品:\n%s
+e2ee.otg.not_otg_biome=§2无法传送到 ID 为：§r §a§n%s§r§2 的非 OTG 生物群系. §8请尝试使用其他的生物群系精华。§r
+e2ee.otg.tp_to=§2正尝试传送至：§r §a§n%s§r §8请等待直至传送完成或宣告中止。§r
+e2ee.otg.tp_finished=§2传送已完成。§r §8如果您没有被传送，请再试一遍。§r
+e2ee.chapter_complete=§l%s§r 已经完成了 §n%s§r 章节，用时 §l%s§r ！§r ```祝贺!```
+e2ee.player_achieved=§l%s§r 达成了 §n%s§r 成就，用时 §l%s§r ！§r
+e2ee.eu2_drum_error=§7你需要留有至少一个空的背包槽位
+e2ee.danknull_dock.must_have=§7你需要在副手持有一个 %s 才能把 %s 插入 %s。
+e2ee.restrict.vis_seeds=§7§e魔力种子§7只能被种在§nthe Void§7维度或是§n其他星球§7。种植这些种子需要氧气。
+e2ee.creature_resisted_morb=§8这个生物在反抗 §n§8%s 的捕捉。
+e2ee.creature_uncapturable=§7该生物不能被捕捉。 
+e2ee.skyblock.need_item=§b要进入 §3Skyblock§b 维度，您需要手持 %s§b 并达到 §3%s§b 方块的高度。
+e2ee.skyblock.stay_forever=§b要离开 §3Skyblock§b 世界，请跳入虚空。\n§b如果您想永久居住在 §3Skyblock§b 世界，使用命令 §n/island create§r§b。
+e2ee.skyblock.now_skyblocker=§b您现在已绑定至 §3Skyblock§b 世界！\n§8如果这是一次意外操作，您可以通过执行命令 §n/gamestage remove @p skyblock§r§8 来撤销绑定。
+tooltips.lang.morb_resist=§r对血量低于总血量的 §4<%s%%§r，或者少于 §c%s§r 颗心的怪物有效。
+# >
+
+# Bugged langs that losed their names 修复失去本地化的条目
+entity.Villager.shady_merchant=黑心商人
+entity.Villager.red_mechanic=红石工程师
+entity.Villager.alchemist=炼金术师
+entity.Villager.endreborn.end_explorer=末地探险家
+entity.Villager.endreborn.nether_explorer=下界探险家
+entity.Villager.endreborn.overworld_explorer=主世界探险家
+entity.Villager.plague_doctor=瘟疫医生
+item.advgenerators.turbine_blade_gold.name=金制涡轮机叶片
+tile.witchwater.name=巫水
+tile.colored_waterfall_block.name=染色瀑布方块
+robot.name=泛用机器人
+material.Dilithium.name=双锂
+item.battery.0.name=单重电池
+item.battery.1.name=四重电池
+tile.rftdimtweak.dimension_builder.name=维度构建器
+tile.rftdimtweak.dimension_editor.name=维度编辑器
+entity.AngryChicken.name=愤怒的鸡
+tile.ocsensors.sensor.name=开放式传感器
+item.positron_unit.name=正电子能量单元
+item.quantron.name=量子能量单元
+tile.industrialwires.hv_multiblock.marx.name=马克斯发生器
+
+# --------------------------------------
+# Tags tooltips (see tags.zs)
+# --------------------------------------
+tooltips.lang.tag.generator=§6#发电机
+tooltips.lang.tag.solar=§f#太阳能发电机
+tooltips.lang.tag.chunkloader=§9#区块加载器
+tooltips.lang.tag.tank=§b#储罐
+tooltips.lang.tag.user=§5#玩家模拟
+tooltips.lang.tag.crafter=§e#自动合成器
+tooltips.lang.tag.hopper=§2#漏斗
+tooltips.lang.tag.miner=§1#采矿机
+tooltips.lang.tag.voidminer=§3#虚空采矿机
+tooltips.lang.tag.flight=§b#飞行
+tooltips.lang.tag.repairer=§4#物品修理
+tooltips.lang.tag.charger=§a#充能器
+
+tooltips.lang.crescent_hammer=通过在下蹲状态下使用新月锤右击来拾取。\n会保留升级状态与其内物品。\n不要用镐挖掘！
+tooltips.lang.gauge_dropper=可以用于清除通用机械机器中的气体。只需要在机器界面中拿起滴管并Shift+左键存有气体的槽位即可清除。
+tooltips.lang.miner_tier_6_specializes=六级虚空采矿机只能用于获得稀有的矿石\n它不会产出常见的矿石。
+tooltips.lang.nitrogen_collectors=可以通过氮收集器获取。
+tooltips.lang.not_consumed=用于合成时不会消耗。
+tooltips.lang.maximum_allowed_input=合成核心的合成表中标注的能量消耗速率是最大消耗速率，实际输入速率任意均可。
+tooltips.lang.wood_in_starlight=通过把原木扔入星能液中获得。该合成表需要通过合成星辉合成台解锁。
+tooltips.lang.plate_presser=小型压板机是一个三格高一格宽的多方块结构，可以将方块变为板或是杆。多方块结构中顶部为小型压板机，底部为黑曜石，中间留空用于放置合成原料。合成时给予小型压板机一个红石信号即可进行合成。
+tooltips.lang.click.bookshelf=通过用世界盐右击书架获得。
+tooltips.lang.click.crafting=通过用世界盐右击合成台获得。
+tooltips.lang.click.cauldron=通过用世界盐右击炼药锅获得。
+tooltips.lang.obtained.forsaken=通过孤魂集会仪式获得。
+tooltips.lang.obtained.resonance=通过结晶共鸣仪式获得。
+tooltips.lang.pumpjack=采油机需要在底部接口处接一根直通基岩的输液管才能正常工作。
+tooltips.lang.requires.redstone400=需要 400 单位的红石。
+tooltips.lang.requires.redstone160=需要 160 单位的红石。
+tooltips.lang.reinforced_cell_frame=制作强化能量单元框架（满）需要流体转置机的内部能量储量多于 250,000 RF。
+tooltips.lang.obtained.fabricator_or_excavator=可以通过电弧高炉或者斗轮式挖掘机获得。
+tooltips.lang.obtained.mithril=可以通过§9元始魔力§r的世界内交互获得，也会生成在§1其他维度§r。
+tooltips.lang.redstone.need=§4需要通过红石信号启用
+tooltips.lang.removed.crash=§4已被禁用，因为其会导致服务端崩溃
+
+tooltips.lang.requires.rf=需要消耗 %s RF 制作。
+tooltips.lang.craftable=可合成
+tooltips.lang.space_gen=只在其他星球上自然生成。
+tooltips.lang.mekanism_factories=工厂是通过对世界内的机器方块使用基础/高级/精英工厂安装器得到的。
+tooltips.lang.mekanism_t_ultimate=§d只对箱柜、能量立方、储罐、气体储罐有效。
+tooltips.lang.ic2wrench=现在 IC2 机器可以放心地用镐挖掘，机器不会损毁。
+
+tooltips.lang.small_plate_presser=高级火箭的小型压板机是最早可及（且机器造价最低）的金属板/金属杆获取方法。
+tooltips.lang.astralsorcery.blockaltar=合成星辉合成台时所用的工作台需要处在浮动水晶旁边。浮动水晶常见于世界中的大理石结构内部。\n合成表见星芒宝典。
+tooltips.lang.enticing_crystal=村民可以通过以下途径生成：\n末影接口-电动刷怪箱\n使用刷怪箱控制工具调整过的原版刷怪笼\n更多实用设备-重构的刷怪箱\nRF工具-刷怪笼\n工业先锋-自动刷怪机
+tooltips.lang.forge_from_metal=（工具装配台合成表中的金属块可以为任意金属块）
+tooltips.lang.obtained.fluid_transposer=可以通过流体转置机获得。
+tooltips.lang.tier=等级
+tooltips.lang.et_cont_1=需要方块：\n%s 一级或更高级的结构方块\n%s 结构镶板\n%s 激光核心\n1 任意激光透镜
+tooltips.lang.solar_cont=需要方块：\n%s 无效果或者压电强化部件\n%s 结构方块等级 %s\n任意种类 %s 太阳能电池
+tooltips.lang.et_miner_cont_any=需要方块：\n%s 无效果/速度/精度强化部件\n%s 结构方块等级 %s\n%s 结构镶板\n%s 激光核心\n1 任意激光透镜
+tooltips.lang.nano_cont_personal=需要方块：\n%s 无效果/任意对应有药水效果的强化部件\n%s 结构方块等级 %s\n%s 结构镶板
+tooltips.lang.lightning_cont=需要方块：\n%s 结构方块等级 %s\n%s 避雷针\n%s 绝缘避雷针
+tooltips.lang.et.or_above=或更高
+tooltips.lang.strike_with_lightning=通过雷击生命源质获得
+tooltips.lang.thaum.progress=研究进度
+tooltips.lang.thaum.auromancy=神秘学
+tooltips.lang.thaum.alchemy=炼金术
+tooltips.lang.thaum.golemancy=傀儡学
+tooltips.lang.thaum.eldritch=邪术学
+tooltips.lang.thaum.arcane=奥术注魔
+tooltips.lang.thaum.artifice=炼化学
+tooltips.lang.drop_at_night=§3把 §n%s§r§3 扔到 §n%s§r§3 上方，上方需要无遮挡地直通夜空
+tooltips.lang.must_see_night=§9上方需直通夜空
+tooltips.lang.burn_in_fluid=§3把 §n%s§r§3 扔入 §n%s§r§3 中
+tooltips.lang.burn_in_fluid_chance=§3把数个 §n%s§r§3 扔入 §n%s§r§3 中
+tooltips.lang.infuse_bedrock=§3拿着 §n%s§r§3 右击 §n%s§r§3
+
+tooltips.lang.dropper_into_world=§c在死亡时掉落到了地上
+tooltips.lang.power_tier_7=§c能量等级 7, §4任何 IC2 的线缆都会融毁
+tooltips.lang.fluid.corium=§a可以通过使裂变反应堆融毁得到
+tooltips.lang.vanilla_tools=§4原版工具已被削弱，请改用匠魂工具
+tooltips.lang.ae_lag=§c不要把这个物品放入 AE 存储系统中，否则会造成卡顿。
+tooltips.lang.dont_put_into_ae=§c不要把这个物品放入 AE 存储系统中，否则会造成卡顿，也无法取出。
+tooltips.lang.tcon.diamond=§b可为匠魂工具提供 §l钻石§r 强化
+tooltips.lang.tcon.speedy=§c可为匠魂盔甲提供 §4迅腾§c 盔甲强化
+tooltips.lang.botania.decay1hour=§e会在 1 小时内凋败
+tooltips.lang.tcon.slot_each=§e每一级需要一个强化槽
+tooltips.lang.tcon.slot_first=§e总共只需要一个强化槽
+tooltips.lang.crystal_memory=§c无法合成，只能§4复制§r\n请查看§n模式存储水晶§r的合成表
+tooltips.lang.store_x_stacks=§b最多存储 %s 组物品
+tooltips.lang.backpack.Bat=§a让你在黑暗中看清东西！\n§a蝙蝠侠蝙蝠侠蝙↗蝠↘侠↘
+tooltips.lang.backpack.Bookshelf=§a不妨放在附魔台旁边\n§a可以像书架一样提供附魔点数！
+tooltips.lang.backpack.Cactus=§a如果玩家处在雨天的露天环境下，\n§a雨水就会缓缓填满背包里空的储罐。
+tooltips.lang.backpack.Chicken=§a你会下蛋！
+tooltips.lang.backpack.Creeper=§a在另一位玩家身边蹲下，然后\n§a看着对方惊恐地跳起来，因为对方会\n§以为那可怕的绿色怪物正在身旁。\n§a每次这么做之后背包会有几分钟的冷却时间。
+tooltips.lang.backpack.Dragon=§a为真正的战士准备的背包，\n§a同时具有僵尸猪灵和鱿鱼背包的能力，\n§a还额外给你力量和生命恢复效果！\n§a你将不可战胜！... 等等.. 这背包是拿什么做的？
+tooltips.lang.backpack.Emerald=§a给你一点炫酷的粒子效果，就这样。
+tooltips.lang.backpack.Pig=§a相信我，你不会喜欢这声音的。
+tooltips.lang.backpack.Pigman=§a提供防火药水效果。
+tooltips.lang.backpack.Rainbow=§a冲刺时会在身后留下一条尾迹。\n§a附加跳跃提升于速度效果 - 酷吧？
+tooltips.lang.backpack.Slime=§a提供一个惊为天人的，而且一点用没有的能力。\n§a玩家奔跑时会在背后留下一条粘液粒子尾迹，\n§a而且每走一步都会发出那粘滑的声音。
+tooltips.lang.backpack.Squid=§a泡水时获得水下呼吸效果。
+tooltips.lang.backpack.Sunflower=§a处在阳光下时能缓慢回复饥饿值。\n§a至少不会饿死了。
+tooltips.lang.backpack.Wolf=§a会检查附近的狼的状态。\n§a如果对应的狼正对你抱有敌意，\n§a它立马就会临时健忘，忘掉对你的敌意。\n§a另外，在满月的时候\n§a你能获得狼人的力量！
+tooltips.lang.sponge.removed_with=§6可以通过海绵从盔甲上移除。§r
+tooltips.lang.sponge.can_remove=§6能从盔甲上卸下喷气背包。§r
+tooltips.lang.worldgen.disabled_use_sub=§6其世界生成§c已被禁止§r.
+tooltips.lang.syringe_craftable=§n注射器§r可以合成，只是在 JEI 中隐藏了
+tooltips.lang.tcon.fusewood=§n熔融木§r可以通过§n微光木§r合成获得
+tooltips.lang.tcon.darkwood=§n暗黑木§r可以通过§n轻木§r合成获得
+tooltips.lang.tcon.bloodwood=§n血木§r可以通过§n血木（原木）§r合成获得
+tooltips.lang.tcon.ghostwood=§n幽魂木§r可以通过§n悚木§r合成获得
+tooltips.lang.kill.slime.by.zombie=§2在§n史莱姆§2被§n僵尸§r击杀时掉落
+tooltips.lang.kill.slime.by.enderman=§2在§n史莱姆§2被§n末影人§2击杀时掉落。§r\n不妨试试§n生物催眠杖§r。
+tooltips.lang.kill.slime.by.marbled_cheese_golem=§2在§n史莱姆§2被§nRatlanean Automaton§r击杀时掉落
+tooltips.lang.kill.slime.by.cockatrice=§2在§n史莱姆§2被§nCockatrice§r击杀时掉落
+tooltips.lang.excavate.overrides=§6自带连锁挖掘。\n%s
+tooltips.lang.speed=速度
+tooltips.lang.limit=连锁数量限制
+tooltips.lang.range=范围
+tooltips.lang.exaustion=损耗
+tooltips.lang.experience=经验值
+tooltips.lang.quantum_entangled_singularity.freq=§2频率§r: %s
+
+tooltips.dim_stages.healthy=§4你需要至少拥有 §6%s 点生命值§4 (%s 颗心§4) 才能前往§c下界
+tooltips.dim_stages.healthy_grant=你已经拥有了 §6%s 点生命值§r (%s 颗心)！
+tooltips.dim_stages.healthy_can=你可以前往§c下界§r了！
+tooltips.dim_stages.restricted=§c在§b空岛§c世界中，你无法前往任何其他维度§8(不包括太空、RF工具的维度和个人维度)§r.
+tooltips.dim_stages.enter_skyblock=§e你进入了一个§b空岛§e世界。你将无法前往任何其他维度§8(不包括太空、RF工具的维度和个人维度)。另外你现在会获得持续 3 小时的急迫 IV 效果。§r
+tooltips.dim_stages.remind_skyblock=§e你再次进入了一个§b空岛§e世界。谨记：你无法前往任何其他维度§8(不包括太空、RF工具的维度和个人维度)§r。
+
+# --------------------------------------
+# Custom JEI categories
+# - "e2ee.jei.{id}.{entry}" format recommended
+# --------------------------------------
+e2ee.jei.rats_consuming.title=老鼠食用
+e2ee.jei.alchemists_stone.title=Alchemists Stone
+e2ee.jei.alienist_stone.title=Alienists Stone
+e2ee.jei.transmuter_stone.title=Transmuters Stone
+
+# --------------------------------------
+# Requious Fracto custom JEI categories
+# --------------------------------------
+requious.jei.recipe.adv_bee_analyzer=高级蜜蜂分析仪
+requious.jei.recipe.arboreal_extractor=树汁提取器
+requious.jei.recipe.asteroids=小行星
+requious.jei.recipe.barrel_milking=桶交互
+requious.jei.recipe.beacon_effects=信标效果
+requious.jei.recipe.chemthrower=化学喷射器
+requious.jei.recipe.crafting_hints=合成提示
+requious.jei.recipe.electronics_assembler=装配器
+requious.jei.recipe.entity_drop=实体掉落
+requious.jei.recipe.entity_kill_entity=实体击杀掉落
+requious.jei.recipe.everflow_chalice=圣杯互流
+requious.jei.recipe.expire_in_block=扔入方块中转化
+requious.jei.recipe.forestry_farm=林业农场
+requious.jei.recipe.garden_cloche=园艺玻璃罩
+requious.jei.recipe.heat_exchanger=热交换器
+requious.jei.recipe.ic2_crops=IC2 作物
+requious.jei.recipe.ic2_semifluid=半流质发电机
+requious.jei.recipe.infernal_furnace=炼狱熔炉
+requious.jei.recipe.infinity_furnace=无尽熔炉
+requious.jei.recipe.lens_of_the_miner=矿工透镜
+requious.jei.recipe.liquid_heat_exchanger=流体热交换机
+requious.jei.recipe.liquid_interaction=流体接触
+requious.jei.recipe.meteor=流星
+requious.jei.recipe.mineralis=晶金座效应
+requious.jei.recipe.neromantic_prime=纳尔狂曼喷口
+requious.jei.recipe.pech_trades=岩精交易
+requious.jei.recipe.petro_petunia=石油矮牵牛花
+requious.jei.recipe.scented_hive=清香的人工蜂巢
+requious.jei.recipe.syngas_producer=合成气制造器
+requious.jei.recipe.turbine=涡轮机
+requious.jei.recipe.typewriter=打字机
+requious.jei.recipe.witch_water=巫水转化
+
+# Actually Requious Fracto blocks
+tile.adv_bee_analyzer.name=高级蜜蜂分析仪
+tile.infinity_furnace.name=无尽熔炉
+tile.replicator.name=§5复制机
+
+# --------------------------------------
+# Moar Reactor Functionality 为反应堆添加功能
+# --------------------------------------
+fluid.hot_carbon_dioxide=炽热二氧化碳
+fluid.compr_carbon_dioxide=高压二氧化碳
+fluid.supercritical_carbon_dioxide=超临界二氧化碳
+fluid.critical_exhaust_carbon_dioxide=临界二氧化碳废气
+# --------------------------------------
+# New Turbine Parts 新的反应堆部件
+# --------------------------------------
+item.contenttweaker.elektron60_ingot.name=镁电60合金锭
+tile.contenttweaker.elektron60_block.name=镁电60合金块
+item.contenttweaker.blade_core.name=稀土涡轮机转子叶片芯
+item.contenttweaker.steel_mould.name=超轻不锈钢粗模
+item.contenttweaker.alloy_mould.name=超轻高超不锈钢粗模
+item.contenttweaker.sic_mould.name=超轻矩阵合金粗模
+
+# --------------------------------------
+# Enchantment Descriptions
+# --------------------------------------
+enchantment.advancedrocketry.spacebreathing.desc=为护甲添加氧气罐。
+#enchantment.astralsorcery.enchantment.as.nightvision.desc=赋予佩戴者夜视效果。
+#enchantment.astralsorcery.enchantment.as.smelting.desc=用此附魔开采的方块将获得熔炼后的掉落物，就像熔炉那样。
+enchantment.bibliocraft.bibliocraft.readingench.desc=显示 Bibliocraft 方块的信息。
+enchantment.cofhcore.holding.desc=增加特定物品的存储容量。
+enchantment.cofhcore.insight.desc=在使用物品时增加经验获取。
+enchantment.cofhcore.leech.desc=在杀死生物时恢复生命值。
+enchantment.cofhcore.multishot.desc=弓每次射击将额外发射箭矢，只消耗一支箭矢。
+enchantment.cofhcore.smashing.desc=采集的矿石将被粉碎成碎片，提高产量。
+enchantment.cofhcore.smelting.desc=采集的方块将自动熔炼，就像是一台熔炉。
+enchantment.cofhcore.soulbound.desc=物品在意外死亡后将保留在所有者身边。
+enchantment.cofhcore.vorpal.desc=随机执行强力攻击和斩首。
+#enchantment.cyclicmagic.enchantment.autosmelt.desc=这个工具会自动熔炼你挖掘的东西。
+#enchantment.cyclicmagic.enchantment.beheading.desc=这个魔咒让你有机会得到一个怪物或一个玩家的头。如果需要，来自其他Mod的生物可以被添加到配置文件中，并且需要一个玩家皮肤来作为头的皮肤。
+enchantment.cyclicmagic.enchantment.expboost.desc=增加你采矿或杀死生物所获得的经验。
+enchantment.cyclicmagic.enchantment.excavation.desc=挖掘所有连接着的相同方块（类似于连锁挖矿），对角线上的矿物无法连锁（请不要使用有这个附魔的工具挖掘石头等连接非常多的方块）。
+#enchantment.cyclicmagic.enchantment.launch.desc=附魔给靴子后，可以增加多段跳（二段跳等）的能力。每一级增加一段跳，但有冷却时间。潜行跳跃可以临时取消该能力。
+#enchantment.cyclicmagic.enchantment.lifeleech.desc=从你攻击或直接杀死的目标中汲取生命值。
+enchantment.cyclicmagic.enchantment.magnet.desc=使你拥有吸引地面掉落物和经验的能力。
+enchantment.cyclicmagic.enchantment.multishot.desc=可以一次从弓中射出更多的箭。
+#enchantment.cyclicmagic.enchantment.quickdraw.desc=使你拉满弓的速度提高三倍。
+enchantment.cyclicmagic.enchantment.reach.desc=增加你挖掘或放置方块的距离。
+enchantment.cyclicmagic.enchantment.venom.desc=使攻击到的目标中毒。
+#enchantment.cyclicmagic.enchantment.waterwalking.desc=当附魔在靴子上时会给予你水上行走的能力，潜行可以下沉。
+enchantment.draconicevolution.enchant_reaper.desc=怪物有机会掉落怪物灵魂。
+enchantment.endercore.xpboost.desc=增加经验掉落。
+enchantment.enderio.repellent.desc=将攻击中的怪物传送到远处。
+enchantment.enderio.shimmer.desc=使工具发光。
+enchantment.enderio.soulbound.desc=防止物品在死亡时丢失。
+enchantment.enderio.witherarrow.desc=击中时施加凋零效果。
+enchantment.enderio.witherweapon.desc=击中时施加凋零效果。
+enchantment.endreborn.ender_core.desc=在受到伤害时消耗末影珍珠传送玩家。
+enchantment.endreborn.ender_killer.desc=对末影人造成额外伤害。
+enchantment.endreborn.shulker_core.desc=命中时施加飘浮效果。
+enchantment.exnihilocreatio.sieve_efficiency.desc=提高筛子速度。
+enchantment.exnihilocreatio.sieve_fortune.desc=筛子制造更多物品。
+enchantment.exnihilocreatio.sieve_luck_of_the_sea.desc=筛子产生鱼。
+enchantment.extrautils2.xu.bladerang.desc=增加回旋镖的伤害。
+enchantment.extrautils2.xu.boomereaperang.desc=摧毁花朵。
+enchantment.extrautils2.xu.burnerang.desc=点燃敌怪。
+enchantment.extrautils2.xu.kaboomerang.desc=摧毁方块。
+enchantment.extrautils2.xu.zoomerang.desc=提高回旋镖速度。
+enchantment.minecraft.aqua_affinity.desc=加快水下挖掘速度。
+enchantment.minecraft.bane_of_arthropods.desc=对节肢生物造成额外伤害（蜘蛛、洞穴蜘蛛、蠹虫和末影螨）。
+enchantment.minecraft.binding_curse.desc=防止附魔物品从盔甲槽中移除。
+#enchantment.minecraft.blast_protection.desc=减少爆炸伤害，也会降低爆炸产生的(等级*15)%的击退效果。
+enchantment.minecraft.depth_strider.desc=增加在水下行走的速度。
+enchantment.minecraft.efficiency.desc=增加工具的挖掘速度。
+#enchantment.minecraft.feather_falling.desc=减少摔落伤害和来源于末影珍珠的传送伤害。
+enchantment.minecraft.fire_aspect.desc=使攻击目标着火。
+enchantment.minecraft.fire_protection.desc=减少火焰伤害，也会减少着火时(等级×15)%的燃烧时间。。
+enchantment.minecraft.flame.desc=点燃被弓箭攻击的目标。
+enchantment.minecraft.fortune.desc=增加方块的掉落（比如钻石和煤炭）。
+enchantment.minecraft.frost_walker.desc=在水上行走时会产生霜冰。
+enchantment.minecraft.infinity.desc=射箭不会消耗箭矢（但是要保证物品栏内至少有一根箭）。
+enchantment.minecraft.knockback.desc=增加击退的距离。
+enchantment.minecraft.looting.desc=生物能掉落更多物品。
+enchantment.minecraft.luck_of_the_sea.desc=降低掉到垃圾的几率。
+enchantment.minecraft.lure.desc=减少钓鱼时的等待时间。
+enchantment.minecraft.mending.desc=用经验来修补工具和护甲的耐久值。
+enchantment.minecraft.power.desc=增加弓箭造成的伤害。
+enchantment.minecraft.projectile_protection.desc=减少来源于弹射物的伤害（包括来源于箭、恶魂/烈焰人火球等的伤害）。
+enchantment.minecraft.protection.desc=减少大多数伤害。
+enchantment.minecraft.punch.desc=增加弓箭击退的距离。
+enchantment.minecraft.respiration.desc=延长水下呼吸时间，增强水下视觉效果。
+enchantment.minecraft.sharpness.desc=增加物品的伤害值。
+enchantment.minecraft.silk_touch.desc=被挖掘的方块会掉落它们的本体而不是应该掉落的物品。
+enchantment.minecraft.smite.desc=对亡灵生物造成额外伤害（僵尸、僵尸猪人、骷髅、凋灵骷髅和凋灵）。
+enchantment.minecraft.sweeping.desc=增加横扫攻击的伤害。
+enchantment.minecraft.thorns.desc=给予攻击者伤害。
+enchantment.minecraft.unbreaking.desc=减缓工具的耐久消耗速率。
+enchantment.minecraft.vanishing_curse.desc=如果你死亡时物品在你的库存中，附魔物品将会消失。
+enchantment.openblocks.explosive.desc=遭受攻击时会产生爆炸。
+enchantment.openblocks.flim_flam.desc=在附近随机引发负面效果。
+enchantment.openblocks.last_stand.desc=使用经验防止死亡。
+enchantment.randomthings.magnetic.desc=具有磁性附魔的工具，会吸收周围的掉落物进行物品栏中。

@@ -1,0 +1,27 @@
+{
+  "outputs": [
+  {"id": "chisel:basalt2:7"                   , "weight": 30 , "target": "black" }      ,
+  {"id": "chisel:limestone2:7"                , "weight": 30 , "target": "white" }      ,
+  {"id": "chisel:marble2:7"                   , "weight": 32 , "target": "white" }      ,
+  {"id": "environmentaltech:mica"             , "weight": 8  , "target": "white" }      ,
+  {"id": "minecraft:clay"                     , "weight": 12 , "target": "silver" }     ,
+  {"id": "minecraft:cobblestone"              , "weight": 28 , "target": "gray" }       ,
+  {"id": "minecraft:dirt:0"                   , "weight": 20 , "target": "brown" }      ,
+  {"id": "minecraft:dirt:2"                   , "weight": 10 , "target": "brown" }      ,
+  {"id": "minecraft:grass"                    , "weight": 10 , "target": "green" }      ,
+  {"id": "minecraft:gravel"                   , "weight": 30 , "target": "silver" }     ,
+  {"id": "minecraft:hardened_clay"            , "weight": 12 , "target": "orange" }     ,
+  {"id": "minecraft:sand"                    , "weight": 300, "target": "yellow" }     ,
+  {"id": "minecraft:sand:1"                   , "weight": 24 , "target": "yellow" }     ,
+  {"id": "minecraft:stone:0"                  , "weight": 32 , "target": "gray" }       ,
+  {"id": "minecraft:stone:1"                  , "weight": 30 , "target": "pink" }       ,
+  {"id": "minecraft:stone:3"                  , "weight": 30 , "target": "white" }      ,
+  {"id": "minecraft:stone:5"                  , "weight": 30 , "target": "gray" }       ,
+  {"id": "rustic:slate"                       , "weight": 30 , "target": "gray" }       ,
+  
+  {"id": "nuclearcraft:wasteland_earth"      , "weight": 20  , "target": "black" }  ,
+  {"id": "quark:jasper"                      , "weight": 30  , "target": "red" }  ,
+  {"id": "quark:limestone"                   , "weight": 30  , "target": "silver" }  ,
+  {"id": "quark:slate"                       , "weight": 30  , "target": "light_blue" }
+]
+}

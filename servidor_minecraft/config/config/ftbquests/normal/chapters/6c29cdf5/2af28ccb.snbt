@@ -1,0 +1,40 @@
+{
+	x: 10.0d,
+	y: 4.0d,
+	text: [
+		"{q.botania.wand_of_the_forest.desc}"
+	],
+	dependencies: [
+		"5672d99b",
+		"b045426a"
+	],
+	tasks: [{
+		uid: "a0a62db4",
+		type: "item",
+		items: [{
+			tag: {
+				color2: 0,
+				color1: 0,
+				boundTileZ: 0,
+				boundTileX: 0,
+				boundTileY: -1
+			},
+			id: "botania:twigwand"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d196e5d1",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

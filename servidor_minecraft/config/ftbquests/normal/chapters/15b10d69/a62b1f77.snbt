@@ -1,0 +1,41 @@
+{
+	icon: "industrialforegoing:mob_duplicator",
+	x: 8.0d,
+	y: 4.75d,
+	text: [
+		"{q.industrial_foregoing.mob_duplicator.desc}"
+	],
+	dependencies: [
+		"74175c1c",
+		"04b829b7"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "ff01b2a5",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_duplicator"
+		}]
+	},
+	{
+		uid: "df3ace41",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_imprisonment_tool"
+		}]
+	}],
+	rewards: [{
+		uid: "ff20abe9",
+		type: "custom",
+		title: "{e2ee.quest.rare}",
+		icon: {
+			tag: {
+				type: "rare"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

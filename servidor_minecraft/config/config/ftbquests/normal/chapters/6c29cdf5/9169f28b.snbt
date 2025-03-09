@@ -1,0 +1,36 @@
+{
+	title: "{q.botania.loonium.name}",
+	x: 11.563663d,
+	y: 11.24698d,
+	text: [
+		"{q.botania.loonium.desc}"
+	],
+	dependencies: [
+		"5fe4c911",
+		"5672d99b"
+	],
+	tasks: [{
+		uid: "b48828df",
+		type: "item",
+		items: [{
+			tag: {
+				type: "loonium"
+			},
+			id: "botania:specialflower"
+		}]
+	}],
+	rewards: [{
+		uid: "9f8f79dc",
+		type: "custom",
+		title: "{e2ee.quest.uncommon}",
+		icon: {
+			tag: {
+				type: "uncommon"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: "claybucket:claybucket 1 2"
+	},
+	{
+		icon: {
+			tag: {
+				Fluid: "lava"
+			},
+			Damage: 1s,
+			Count: 5,
+			id: "thermalexpansion:florb"
+		},
+		item: {
+			tag: {
+				Fluid: "lava"
+			},
+			Damage: 1s,
+			id: "thermalexpansion:florb"
+		},
+		count: 5
+	},
+	{
+		icon: "flopper:flopper 6",
+		item: "flopper:flopper",
+		count: 6
+	}]
+}

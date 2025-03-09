@@ -1,0 +1,43 @@
+{
+	x: 5.55d,
+	y: 5.85d,
+	text: [
+		"{q.blood_magic.lava_sigil.desc}"
+	],
+	dependencies: [
+		"3bf12c63"
+	],
+	size: 0.75d,
+	tasks: [{
+		uid: "51daee8e",
+		type: "item",
+		items: [{
+			tag: {
+				binding: {
+					name: "Krutoy242",
+					id: {
+						L: -7015483457058418587L,
+						M: -2145320399625435168L
+					}
+				}
+			},
+			id: "bloodmagic:sigil_lava"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3a4274cb",
+		type: "custom",
+		title: "{e2ee.quest.uncommon}",
+		icon: {
+			tag: {
+				type: "uncommon"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "{q.gates.conflux_iii.name}",
+	icon: "extendedcrafting:material 1 10",
+	x: 14.6d,
+	y: 3.8333333333333335d,
+	shape: "square",
+	text: [
+		"{q.gates.conflux_iii.desc}"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"bd7fc30c",
+		"0bf36970",
+		"1bd15ee4",
+		"d1308656",
+		"5672d99b",
+		"cabe63d2",
+		"48f0d63f"
+	],
+	size: 0.75d,
+	rewards: [{
+		uid: "726bdd9e",
+		type: "custom",
+		title: "Give next Conflux tier role",
+		tags: [
+			"conflux_iii"
+		],
+		auto: "enabled"
+	}]
+}

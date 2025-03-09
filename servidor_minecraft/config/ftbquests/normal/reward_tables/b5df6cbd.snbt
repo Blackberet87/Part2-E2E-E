@@ -1,0 +1,101 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"plustic:musicofthespheres_cap": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:": {
+					Items: [],
+					Size: 1
+				},
+				"plustic:fruitsalad_cap": {
+					Items: [],
+					Size: 5
+				}
+			},
+			tag: {
+				TinkerData: {
+					Materials: [
+						"iridium",
+						"iridium",
+						"iridium"
+					],
+					Modifiers: [
+						"toolleveling"
+					]
+				},
+				Stats: {
+					FreeModifiers: 2,
+					MiningSpeed: 6.1609993f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 10,
+					Attack: 6.915003f,
+					Durability: 733
+				},
+				Special: {
+					alienStatBonus: {
+						color: 0,
+						identifier: "",
+						speed: 0.161f,
+						attack: 0.11500002f,
+						durability: 22
+					},
+					alienStatPool: {
+						color: 16777215,
+						identifier: "",
+						speed: 1.9039981f,
+						attack: 1.314999f,
+						durability: 265
+					},
+					Categories: [
+						"tool",
+						"weapon"
+					]
+				},
+				Modifiers: [{
+					color: -5592406,
+					identifier: "dense",
+					level: 1
+				},
+				{
+					color: -5592406,
+					identifier: "alien",
+					level: 1
+				},
+				{
+					color: 16777215,
+					identifier: "toolleveling",
+					level: 1
+				}],
+				StatsOriginal: {
+					FreeModifiers: 3,
+					MiningSpeed: 6.0f,
+					AttackSpeedMultiplier: 1.0f,
+					HarvestLevel: 10,
+					Attack: 6.8f,
+					Durability: 711
+				},
+				Traits: [
+					"dense",
+					"alien",
+					"toolleveling"
+				]
+			},
+			id: "tconstruct:broadsword"
+		}
+	},
+	{
+		item: "thermalfoundation:storage 1 7"
+	},
+	{
+		item: {
+			tag: {
+				type: "uncommon"
+			},
+			id: "ftbquests:lootcrate"
+		}
+	}]
+}

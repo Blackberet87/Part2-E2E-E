@@ -1,0 +1,28 @@
+{
+	title: "{q.utils.mod_open_blocks.name}",
+	x: -6.333333333333333d,
+	y: 11.833333333333332d,
+	shape: "heart",
+	text: [
+		"{q.utils.mod_open_blocks.desc}"
+	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"37406152"
+	],
+	size: 1.3333333333333333d,
+	tasks: [{
+		uid: "849a351d",
+		type: "item",
+		items: [{
+			tag: {},
+			id: "openblocks:dev_null"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8d49d9ec",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

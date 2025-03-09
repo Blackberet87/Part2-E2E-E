@@ -1,0 +1,27 @@
+{
+  "lava": {
+    "minecraft:cobblestone:-1": 1,
+    "minecraft:stone:5": 1,
+    "minecraft:stone:1": 1,
+    "minecraft:stone:3": 1
+  },
+  "petrotheum": {
+    "minecraft:dirt": 1,
+    "minecraft:dirt:2": 1,
+    "minecraft:dirt:1": 1
+  },
+  "water": {
+    "minecraft:dirt:1": 1,
+    "biomesoplenty:dirt:8": 1,
+    "biomesoplenty:dirt:9": 1,
+    "biomesoplenty:dirt:10": 1
+  },
+  "fiery_essence": {
+    "exnihilocreatio:block_netherrack_crushed": 120,
+    "minecraft:netherrack": 20,
+    "netherendingores:block_nether_netherfish": 1
+  },
+  "ic2pahoehoe_lava": {
+    "ic2:resource": 1
+  }
+}

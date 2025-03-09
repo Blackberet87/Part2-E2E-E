@@ -1,0 +1,29 @@
+{
+	title: "{q.thaumcraft.rifts.name}",
+	icon: {
+		tag: {
+			grown: 1b,
+			riftSize: 100
+		},
+		id: "thaumicaugmentation:rift_seed"
+	},
+	x: 9.5d,
+	y: 0.0d,
+	text: [
+		"{q.thaumcraft.rifts.desc}"
+	],
+	dependencies: [
+		"f85506a2"
+	],
+	size: 1.25d,
+	tasks: [{
+		uid: "61913e9b",
+		type: "checkmark",
+		title: "Rifts"
+	}],
+	rewards: [{
+		uid: "fd58ee06",
+		type: "random",
+		table: 142
+	}]
+}

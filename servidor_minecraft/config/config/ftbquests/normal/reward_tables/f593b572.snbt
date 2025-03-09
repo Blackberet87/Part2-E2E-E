@@ -1,0 +1,9 @@
+{
+	loot_size: 1,
+	rewards: [{
+		item: "contenttweaker:anglesite"
+	},
+	{
+		item: "contenttweaker:benitoite"
+	}]
+}

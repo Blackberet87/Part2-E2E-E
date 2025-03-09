@@ -1,0 +1,156 @@
+{
+  "Profession": "minecraft:priest",
+  "Career": "necromancer",
+  "Offers": {
+    "Recipes": [
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buyB": {
+          "id": "minecraft:emerald",
+          "Count": {
+            "min": 8,
+            "max": 12
+          }
+        },
+        "buy": {
+          "id": "minecraft:skull",
+          "Count": 1,
+          "Damage": 0
+        },
+        "sell": {
+          "id": "minecraft:spawn_egg",
+          "Count": 1,
+          "Damage": 0,
+          "tag": {
+            "EntityTag": {
+              "id": "minecraft:skeleton"
+            }
+          }
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buyB": {
+          "id": "minecraft:emerald",
+          "Count": {
+            "min": 8,
+            "max": 12
+          }
+        },
+        "buy": {
+          "id": "minecraft:skull",
+          "Count": 1,
+          "Damage": 2
+        },
+        "sell": {
+          "id": "minecraft:spawn_egg",
+          "Count": 1,
+          "Damage": 0,
+          "tag": {
+            "EntityTag": {
+              "id": "minecraft:zombie"
+            }
+          }
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 1,
+        "buyB": {
+          "id": "minecraft:emerald",
+          "Count": {
+            "min": 8,
+            "max": 12
+          }
+        },
+        "buy": {
+          "id": "minecraft:skull",
+          "Count": 1,
+          "Damage": 4
+        },
+        "sell": {
+          "id": "minecraft:spawn_egg",
+          "Count": 1,
+          "Damage": 0,
+          "tag": {
+            "EntityTag": {
+              "id": "minecraft:creeper"
+            }
+          }
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 5,
+        "buyB": {
+          "id": "minecraft:emerald",
+          "Count": {
+            "min": 32,
+            "max": 64
+          }
+        },
+        "buy": {
+          "id": "minecraft:totem_of_undying",
+          "Count": 1,
+          "Damage": 0
+        },
+        "sell": {
+          "id": "enderio:item_material",
+          "Count": 1,
+          "Damage": 17
+        }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 5,
+        "buy": [
+          { "id": "iceandfire:myrmex_jungle_egg", "Count": 1, "Damage": 0 },
+          { "id": "iceandfire:myrmex_jungle_egg", "Count": 1, "Damage": 1 },
+          { "id": "iceandfire:myrmex_jungle_egg", "Count": 1, "Damage": 2 },
+          { "id": "iceandfire:myrmex_jungle_egg", "Count": 1, "Damage": 3 },
+          { "id": "iceandfire:myrmex_jungle_egg", "Count": 1, "Damage": 4 },
+          { "id": "iceandfire:myrmex_desert_egg", "Count": 1, "Damage": 0 },
+          { "id": "iceandfire:myrmex_desert_egg", "Count": 1, "Damage": 1 },
+          { "id": "iceandfire:myrmex_desert_egg", "Count": 1, "Damage": 2 },
+          { "id": "iceandfire:myrmex_desert_egg", "Count": 1, "Damage": 3 },
+          { "id": "iceandfire:myrmex_desert_egg", "Count": 1, "Damage": 4 }
+        ],
+        "buyB": { "id": "minecraft:emerald", "Count": { "min": 16, "max": 32 } },
+        "sell": { "id": "contenttweaker:conglomerate_of_life", "Count": { "min": 1, "max": 3 } }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 6,
+        "buy": { "id": "iceandfire:gorgon_head", "Count": 1 },
+        "buyB": { "id": "minecraft:emerald", "Count": { "min": 12, "max": 18 } },
+        "sell": { "id": "thermalexpansion:morb", "Count": 1, "tag": { "id": "iceandfire:gorgon", "Generic": 1 } }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 6,
+        "buy": { "id": "rats:marbled_cheese_rat_head", "Count": 1 },
+        "buyB": { "id": "minecraft:emerald", "Count": { "min": 12, "max": 18 } },
+        "sell": [
+          { "id": "thermalexpansion:morb", "Count": 1, "tag": { "id": "rats:ratlantean_spirit", "Generic": 1 } },
+          { "id": "thermalexpansion:morb", "Count": 1, "tag": { "id": "rats:feral_ratlantean", "Generic": 1 } }
+        ]
+      },
+      {
+        "action": "add",
+        "CareerLevel": 6,
+        "buy": { "id": "minecraft:skull", "Damage": 5, "Count": 1 },
+        "buyB": { "id": "minecraft:emerald", "Count": { "min": 12, "max": 18 } },
+        "sell": { "id": "minecraft:dragon_egg", "Count": 1 }
+      },
+      {
+        "action": "add",
+        "CareerLevel": 6,
+        "buy": { "id": "betteranimalsplus:hirschgeistskull_1", "Count": 1 },
+        "buyB": { "id": "minecraft:emerald", "Count": { "min": 12, "max": 18 } },
+        "sell": { "id": "thermalexpansion:morb", "Count": 1, "tag": { "id": "betteranimalsplus:hirschgeist", "Generic": 1 } }
+      }
+    ]
+  }
+}

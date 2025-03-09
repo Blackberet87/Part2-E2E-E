@@ -1,0 +1,56 @@
+[
+  {
+    "sourceFilePath": "options.txt",
+    "destinationFilePath": "options.txt",
+    "clientSide": true,
+    "serverSide": false
+  },
+  {
+    "sourceFilePath": "optionsof.txt",
+    "destinationFilePath": "optionsof.txt",
+    "clientSide": true,
+    "serverSide": false
+  },
+  {
+    "sourceFilePath": "menu.json",
+    "destinationFilePath": "minemenu/menu.json",
+    "clientSide": true,
+    "serverSide": false
+  },
+  {
+    "sourceFilePath": "smoothfont.cfg",
+    "destinationFilePath": "config/smoothfont/smoothfont.cfg",
+    "clientSide": true,
+    "serverSide": true
+  },
+  {
+    "sourceFilePath": "ftbutilities.cfg",
+    "destinationFilePath": "local/client/ftbutilities.cfg",
+    "clientSide": true,
+    "serverSide": false
+  },
+  {
+    "sourceFilePath": "config.json",
+    "destinationFilePath": "config/bogosorter/config.json",
+    "clientSide": true,
+    "serverSide": true
+  },
+  {
+    "sourceFilePath": "ChatFlow.dat",
+    "destinationFilePath": "config/ChatFlow.dat",
+    "clientSide": true,
+    "serverSide": false
+  },
+  {
+    "sourceFilePath": "ftblib.cfg",
+    "destinationFilePath": "local/client/ftblib.cfg",
+    "clientSide": true,
+    "serverSide": false
+  },
+  {
+    "sourceFilePath": "ranks.txt",
+    "destinationFilePath": "local/ftbutilities/ranks.txt",
+    "clientSide": true,
+    "serverSide": true
+  }
+]

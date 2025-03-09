@@ -1,0 +1,33 @@
+{
+	x: 1.0d,
+	y: -0.04166666666666663d,
+	text: [
+		"{q.industrial_foregoing.straw.desc}"
+	],
+	dependencies: [
+		"0060934f"
+	],
+	size: 0.8333333333333334d,
+	tasks: [{
+		uid: "20bc42cd",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:straw"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1c17dff0",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

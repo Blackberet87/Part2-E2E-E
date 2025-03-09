@@ -1,0 +1,31 @@
+{
+	x: -8.5d,
+	y: 0.83d,
+	text: [
+		"{q.forestry.rain_tank.desc}"
+	],
+	dependencies: [
+		"383eccde"
+	],
+	tasks: [{
+		uid: "3cba9806",
+		type: "item",
+		items: [{
+			item: "forestry:raintank"
+		}]
+	}],
+	rewards: [{
+		uid: "858df7af",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	}]
+}

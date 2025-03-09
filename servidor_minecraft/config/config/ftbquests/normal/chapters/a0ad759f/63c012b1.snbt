@@ -1,0 +1,54 @@
+{
+	icon: {
+		tag: {},
+		id: "plethora:neuralinterface"
+	},
+	x: 7.300000000000001d,
+	y: 0.3999999999999999d,
+	shape: "rsquare",
+	text: [
+		"{q.computers.neural_interface.desc}"
+	],
+	dependencies: [
+		"941b1d99"
+	],
+	tasks: [{
+		uid: "29119104",
+		type: "item",
+		items: [{
+			tag: {},
+			id: "plethora:neuralinterface"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9bc2f73c",
+		type: "item",
+		items: [{
+			item: "plethora:neuralconnector"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ce2ef302",
+		type: "custom",
+		title: "{e2ee.quest.common}",
+		icon: {
+			tag: {
+				type: "common"
+			},
+			id: "ftbquests:lootcrate"
+		},
+		tags: [
+			"loot"
+		]
+	},
+	{
+		uid: "d830d1af",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 6
+	}]
+}
