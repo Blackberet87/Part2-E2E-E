@@ -2382,3 +2382,31 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [01:00:30] [Server thread/INFO] [AIReducer]: Caching Wrapped Task Constructor: com.charles445.aireducer.routine.IAFDeathWormRoutine$WrappedProximityTaskDeathWorm
 [01:00:30] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container
 [01:17:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Blackberet> a
+[01:44:12] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Blackberet lost connection: Disconnected
+[01:44:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Blackberet left the game
+[01:44:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[01:44:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[01:44:16] [Server thread/INFO] [Sledgehammer]: Closing 1 Endpoints...
+[01:44:16] [Server thread/INFO] [Sledgehammer]: Closed Endpoints
+[01:44:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[01:44:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[01:44:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'BBOP-Extended'/overworld
+[01:44:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'BBOP-Extended'/Spectre
+[01:44:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'BBOP-Extended'/Storage Cell
+[01:44:16] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world 0
+[01:44:17] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world -343800852
+[01:44:17] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world 2
+[01:44:17] [Server thread/INFO] [FML]: Unloading dimension 0
+[01:44:17] [Server thread/INFO] [FML]: Unloading dimension -343800852
+[01:44:17] [Server thread/INFO] [FML]: Unloading dimension 2
+[01:44:17] [Server thread/INFO] [Actually Additions]: Unloaded WorldData!
+[01:44:17] [Server thread/INFO] [FluxNetworks]: FluxNetworkData has been unloaded
+[01:44:17] [Server thread/INFO] [mcjtylib_ng]: Cleaning up all world data: 2 data blobs
+[01:44:17] [Server thread/INFO] [justenoughdimensions]: Reloading the main configs from file '/workspaces/Part2-E2E-E/servidor_minecraft/config/justenoughdimensions/justenoughdimensions.cfg'
+[01:44:17] [Server thread/INFO] [mcjtylib_ng]: RFTools Dimensions: server is stopping. Shutting down gracefully
+[01:44:17] [Server thread/INFO] [mcjtylib_ng]: Cleaning up RFTools dimensions
+[01:44:17] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[01:44:17] [Server Shutdown Thread/INFO] [Sledgehammer]: Closing 1 Endpoints...
+[01:44:17] [Server Shutdown Thread/INFO] [Sledgehammer]: Closed Endpoints
+[01:44:17] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[01:44:17] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
