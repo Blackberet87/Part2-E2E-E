@@ -2349,3 +2349,4 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [00:27:17] [Server thread/INFO] [THAUMCRAFT]: Removing aura cache for world 144
 [00:27:17] [Server thread/INFO] [FML]: Unloading dimension 144
 [00:27:19] [Thread-109/INFO] [THAUMCRAFT]: Stopping aura thread for dim 144
+[00:27:36] [Finalizer/WARN] [LoliASM]: Clearing LoliStringPool 1
