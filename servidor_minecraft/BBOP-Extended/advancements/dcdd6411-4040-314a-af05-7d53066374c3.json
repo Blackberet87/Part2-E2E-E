@@ -502,6 +502,12 @@
     },
     "done": true
   },
+  "betteranimalsplus:shark_target_player": {
+    "criteria": {
+      "targeted": "2025-03-10 00:23:27 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_eucalyptus": {
     "criteria": {
       "entered_water": "2025-02-26 03:33:17 +0000"
@@ -683,6 +689,8 @@
       "corrupted_sands": "2025-03-02 00:19:39 +0000",
       "fungi_forest": "2025-02-28 01:28:51 +0000",
       "grassland": "2025-03-03 01:07:08 +0000",
+      "snowy_coniferous_forest": "2025-03-10 00:14:36 +0000",
+      "gravel_beach": "2025-03-10 00:26:04 +0000",
       "lavender_fields": "2025-03-03 00:46:04 +0000"
     },
     "done": false
@@ -956,6 +964,7 @@
       "zombie_pigman": "2025-02-28 01:28:31 +0000",
       "wither_skeleton": "2025-03-08 23:49:08 +0000",
       "zombie_villager": "2025-03-08 00:43:44 +0000",
+      "slime": "2025-03-10 00:18:57 +0000",
       "skeleton": "2025-02-26 03:33:47 +0000",
       "husk": "2025-02-28 00:38:09 +0000",
       "blaze": "2025-03-02 00:19:20 +0000",
@@ -1765,13 +1774,16 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "birch_forest": "2025-03-03 01:07:02 +0000",
+      "deep_ocean": "2025-03-10 00:15:00 +0000",
       "beaches": "2025-03-02 21:44:57 +0000",
       "extreme_hills_with_trees": "2025-03-03 01:06:25 +0000",
       "mesa": "2025-02-26 04:33:32 +0000",
       "savanna": "2025-02-28 00:39:42 +0000",
       "mesa_clear_rock": "2025-03-03 01:09:48 +0000",
       "taiga": "2025-03-04 00:55:40 +0000",
+      "ocean": "2025-03-10 00:14:18 +0000",
       "extreme_hills": "2025-03-03 01:06:00 +0000",
+      "cold_beach": "2025-03-10 00:14:19 +0000",
       "river": "2025-02-27 00:12:45 +0000",
       "desert": "2025-02-26 04:32:05 +0000"
     },
@@ -1942,6 +1954,12 @@
   "minecraft:recipes/redstone/daylight_detector": {
     "criteria": {
       "has_quartz": "2025-02-28 01:26:18 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_cyclops": {
+    "criteria": {
+      "killed_fire_dragon": "2025-03-10 00:15:36 +0000"
     },
     "done": true
   },
