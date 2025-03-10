@@ -2353,3 +2353,26 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [00:38:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Server] Blackberet achieved Conflux II after 18h 33m of play!
 [00:43:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Success!
 [00:46:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Blackberet has made the advancement [Flattening]
+[00:49:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Server Backup started!
+[00:49:54] [File IO Thread/INFO] [FTB Backups]: Deleting backup to free space: 2025-03-08-00-37-41.zip
+[00:49:54] [File IO Thread/INFO] [FTB Backups]: Deleting backup to free space: 2025-03-08-23-16-11.zip
+[00:49:54] [File IO Thread/INFO] [FTB Backups]: Deleting backup to free space: 2025-03-09-13-26-39.zip
+[00:49:54] [File IO Thread/INFO] [FTB Backups]: Backing up 277 files...
+[00:49:54] [File IO Thread/INFO] [FTB Backups]: Compressing 277 files...
+[00:49:58] [File IO Thread/INFO] [FTB Backups]: Done compressing in 00:04 seconds (87.2MB)!
+[00:49:58] [File IO Thread/INFO] [FTB Backups]: Created /workspaces/Part2-E2E-E/servidor_minecraft/./backups/2025-03-10-00-49-54.zip from /workspaces/Part2-E2E-E/servidor_minecraft/./BBOP-Extended
+[00:49:58] [File IO Thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Server backup done in 00:04! (87.2MB)
+[00:52:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Blackberet has made the advancement [Unnatural]
+[00:55:32] [Server thread/INFO] [AIReducer]: Caching Wrapped Task Constructor: com.charles445.aireducer.ai.myrmex.WrappedTaskMyrmexAIWanderHiveCenter
+[00:55:32] [Server thread/INFO] [AIReducer]: Caching Wrapped Task Constructor: com.charles445.aireducer.ai.myrmex.WrappedProximityTaskMyrmex
+[00:55:32] [Server thread/INFO] [AIReducer]: Caching Wrapped Task Constructor: com.charles445.aireducer.ai.myrmex.WrappedTaskMyrmexAIForage
+[00:55:32] [Server thread/INFO] [AIReducer]: Caching Wrapped Task Constructor: com.charles445.aireducer.ai.myrmex.WrappedTaskMyrmexAILeaveHive
+[00:55:32] [Server thread/INFO] [AIReducer]: Caching Wrapped Task Constructor: com.charles445.aireducer.ai.myrmex.WrappedTaskMyrmexAIMoveThroughHive
+[00:55:32] [Server thread/INFO] [AIReducer]: Caching Wrapped Task Constructor: com.charles445.aireducer.ai.myrmex.WrappedTaskMyrmexAIEscortEntity
+[00:55:32] [Server thread/INFO] [AIReducer]: Caching Wrapped Task Constructor: com.charles445.aireducer.ai.myrmex.WrappedTaskMyrmexAIFindHidingSpot
+[00:57:08] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container
+[00:57:08] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container
+[00:57:09] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container
+[00:57:09] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container
+[00:57:21] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container
+[00:57:44] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container

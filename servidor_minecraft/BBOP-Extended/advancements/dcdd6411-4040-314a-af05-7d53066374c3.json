@@ -392,6 +392,12 @@
     },
     "done": false
   },
+  "advancedrocketry:normal/blockpresser": {
+    "criteria": {
+      "warp": "2025-03-10 00:46:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2025-02-26 03:23:13 +0000"
@@ -1720,6 +1726,12 @@
   "botania:main/lexicon_use": {
     "criteria": {
       "use_lexicon": "2025-02-28 01:55:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-03-10 00:44:17 +0000"
     },
     "done": true
   },
