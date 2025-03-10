@@ -688,6 +688,7 @@
       "shrubland": "2025-02-26 01:04:20 +0000",
       "xeric_shrubland": "2025-03-03 00:46:35 +0000",
       "highland": "2025-03-03 00:56:21 +0000",
+      "chaparral": "2025-03-10 00:57:14 +0000",
       "mountain_foothills": "2025-03-03 01:11:37 +0000",
       "outback": "2025-03-02 21:50:20 +0000",
       "wasteland": "2025-02-28 00:39:04 +0000",
@@ -1990,6 +1991,12 @@
   "endreborn:endreborn/mine_essence": {
     "criteria": {
       "diamond": "2025-02-28 00:40:25 +0000"
+    },
+    "done": true
+  },
+  "appliedenergistics2:main/fluix": {
+    "criteria": {
+      "certus": "2025-03-10 00:52:07 +0000"
     },
     "done": true
   },

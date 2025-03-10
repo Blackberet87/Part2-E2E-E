@@ -2376,3 +2376,8 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [00:57:09] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container
 [00:57:21] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container
 [00:57:44] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container
+[00:58:22] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container
+[00:59:30] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container
+[01:00:03] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container
+[01:00:30] [Server thread/INFO] [AIReducer]: Caching Wrapped Task Constructor: com.charles445.aireducer.routine.IAFDeathWormRoutine$WrappedProximityTaskDeathWorm
+[01:00:30] [Server thread/WARN] [net.minecraft.world.storage.loot.LootTable]: Tried to over-fill a container
