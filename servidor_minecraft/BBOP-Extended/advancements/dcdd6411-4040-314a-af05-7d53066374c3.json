@@ -47,6 +47,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/pillar_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2025-03-15 16:09:40 +0000"
+    },
+    "done": true
+  },
   "endreborn:endreborn/root": {
     "criteria": {
       "crafting_table": "2025-02-26 03:42:17 +0000"
@@ -852,6 +858,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2025-03-15 16:09:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/green_concrete_powder": {
     "criteria": {
       "has_gravel": "2025-02-26 03:48:48 +0000"
@@ -1380,6 +1392,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2025-03-15 16:09:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/white_stained_glass": {
     "criteria": {
       "has_glass": "2025-02-26 23:26:50 +0000"
@@ -1612,6 +1630,12 @@
   "minecraft:recipes/building_blocks/dark_oak_wooden_slab": {
     "criteria": {
       "has_planks": "2025-03-04 00:56:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2025-03-15 16:09:40 +0000"
     },
     "done": true
   },

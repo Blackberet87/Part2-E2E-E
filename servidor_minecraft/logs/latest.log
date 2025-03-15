@@ -29856,3 +29856,11 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [15:47:11] [Server thread/INFO] [libnine]: Calculating serialization mappings for class: xyz.phanta.psicosts.integration.botania.TileManaResonator
 [15:47:12] [Thread-94/INFO] [THAUMCRAFT]: Starting aura thread for dim 7
 [15:47:12] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 7369ms behind, skipping 108 tick(s)
+[16:15:02] [Server thread/INFO] [AIReducer]: Caching Wrapped Task Constructor: com.charles445.aireducer.ai.myrmex.WrappedTaskMyrmexAIWanderHiveCenter
+[16:15:02] [Server thread/INFO] [AIReducer]: Caching Wrapped Task Constructor: com.charles445.aireducer.ai.myrmex.WrappedProximityTaskMyrmex
+[16:15:02] [Server thread/INFO] [AIReducer]: Caching Wrapped Task Constructor: com.charles445.aireducer.ai.myrmex.WrappedTaskMyrmexAIForage
+[16:15:02] [Server thread/INFO] [AIReducer]: Caching Wrapped Task Constructor: com.charles445.aireducer.ai.myrmex.WrappedTaskMyrmexAILeaveHive
+[16:15:02] [Server thread/INFO] [AIReducer]: Caching Wrapped Task Constructor: com.charles445.aireducer.ai.myrmex.WrappedTaskMyrmexAIMoveThroughHive
+[16:15:02] [Server thread/INFO] [AIReducer]: Caching Wrapped Task Constructor: com.charles445.aireducer.ai.myrmex.WrappedTaskMyrmexAIEscortEntity
+[16:15:02] [Server thread/INFO] [AIReducer]: Caching Wrapped Task Constructor: com.charles445.aireducer.ai.myrmex.WrappedTaskMyrmexAIFindHidingSpot
+[16:15:31] [Server thread/INFO] [AIReducer]: Caching Wrapped Task Constructor: com.charles445.aireducer.routine.IAFDeathWormRoutine$WrappedProximityTaskDeathWorm
