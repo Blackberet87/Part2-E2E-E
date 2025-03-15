@@ -398,6 +398,12 @@
     },
     "done": false
   },
+  "twilightforest:alt/biomes/general_biomes": {
+    "criteria": {
+      "0": "2025-03-15 15:47:13 +0000"
+    },
+    "done": true
+  },
   "advancedrocketry:normal/blockpresser": {
     "criteria": {
       "warp": "2025-03-10 00:46:02 +0000"
@@ -649,6 +655,12 @@
   "minecraft:recipes/decorations/iron_bars": {
     "criteria": {
       "has_iron_ingot": "2025-02-27 00:11:11 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:alt/biomes/twilight_forest": {
+    "criteria": {
+      "discover": "2025-03-15 15:47:13 +0000"
     },
     "done": true
   },
@@ -1050,6 +1062,12 @@
     },
     "done": true
   },
+  "betteranimalsplus:ultimate_succening": {
+    "criteria": {
+      "zotz_succ": "2025-03-15 15:47:26 +0000"
+    },
+    "done": false
+  },
   "biomesoplenty:recipes/buildingblocks/cherry_stairs": {
     "criteria": {
       "has_planks": "2025-03-05 00:35:21 +0000"
@@ -1113,6 +1131,12 @@
   "minecraft:recipes/redstone/birch_door": {
     "criteria": {
       "has_planks": "2025-02-26 03:48:13 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:root": {
+    "criteria": {
+      "make_portal": "2025-03-15 15:47:02 +0000"
     },
     "done": true
   },
