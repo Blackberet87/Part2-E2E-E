@@ -1434,6 +1434,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/buildingblocks/ash_block": {
+    "criteria": {
+      "has_item": "2025-03-15 16:52:06 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:biomesoplenty/terrestrial_artifact": {
     "criteria": {
       "amber": "2025-03-09 00:22:29 +0000",
@@ -1829,6 +1835,12 @@
   "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
       "blaze_rod": "2025-03-02 00:19:21 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/coal_from_ash": {
+    "criteria": {
+      "has_gem_block": "2025-03-15 16:52:06 +0000"
     },
     "done": true
   },
@@ -2237,6 +2249,12 @@
   "minecraft:recipes/misc/orange_dye_from_red_yellow": {
     "criteria": {
       "has_red_dye": "2025-02-28 02:00:24 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/gray_dye_from_ash": {
+    "criteria": {
+      "has_flower": "2025-03-15 16:52:06 +0000"
     },
     "done": true
   },
