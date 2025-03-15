@@ -28637,3 +28637,5 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [15:03:06] [Server thread/INFO] [com.dynamic_view.DynView]: Mean tick: 6ms increasing chunk view distance to: 14
 [15:03:19] [Server thread/WARN] [mixin]: Method overwrite conflict for func_184996_a in mixins.mods.thermalexpansion.dupes.json:UTContainerSatchelFilterMixin from owner unknown-owner, previously written by github.kasuminova.stellarcore.mixin.thermalexpansion.MixinContainerSatchelFilter. Skipping method.
 [15:03:32] [Netty Epoll Server IO #2/INFO] [HammerLib]: Detected older version of GSON, using UnsafeAllocator.create()
+[15:22:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Blackberet> j
+[15:23:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Blackberet> a
