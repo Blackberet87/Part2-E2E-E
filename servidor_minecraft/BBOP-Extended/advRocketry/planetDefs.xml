@@ -686,7 +686,7 @@
             <generateGeodes>true</generateGeodes>
             <seaLevel>63</seaLevel>
             <genType>2</genType>
-            <biomeIds>biomesoplenty:mountain_foothills;30,minecraft:mutated_forest;30,biomesoplenty:maple_woods;30,biomesoplenty:flower_island;30,minecraft:ocean;30</biomeIds>
+            <biomeIds>thaumicaugmentation:tainted_lands;30,biomesoplenty:bamboo_forest;30,twilightforest:dark_forest_center;30,biomesoplenty:seasonal_forest;30,biomesoplenty:wetland;30</biomeIds>
         </planet>
         <planet DIMID="125" name="Caveland">
             <isKnown>false</isKnown>
@@ -714,7 +714,7 @@
             <generateGeodes>true</generateGeodes>
             <seaLevel>63</seaLevel>
             <genType>1</genType>
-            <biomeIds>biomesoplenty:overgrown_cliffs;30,randomthings:spectral;30,advancedrocketry:crystalchasms;30,minecraft:frozen_river;30,biomesoplenty:snowy_tundra;30</biomeIds>
+            <biomeIds>minecraft:extreme_hills;10</biomeIds>
         </planet>
     </star>
 </galaxy>
