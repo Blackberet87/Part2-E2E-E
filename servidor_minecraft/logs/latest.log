@@ -28639,3 +28639,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [15:03:32] [Netty Epoll Server IO #2/INFO] [HammerLib]: Detected older version of GSON, using UnsafeAllocator.create()
 [15:22:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Blackberet> j
 [15:23:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <Blackberet> a
+[15:40:00] [Server thread/WARN] [TickCentral]: Unable to get superclass as resource: org/xml/sax/helpers/DefaultHandler (org/xml/sax/helpers/DefaultHandler) Do you have a broken installation? It is referenced in ic2/core/gui/dynamic/GuiParser$SaxHandler (ic2/core/gui/dynamic/GuiParser$SaxHandler)
+[15:40:00] [Server thread/WARN] [TickCentral]: Unable to get superclass as resource: org/xml/sax/helpers/DefaultHandler (org/xml/sax/helpers/DefaultHandler) Do you have a broken installation? It is referenced in ic2/core/gui/dynamic/GuiParser$SaxHandler (ic2/core/gui/dynamic/GuiParser$SaxHandler)
+[15:40:00] [Server thread/WARN] [TickCentral]: Unable to get superclass as resource: org/xml/sax/helpers/DefaultHandler (org/xml/sax/helpers/DefaultHandler) Do you have a broken installation? It is referenced in ic2/core/gui/dynamic/GuiParser$SaxHandler (ic2/core/gui/dynamic/GuiParser$SaxHandler)
+[15:41:24] [Server thread/INFO] [thaumicaugmentationcore]: Successfully transformed class thaumcraft.common.lib.utils.InventoryUtils
