@@ -28628,3 +28628,5 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [23:22:33] [Server thread/INFO] [com.dynamic_view.DynView]: Mean tick: 8ms increasing chunk view distance to: 12
 [23:22:48] [Server thread/INFO] [com.dynamic_view.DynView]: Mean tick: 8ms increasing chunk view distance to: 13
 [23:23:03] [Server thread/INFO] [com.dynamic_view.DynView]: Mean tick: 8ms increasing chunk view distance to: 14
+[23:30:26] [Server thread/INFO] [thaumicaugmentationcore]: Successfully transformed class thaumcraft.common.lib.utils.InventoryUtils
+[23:33:12] [Server thread/WARN] [mixin]: Discarding @Unique public method func_184996_a in mixins.stellar_core_thermalexpansion.json:MixinContainerSatchelFilter from owner unknown-owner because it already exists in cofh.thermalexpansion.gui.container.storage.ContainerSatchelFilter
