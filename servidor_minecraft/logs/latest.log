@@ -1135,3 +1135,7 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [00:14:54] [Server thread/INFO] [THAUMCRAFT]: Creating aura cache for world 7
 [00:14:54] [Server thread/INFO] [LoliASM]: Took 34.42 ms to canonicalize Java's FilePermission caches.
 [00:14:54] [Thread-95/INFO] [THAUMCRAFT]: Starting aura thread for dim 7
+[00:16:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Success!
+[00:19:23] [Server thread/WARN] [TickCentral]: Unable to get superclass as resource: org/xml/sax/helpers/DefaultHandler (org/xml/sax/helpers/DefaultHandler) Do you have a broken installation? It is referenced in ic2/core/gui/dynamic/GuiParser$SaxHandler (ic2/core/gui/dynamic/GuiParser$SaxHandler)
+[00:19:23] [Server thread/WARN] [TickCentral]: Unable to get superclass as resource: org/xml/sax/helpers/DefaultHandler (org/xml/sax/helpers/DefaultHandler) Do you have a broken installation? It is referenced in ic2/core/gui/dynamic/GuiParser$SaxHandler (ic2/core/gui/dynamic/GuiParser$SaxHandler)
+[00:19:23] [Server thread/WARN] [TickCentral]: Unable to get superclass as resource: org/xml/sax/helpers/DefaultHandler (org/xml/sax/helpers/DefaultHandler) Do you have a broken installation? It is referenced in ic2/core/gui/dynamic/GuiParser$SaxHandler (ic2/core/gui/dynamic/GuiParser$SaxHandler)
